@@ -1,13 +1,5 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'Los Angeles Pressure Washing Services',
-  description: 'Professional pressure washing services in Los Angeles.',
-}
+import Navbar from '@/components/Navbar'
 
 export default function RootLayout({
   children,
@@ -16,8 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
+      <head>
+        <title>LA Pressure Washing - Professional Pressure Washing Services</title>
+        <meta name="description" content="Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more." />
+      </head>
+      <body>
+        <Navbar />
+        <main className="pt-16">{children}</main>
       </body>
     </html>
   )
