@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a
               href="/"
-              className="text-xl font-bold text-primary hover:scale-105 transition-transform"
+              className="text-xl font-bold tracking-tight text-primary hover:scale-105 transition-transform"
             >
               LA Pressure Washing
             </a>
@@ -31,14 +31,14 @@ export default function Navbar() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-gray-600 hover:text-primary hover:scale-105 transition-all"
+                className="text-gray-600 font-medium tracking-wide hover:text-primary hover:scale-105 transition-all"
               >
                 {item.label}
               </a>
             ))}
             <a
               href="/contact"
-              className="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary/90 hover:scale-105 transition-all"
+              className="bg-primary text-white px-6 py-2 rounded-md font-semibold tracking-wide hover:bg-primary/90 hover:scale-105 transition-all"
             >
               Get a Quote
             </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
             <a
               key={item.label}
               href={item.href}
-              className="block px-3 py-2 text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md transition-colors"
+              className="block px-3 py-2 text-gray-600 font-medium tracking-wide hover:text-primary hover:bg-gray-50 rounded-md transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {item.label}
@@ -77,7 +77,7 @@ export default function Navbar() {
           ))}
           <a
             href="/contact"
-            className="block px-3 py-2 text-white bg-primary hover:bg-primary/90 rounded-md transition-colors"
+            className="block px-3 py-2 text-white bg-primary font-semibold tracking-wide hover:bg-primary/90 rounded-md transition-colors"
             onClick={() => setIsOpen(false)}
           >
             Get a Quote
