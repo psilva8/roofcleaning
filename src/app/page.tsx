@@ -1,7 +1,9 @@
 'use client'
 
-import Hero from '@/components/Hero'
-import ServiceCard from '@/components/ServiceCard'
+import Hero from '@/components/sections/Hero'
+import Services from '@/components/sections/Services'
+import Transformations from '@/components/sections/Transformations'
+import Team from '@/components/sections/Team'
 import FAQ from '@/components/FAQ'
 import { motion } from 'framer-motion'
 import {
@@ -71,113 +73,11 @@ const faqs = [
 
 export default function Home() {
   return (
-    <>
-      <Hero
-        title="Professional Pressure Washing Services in Los Angeles"
-        subtitle="Transform your property with our expert pressure washing solutions"
-        backgroundImage="/images/hero-bg.jpg"
-        ctaText="Get Your Free Quote"
-        ctaLink="/contact"
-      />
-
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              From residential homes to commercial properties, we provide comprehensive pressure washing services throughout Los Angeles.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-gray-100 py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Us?</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              As the top pressure washing company in Los Angeles, we deliver exceptional results with our professional equipment and experienced team.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Experienced Professionals</h3>
-              <p className="text-gray-600">Our team brings years of experience in pressure washing services, ensuring the highest quality results for your property.</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Advanced Equipment</h3>
-              <p className="text-gray-600">We use state-of-the-art pressure washing equipment and eco-friendly cleaning solutions for optimal results.</p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Find answers to common questions about our pressure washing services in Los Angeles.
-            </p>
-          </motion.div>
-
-          <FAQ items={faqs} />
-        </div>
-      </section>
-
-      <section className="bg-primary text-white py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Property?</h2>
-            <p className="text-xl mb-8">Contact us today for a free estimate on our pressure washing services.</p>
-            <motion.a
-              href="/contact"
-              className="inline-block bg-white text-primary px-8 py-4 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Get Started
-            </motion.a>
-          </motion.div>
-        </div>
-      </section>
-    </>
+    <main>
+      <Hero />
+      <Services />
+      <Transformations />
+      <Team />
+    </main>
   )
 } 
