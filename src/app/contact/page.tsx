@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import Hero from '@/components/Hero'
-import ContactForm from '@/components/ContactForm'
 import {
   PhoneIcon,
   EnvelopeIcon,
@@ -21,63 +20,61 @@ export default function Contact() {
 
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Get In Touch</h2>
-              <p className="text-gray-600 mb-8">
-                Ready to transform your property? Contact us today for a free estimate on our pressure washing services in Los Angeles.
-              </p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mx-auto"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Get In Touch</h2>
+            <p className="text-gray-600 mb-12 text-center">
+              Ready to transform your property? Contact us today for a free estimate on our pressure washing services in Los Angeles.
+            </p>
 
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <PhoneIcon className="w-6 h-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-medium text-gray-900">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <EnvelopeIcon className="w-6 h-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-medium text-gray-900">Email</h3>
-                    <p className="text-gray-600">info@lapressurewash.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <MapPinIcon className="w-6 h-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-medium text-gray-900">Service Area</h3>
-                    <p className="text-gray-600">Greater Los Angeles Area</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <ClockIcon className="w-6 h-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-medium text-gray-900">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Saturday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="flex items-start space-x-4">
+                <PhoneIcon className="w-6 h-6 text-primary flex-shrink-0" />
+                <div>
+                  <h3 className="font-medium text-gray-900">Phone</h3>
+                  <p className="text-gray-600">(555) 123-4567</p>
                 </div>
               </div>
-            </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="bg-white rounded-lg shadow-lg p-8"
-            >
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
-              <ContactForm />
-            </motion.div>
-          </div>
+              <div className="flex items-start space-x-4">
+                <EnvelopeIcon className="w-6 h-6 text-primary flex-shrink-0" />
+                <div>
+                  <h3 className="font-medium text-gray-900">Email</h3>
+                  <p className="text-gray-600">info@lapressurewash.com</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <MapPinIcon className="w-6 h-6 text-primary flex-shrink-0" />
+                <div>
+                  <h3 className="font-medium text-gray-900">Service Area</h3>
+                  <p className="text-gray-600">Greater Los Angeles Area</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <ClockIcon className="w-6 h-6 text-primary flex-shrink-0" />
+                <div>
+                  <h3 className="font-medium text-gray-900">Business Hours</h3>
+                  <p className="text-gray-600">Monday - Saturday: 8:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Sunday: Closed</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="mt-12 text-center">
+              <a 
+                href="mailto:info@lapressurewash.com" 
+                className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
+              >
+                Email Us Now
+              </a>
+            </div>
+          </motion.div>
         </div>
       </section>
 
