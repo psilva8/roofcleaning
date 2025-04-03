@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://lapressurewashing.com/sitemap.xml 
+Sitemap: https://teklair.com/sitemap.xml 
