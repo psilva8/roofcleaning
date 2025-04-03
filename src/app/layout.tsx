@@ -8,8 +8,8 @@ const inter = Inter({
   display: 'swap',
 })
 
-// Replace VERIFICATION_CODE with the actual code from Google Search Console when you get it
-const GOOGLE_VERIFICATION = 'VERIFICATION_CODE'
+// Google Search Console verification code
+const GOOGLE_VERIFICATION = 'QBMtT5i2-74QWJW2b9ONewW6QZiJ-2JyEhyHJ5fYy8Y'
 
 export const metadata: Metadata = {
   title: 'LA Pressure Washing - Professional Pressure Washing Services',
