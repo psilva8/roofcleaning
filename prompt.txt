@@ -1,0 +1,21 @@
+I want you to create a rank and rent site with Next.Js 14.23.1 very light weight 3 pages:
+
+Home: That Targets Los Angeles pressure washing keyboard.
+
+About: Very generic about Los Angeles Pressure washing.
+
+Contact: contact form click to email.
+
+Here are the list of terms to use and suggested amount of times to use it, please use each keyword at least once. Homepage amount about 1k words, with FAQ at bottom of page with bottom FAQ schema, can go above 1k if youn need to for the keyword.
+pressure washing 3-15x
+Los Angeles 17-26x
+power washing 2-12
+home 1-3x
+pressure washing near me 1-3x
+pressure washing services​ 2-8x
+top pressure washing company 1-4x
+Driveway cleaning 2-6x
+House washing 2-6x
+Deck/patio cleaning 2-6x
+Roof cleaning (soft wash) 2-6x
+Commercial parking lot cleaning 2-6x
