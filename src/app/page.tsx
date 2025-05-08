@@ -1,6 +1,9 @@
 'use client'
 
 import FAQ from '@/components/FAQ'
+import Hero from '@/components/Hero'
+import Transformations from '@/components/sections/Transformations'
+import { motion } from 'framer-motion'
 
 const faqs = [
   {
@@ -28,22 +31,13 @@ const faqs = [
 export default function Home() {
   return (
     <main>
-      <section className="py-16 bg-blue-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Professional Pressure Washing Services in Los Angeles
-          </h1>
-          <p className="text-xl text-gray-700 mb-8">
-            Transform your property with our expert cleaning solutions
-          </p>
-          <a 
-            href="/contact"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-blue-700 transition-colors"
-          >
-            Get Your Free Quote
-          </a>
-        </div>
-      </section>
+      <Hero
+        title="Professional Pressure Washing in Los Angeles"
+        subtitle="Transform your property with our expert cleaning solutions"
+        backgroundImage="/images/hero-bg.jpg"
+        ctaText="Get Your Free Quote"
+        ctaLink="/contact"
+      />
 
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,16 +49,40 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {['Residential Pressure Washing', 'Commercial Pressure Washing', 'Driveway & Sidewalk Cleaning', 
-              'Roof Cleaning', 'Regular Maintenance', 'Eco-Friendly Solutions'].map((service, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl mb-2 text-gray-900">{service}</h3>
-                <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
-              </div>
+            {[
+              {title: 'Residential Pressure Washing', image: '/images/house-washing.jpg'},
+              {title: 'Commercial Pressure Washing', image: '/images/commercial-cleaning.jpg'},
+              {title: 'Driveway & Sidewalk Cleaning', image: '/images/driveway-cleaning.jpg'},
+              {title: 'Roof Cleaning', image: '/images/roof-cleaning.jpg'},
+              {title: 'Regular Maintenance', image: '/images/equipment.jpg'},
+              {title: 'Eco-Friendly Solutions', image: '/images/eco-friendly.jpg'}
+            ].map((service, index) => (
+              <motion.div 
+                key={index} 
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title} 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">{service.title}</h3>
+                  <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
+                </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
+
+      <Transformations />
 
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
