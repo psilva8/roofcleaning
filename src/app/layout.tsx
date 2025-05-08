@@ -86,6 +86,7 @@ export default function RootLayout({
       "addressCountry": "US"
     },
     "telephone": "12136649502",
+    "email": "prontocleanpw@gmail.com",
     "url": "https://www.prontocleanz.com",
     "openingHoursSpecification": [
       {

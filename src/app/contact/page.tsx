@@ -44,7 +44,7 @@ export default function Contact() {
                 <EnvelopeIcon className="w-6 h-6 text-primary flex-shrink-0" />
                 <div>
                   <h3 className="font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">info@prontocleanz.com</p>
+                  <p className="text-gray-600">prontocleanpw@gmail.com</p>
                 </div>
               </div>
 
@@ -70,7 +70,7 @@ export default function Contact() {
             
             <div className="mt-12 text-center">
               <a 
-                href="mailto:info@prontocleanz.com" 
+                href="mailto:prontocleanpw@gmail.com" 
                 className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
               >
                 Email Us Now

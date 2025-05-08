@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
 
 export default function Footer() {
   return (
@@ -20,6 +20,12 @@ export default function Footer() {
             <div className="flex items-start space-x-2 mb-2">
               <PhoneIcon className="h-5 w-5 text-primary mt-0.5" />
               <span className="text-slate-300">1 (213) 664-9502</span>
+            </div>
+            <div className="flex items-start space-x-2 mb-2">
+              <EnvelopeIcon className="h-5 w-5 text-primary mt-0.5" />
+              <a href="mailto:prontocleanpw@gmail.com" className="text-slate-300 hover:text-white">
+                prontocleanpw@gmail.com
+              </a>
             </div>
             <div className="flex items-start space-x-2">
               <MapPinIcon className="h-5 w-5 text-primary mt-0.5" />
