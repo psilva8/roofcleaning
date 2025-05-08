@@ -2,6 +2,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -35,8 +36,47 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  // FAQ schema for SEO
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What areas in Los Angeles do you service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We provide pressure washing services throughout the greater Los Angeles area, including downtown LA, Beverly Hills, Santa Monica, and surrounding neighborhoods."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often should I have my property pressure washed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent cleaning depending on foot traffic and location."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is pressure washing safe for all surfaces?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective cleaning."
+        }
+      }
+    ]
+  };
+
   return (
     <html lang="en">
+      <head>
+        <Script
+          id="faq-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      </head>
       <body className={inter.className}>
         <Navbar />
         <main className="pt-16">{children}</main>

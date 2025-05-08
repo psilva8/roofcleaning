@@ -1,52 +1,6 @@
 'use client'
 
-import Hero from '@/components/sections/Hero'
-import Services from '@/components/sections/Services'
-import Transformations from '@/components/sections/Transformations'
-import Team from '@/components/sections/Team'
 import FAQ from '@/components/FAQ'
-import { motion } from 'framer-motion'
-import {
-  HomeIcon,
-  BuildingOfficeIcon,
-  SunIcon,
-  SparklesIcon,
-  ArrowPathIcon,
-  ShieldCheckIcon,
-} from '@heroicons/react/24/outline'
-
-const services = [
-  {
-    title: 'Residential Pressure Washing',
-    description: 'Professional house washing services to restore your home\'s exterior to its original beauty.',
-    icon: HomeIcon,
-  },
-  {
-    title: 'Commercial Pressure Washing',
-    description: 'Keep your business looking pristine with our commercial pressure washing services.',
-    icon: BuildingOfficeIcon,
-  },
-  {
-    title: 'Driveway & Sidewalk Cleaning',
-    description: 'Remove tough stains and buildup from your concrete surfaces.',
-    icon: SparklesIcon,
-  },
-  {
-    title: 'Roof Cleaning',
-    description: 'Gentle soft wash techniques to safely clean and protect your roof.',
-    icon: SunIcon,
-  },
-  {
-    title: 'Regular Maintenance',
-    description: 'Scheduled cleaning services to keep your property looking its best year-round.',
-    icon: ArrowPathIcon,
-  },
-  {
-    title: 'Eco-Friendly Solutions',
-    description: 'Environmental-friendly cleaning solutions that are tough on dirt but safe for your property.',
-    icon: ShieldCheckIcon,
-  },
-]
 
 const faqs = [
   {
@@ -74,10 +28,44 @@ const faqs = [
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Services />
-      <Transformations />
-      <Team />
+      <section className="py-16 bg-blue-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            Professional Pressure Washing Services in Los Angeles
+          </h1>
+          <p className="text-xl text-gray-700 mb-8">
+            Transform your property with our expert cleaning solutions
+          </p>
+          <a 
+            href="/contact"
+            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-blue-700 transition-colors"
+          >
+            Get Your Free Quote
+          </a>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              We offer a range of professional pressure washing services in Los Angeles to keep your property looking its best
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {['Residential Pressure Washing', 'Commercial Pressure Washing', 'Driveway & Sidewalk Cleaning', 
+              'Roof Cleaning', 'Regular Maintenance', 'Eco-Friendly Solutions'].map((service, index) => (
+              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl mb-2 text-gray-900">{service}</h3>
+                <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
