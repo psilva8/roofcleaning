@@ -4,6 +4,7 @@ import FAQ from '@/components/FAQ'
 import Hero from '@/components/Hero'
 import Transformations from '@/components/sections/Transformations'
 import { motion } from 'framer-motion'
+import Script from 'next/script'
 
 const faqs = [
   {
@@ -29,8 +30,80 @@ const faqs = [
 ]
 
 export default function Home() {
+  // Local business schema for home page
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pronto Clean",
+    "description": "Professional pressure washing services in Los Angeles",
+    "url": "https://www.prontocleanz.com",
+    "telephone": "12136649502",
+    "email": "prontocleanpw@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "360 E 2nd St Ste 800",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90012",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.0478913731587",
+      "longitude": "-118.24271722428371"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Los Angeles"
+      },
+      {
+        "@type": "City",
+        "name": "Beverly Hills"
+      },
+      {
+        "@type": "City",
+        "name": "Santa Monica"
+      },
+      {
+        "@type": "City",
+        "name": "Hollywood"
+      }
+    ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.0478913731587",
+        "longitude": "-118.24271722428371"
+      },
+      "geoRadius": "50000"
+    },
+    "image": "https://www.prontocleanz.com/images/hero-bg.jpg"
+  };
+
   return (
     <main>
+      <Script
+        id="local-business-schema-home"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <Hero
         title="Professional Pressure Washing in Los Angeles"
         subtitle="Transform your property with our expert cleaning solutions"
