@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://prontoclean.com/sitemap.xml 
+Sitemap: https://www.prontocleanz.com/sitemap.xml 

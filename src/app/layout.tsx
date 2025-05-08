@@ -14,7 +14,7 @@ const inter = Inter({
 const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://prontoclean.com'),
+  metadataBase: new URL('https://www.prontocleanz.com'),
   title: 'Pronto Clean - Professional Pressure Washing Services',
   description: 'Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more.',
   keywords: 'pressure washing, Los Angeles, power washing, driveway cleaning, house washing, deck cleaning, roof cleaning, commercial parking lot cleaning',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pronto Clean - Professional Pressure Washing Services',
     description: 'Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more.',
-    url: 'https://prontoclean.com',
+    url: 'https://www.prontocleanz.com',
     siteName: 'Pronto Clean',
     locale: 'en_US',
     type: 'website',

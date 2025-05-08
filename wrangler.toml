@@ -10,4 +10,4 @@ bucket = "./out"
 
 [env.production]
 name = "pronto-clean"
-route = "prontoclean.com/*" 
+route = "prontocleanz.com/*" 
