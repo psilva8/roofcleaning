@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
 import Script from 'next/script'
+import Head from 'next/head'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const inter = Inter({
 })
 
 // Google Search Console verification code
-const GOOGLE_VERIFICATION = 'QBMtT5i2-74QWJW2b9ONewW6QZiJ-2JyEhyHJ5fYy8Y'
+const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://prontoclean.com'),
@@ -72,6 +73,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc" />
         <Script
           id="faq-schema"
           type="application/ld+json"
