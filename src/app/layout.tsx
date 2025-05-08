@@ -1,5 +1,6 @@
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
 import Script from 'next/script'
@@ -70,6 +71,40 @@ export default function RootLayout({
     ]
   };
 
+  // LocalBusiness schema for business info
+  const businessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pronto Clean",
+    "description": "Professional pressure washing services in Los Angeles",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "360 E 2nd St Ste 800",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90012",
+      "addressCountry": "US"
+    },
+    "telephone": "12136649502",
+    "url": "https://www.prontocleanz.com",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "image": "https://www.prontocleanz.com/images/hero-bg.jpg"
+  };
+
   return (
     <html lang="en">
       <head>
@@ -79,10 +114,16 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
+        <Script
+          id="business-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        />
       </head>
       <body className={inter.className}>
         <Navbar />
         <main className="pt-16">{children}</main>
+        <Footer />
       </body>
     </html>
   )
