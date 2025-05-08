@@ -21,7 +21,7 @@ export default function Navbar() {
               href="/"
               className="text-xl font-bold tracking-tight text-primary hover:scale-105 transition-transform"
             >
-              LA Pressure Washing
+              Pronto Clean
             </a>
           </div>
 

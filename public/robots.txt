@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://teklair.com/sitemap.xml 
+Sitemap: https://prontoclean.com/sitemap.xml 
