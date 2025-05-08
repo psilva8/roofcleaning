@@ -13,6 +13,7 @@ const inter = Inter({
 const GOOGLE_VERIFICATION = 'QBMtT5i2-74QWJW2b9ONewW6QZiJ-2JyEhyHJ5fYy8Y'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://prontoclean.com'),
   title: 'Pronto Clean - Professional Pressure Washing Services',
   description: 'Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more.',
   keywords: 'pressure washing, Los Angeles, power washing, driveway cleaning, house washing, deck cleaning, roof cleaning, commercial parking lot cleaning',
