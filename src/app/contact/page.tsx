@@ -81,7 +81,7 @@ export default function Contact() {
               <h3 className="font-bold text-xl mb-4 text-gray-900">Our Location</h3>
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7426913369097!2d-118.24066232333083!3d34.04988847304867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c63c9fb04de1%3A0x1234!2s360%20E%202nd%20St%20%23800%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1sen!2sus!4v1683579696244!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.84326624039!2d-118.24271722428371!3d34.0478913731587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6380f0d373f%3A0xe675222d91ba554!2s360%20E%202nd%20St%20suit%20800%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1sen!2sus!4v1746734997663!5m2!1sen!2sus" 
                   width="100%" 
                   height="300" 
                   style={{ border: 0 }} 
