@@ -92,7 +92,7 @@ export default function Contact() {
                 ></iframe>
               </div>
               <p className="text-gray-600">
-                Our office is centrally located in downtown Los Angeles, allowing us to serve customers throughout the LA area with fast response times and exceptional service.
+                Our office is located at 360 E 2nd St Suite 800, Los Angeles, CA 90012. We serve customers throughout the LA area with fast response times and exceptional service.
               </p>
             </div>
           </motion.div>
