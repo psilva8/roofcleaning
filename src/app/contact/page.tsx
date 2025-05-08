@@ -36,7 +36,7 @@ export default function Contact() {
                 <PhoneIcon className="w-6 h-6 text-primary flex-shrink-0" />
                 <div>
                   <h3 className="font-medium text-gray-900">Phone</h3>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">1 (213) 664-9502</p>
                 </div>
               </div>
 
@@ -44,15 +44,16 @@ export default function Contact() {
                 <EnvelopeIcon className="w-6 h-6 text-primary flex-shrink-0" />
                 <div>
                   <h3 className="font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">info@lapressurewash.com</p>
+                  <p className="text-gray-600">info@prontocleanz.com</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <MapPinIcon className="w-6 h-6 text-primary flex-shrink-0" />
                 <div>
-                  <h3 className="font-medium text-gray-900">Service Area</h3>
-                  <p className="text-gray-600">Greater Los Angeles Area</p>
+                  <h3 className="font-medium text-gray-900">Office Address</h3>
+                  <p className="text-gray-600">360 E 2nd St Ste 800</p>
+                  <p className="text-gray-600">Los Angeles, CA 90012</p>
                 </div>
               </div>
 
@@ -60,7 +61,8 @@ export default function Contact() {
                 <ClockIcon className="w-6 h-6 text-primary flex-shrink-0" />
                 <div>
                   <h3 className="font-medium text-gray-900">Business Hours</h3>
-                  <p className="text-gray-600">Monday - Saturday: 8:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
                   <p className="text-gray-600">Sunday: Closed</p>
                 </div>
               </div>
@@ -68,11 +70,30 @@ export default function Contact() {
             
             <div className="mt-12 text-center">
               <a 
-                href="mailto:info@lapressurewash.com" 
+                href="mailto:info@prontocleanz.com" 
                 className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
               >
                 Email Us Now
               </a>
+            </div>
+
+            <div className="mt-12 p-6 bg-white rounded-lg shadow-md">
+              <h3 className="font-bold text-xl mb-4 text-gray-900">Our Location</h3>
+              <div className="aspect-w-16 aspect-h-9 mb-4">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7426913369097!2d-118.24066232333083!3d34.04988847304867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c63c9fb04de1%3A0x1234!2s360%20E%202nd%20St%20%23800%2C%20Los%20Angeles%2C%20CA%2090012!5e0!3m2!1sen!2sus!4v1683579696244!5m2!1sen!2sus" 
+                  width="100%" 
+                  height="300" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Pronto Clean Office Location"
+                ></iframe>
+              </div>
+              <p className="text-gray-600">
+                Our office is centrally located in downtown Los Angeles, allowing us to serve customers throughout the LA area with fast response times and exceptional service.
+              </p>
             </div>
           </motion.div>
         </div>
