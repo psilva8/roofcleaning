@@ -8,10 +8,69 @@ import {
   MapPinIcon,
   ClockIcon,
 } from '@heroicons/react/24/outline'
+import Script from 'next/script'
 
 export default function Contact() {
+  // Local business location schema
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pronto Clean",
+    "description": "Professional pressure washing services in Los Angeles",
+    "url": "https://www.prontocleanz.com/contact",
+    "telephone": "12136649502",
+    "email": "prontocleanpw@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "360 E 2nd St Ste 800",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90012",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.0478913731587",
+      "longitude": "-118.24271722428371"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.0478913731587",
+        "longitude": "-118.24271722428371"
+      },
+      "geoRadius": "50000"
+    }
+  };
+
   return (
     <>
+      <Script
+        id="local-business-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      
       <Hero
         title="Contact Us"
         subtitle="Get in touch for professional pressure washing services in Los Angeles"
