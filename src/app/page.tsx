@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import Transformations from '@/components/sections/Transformations'
 import { motion } from 'framer-motion'
 import Script from 'next/script'
+import Head from 'next/head'
 
 const faqs = [
   {
@@ -99,6 +100,9 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+        <link rel="canonical" href="https://www.prontocleanz.com" />
+      </Head>
       <Script
         id="local-business-schema-home"
         type="application/ld+json"

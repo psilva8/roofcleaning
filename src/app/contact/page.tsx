@@ -9,6 +9,7 @@ import {
   ClockIcon,
 } from '@heroicons/react/24/outline'
 import Script from 'next/script'
+import Head from 'next/head'
 
 export default function Contact() {
   // Local business location schema
@@ -65,6 +66,9 @@ export default function Contact() {
 
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://www.prontocleanz.com/contact" />
+      </Head>
       <Script
         id="local-business-schema"
         type="application/ld+json"
