@@ -35,7 +35,7 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Pronto Clean",
+    "name": "Pressure Washing Los Angeles",
     "description": "Professional pressure washing services in Los Angeles",
     "url": "https://www.prontocleanz.com",
     "telephone": "12136649502",

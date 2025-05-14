@@ -16,16 +16,16 @@ const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.prontocleanz.com'),
-  title: 'Pronto Clean - Professional Pressure Washing Services',
+  title: 'Pressure Washing Los Angeles - Professional Pressure Washing Services',
   description: 'Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more.',
   keywords: 'pressure washing, Los Angeles, power washing, driveway cleaning, house washing, deck cleaning, roof cleaning, commercial parking lot cleaning',
   robots: 'index, follow',
-  authors: [{ name: 'Pronto Clean' }],
+  authors: [{ name: 'Pressure Washing Los Angeles' }],
   openGraph: {
-    title: 'Pronto Clean - Professional Pressure Washing Services',
+    title: 'Pressure Washing Los Angeles - Professional Pressure Washing Services',
     description: 'Professional pressure washing services in Los Angeles. We offer residential and commercial pressure washing, including house washing, driveway cleaning, and more.',
     url: 'https://www.prontocleanz.com',
-    siteName: 'Pronto Clean',
+    siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',
     type: 'website',
   },
@@ -75,7 +75,7 @@ export default function RootLayout({
   const businessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Pronto Clean",
+    "name": "Pressure Washing Los Angeles",
     "description": "Professional pressure washing services in Los Angeles",
     "address": {
       "@type": "PostalAddress",

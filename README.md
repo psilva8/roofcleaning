@@ -1,4 +1,4 @@
-# Pronto Clean Website
+# Pressure Washing Los Angeles Website
 
 A modern, responsive website for a Los Angeles-based pressure washing company built with Next.js 14, TypeScript, and Tailwind CSS.
 

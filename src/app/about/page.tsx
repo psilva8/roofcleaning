@@ -7,8 +7,8 @@ export default function About() {
   return (
     <>
       <Hero
-        title="About Pronto Clean"
-        subtitle="Dedicated to delivering exceptional cleaning results for your property"
+        title="About Pressure Washing Los Angeles"
+        subtitle="Learn more about our professional pressure washing services in Los Angeles"
         backgroundImage="/images/about-bg.jpg"
       />
 
@@ -105,8 +105,8 @@ export default function About() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to Experience the Difference?</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-              Let us show you why Pronto Clean is the most trusted pressure washing company in Los Angeles.
+            <p className="text-gray-600 text-center mb-8">
+              Let us show you why Pressure Washing Los Angeles is the most trusted pressure washing company in Los Angeles.
             </p>
             <motion.a
               href="/contact"

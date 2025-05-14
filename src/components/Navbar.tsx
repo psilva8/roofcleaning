@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,12 +18,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <a
+            <Link
               href="/"
-              className="text-xl font-bold tracking-tight text-primary hover:scale-105 transition-transform"
+              className="flex items-center text-primary font-bold text-xl"
             >
-              Pronto Clean
-            </a>
+              <span className="lg:block">Pressure Washing Los Angeles</span>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
