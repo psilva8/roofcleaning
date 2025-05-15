@@ -17,7 +17,7 @@ export default function Contact() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pressure Washing Los Angeles",
-    "description": "Professional pressure washing services in Los Angeles",
+    "description": "Expert pressure washing in Los Angeles providing top-quality cleaning services for residential and commercial properties",
     "url": "https://www.prontocleanz.com/contact",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",
@@ -61,7 +61,9 @@ export default function Contact() {
         "longitude": "-118.24271722428371"
       },
       "geoRadius": "50000"
-    }
+    },
+    "slogan": "The most reliable pressure washing in Los Angeles",
+    "keywords": "pressure washing in Los Angeles, Los Angeles pressure washing services, commercial pressure washing, residential pressure washing"
   };
 
   return (
@@ -76,8 +78,8 @@ export default function Contact() {
       />
       
       <Hero
-        title="Contact Us"
-        subtitle="Get in touch for professional pressure washing services in Los Angeles"
+        title="Contact Us for Pressure Washing in Los Angeles"
+        subtitle="Get a free estimate for professional pressure washing services throughout Los Angeles County"
         backgroundImage="/images/contact-bg.jpg"
       />
 

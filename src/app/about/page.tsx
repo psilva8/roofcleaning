@@ -7,8 +7,8 @@ export default function About() {
   return (
     <>
       <Hero
-        title="About Pressure Washing Los Angeles"
-        subtitle="Learn more about our professional pressure washing services in Los Angeles"
+        title="About Our Pressure Washing in Los Angeles"
+        subtitle="The most trusted company for pressure washing in Los Angeles and surrounding areas"
         backgroundImage="/images/about-bg.jpg"
       />
 
@@ -20,13 +20,13 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Los Angeles's Trusted Pressure Washing Service</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Los Angeles's Premier Pressure Washing Company</h2>
               <div className="space-y-4">
                 <p className="text-gray-600">
-                  With years of experience serving the Los Angeles community, we have established ourselves as a leading provider of professional pressure washing services. Our commitment to quality and customer satisfaction has made us the go-to choice for residential and commercial cleaning needs.
+                  With years of experience providing pressure washing in Los Angeles, we have established ourselves as the leading provider of professional cleaning services. Our commitment to quality and customer satisfaction has made us the preferred choice for residential and commercial pressure washing needs throughout Los Angeles County.
                 </p>
                 <p className="text-gray-600">
-                  We understand that every property in Los Angeles has unique cleaning requirements. That's why we offer customized pressure washing solutions tailored to meet your specific needs. From gentle cleaning for delicate surfaces to heavy-duty washing for tough stains, we have the expertise and equipment to handle it all.
+                  We understand that every property in Los Angeles has unique cleaning requirements. That's why we offer customized pressure washing solutions tailored to meet your specific needs. From gentle cleaning for delicate surfaces to heavy-duty washing for tough stains, we have the expertise and equipment to deliver outstanding results.
                 </p>
               </div>
             </motion.div>
@@ -104,9 +104,9 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to Experience the Difference?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to Experience the Best Pressure Washing in Los Angeles?</h2>
             <p className="text-gray-600 text-center mb-8">
-              Let us show you why Pressure Washing Los Angeles is the most trusted pressure washing company in Los Angeles.
+              Let us show you why we're the most trusted company for pressure washing in Los Angeles and surrounding communities.
             </p>
             <motion.a
               href="/contact"

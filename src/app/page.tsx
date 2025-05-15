@@ -36,7 +36,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pressure Washing Los Angeles",
-    "description": "Professional pressure washing services in Los Angeles",
+    "description": "Expert pressure washing in Los Angeles offering professional residential and commercial cleaning services",
     "url": "https://www.prontocleanz.com",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",
@@ -95,7 +95,13 @@ export default function Home() {
       },
       "geoRadius": "50000"
     },
-    "image": "https://www.prontocleanz.com/images/hero-bg.jpg"
+    "image": "https://www.prontocleanz.com/images/hero-bg.jpg",
+    "sameAs": [
+      "https://www.facebook.com/pressurewashinglosangeles",
+      "https://www.yelp.com/biz/pressure-washing-los-angeles"
+    ],
+    "slogan": "The trusted choice for pressure washing in Los Angeles",
+    "keywords": "pressure washing in Los Angeles, Los Angeles pressure washing, commercial pressure washing, residential pressure washing, driveway cleaning, house washing"
   };
 
   return (
@@ -109,8 +115,8 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <Hero
-        title="Professional Pressure Washing in Los Angeles"
-        subtitle="Transform your property with our expert cleaning solutions"
+        title="Expert Pressure Washing in Los Angeles"
+        subtitle="Professional, affordable pressure washing services throughout Los Angeles County"
         backgroundImage="/images/hero-bg.jpg"
         ctaText="Get Your Free Quote"
         ctaLink="/contact"
@@ -119,9 +125,9 @@ export default function Home() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Pressure Washing Services in Los Angeles</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer a range of professional pressure washing services in Los Angeles to keep your property looking its best
+              As the leading provider of pressure washing in Los Angeles, we offer comprehensive cleaning solutions for residential and commercial properties
             </p>
           </div>
           
