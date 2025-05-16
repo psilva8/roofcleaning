@@ -36,7 +36,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pressure Washing Los Angeles",
-    "description": "Expert pressure washing in Los Angeles offering professional residential and commercial cleaning services",
+    "description": "Top pressure washing in Los Angeles offering professional residential and commercial cleaning services",
     "url": "https://www.prontocleanz.com",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",
@@ -115,7 +115,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <Hero
-        title="Expert Pressure Washing in Los Angeles"
+                    title="Top Pressure Washing in Los Angeles"
         subtitle="Professional, affordable pressure washing services throughout Los Angeles County"
         backgroundImage="/images/hero-bg.jpg"
         ctaText="Get Your Free Quote"
