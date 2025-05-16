@@ -13,6 +13,9 @@ export default function Footer() {
             <p className="text-slate-300">
               Professional pressure washing services in Los Angeles
             </p>
+            <p className="text-slate-300 mt-4">
+              Marketing by: <a href="https://www.paulsilvamarketing.com/" className="text-blue-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">paulsilvamarketing.com</a>
+            </p>
           </div>
           
           <div>
@@ -48,7 +51,6 @@ export default function Footer() {
         
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
           <p>&copy; {new Date().getFullYear()} Pressure Washing Los Angeles. All rights reserved.</p>
-          <p className="mt-2">Marketing by: <a href="https://www.paulsilvamarketing.com/" className="text-primary hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">paulsilvamarketing.com</a></p>
         </div>
       </div>
     </footer>
