@@ -37,13 +37,12 @@ const nextConfig = {
   assetPrefix: '',
   trailingSlash: true,
   output: 'export', // Static site export for Cloudflare Pages
-  generateStaticParams: true,
   distDir: 'out',
-  // More thorough build options for App Router
+  // More specific Next.js options for App Router
   experimental: {
-    appDir: true,
-    // Generate all static pages during build
-    craCompat: false,
+    // These are valid experimental options for Next.js 14
+    serverActions: false,
+    mdxRs: false,
   },
 }
 

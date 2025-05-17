@@ -1,5 +1,3 @@
-'use client'
-
 import Hero from '@/components/Hero'
 import { motion } from 'framer-motion'
 import Script from 'next/script'
@@ -32,6 +30,20 @@ export function generateStaticParams() {
 
 // This is needed for static generation
 export const dynamicParams = false;
+
+// Generate metadata for SEO
+export async function generateMetadata({ params }: { params: { city: string } }) {
+  const cityName = params.city.replace(/-/g, ' ');
+  const formattedCityName = capitalizeWords(cityName);
+  
+  return {
+    title: `Power Washing in ${formattedCityName} - Professional Cleaning Services`,
+    description: `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective cleaning of all surfaces.`,
+    alternates: {
+      canonical: `https://www.prontocleanz.com/power-washing/${params.city}`,
+    }
+  };
+}
 
 export default function CityPowerWashing({ params }: { params: { city: string } }) {
   const cityName = params.city.replace(/-/g, ' ');
