@@ -1,0 +1,192 @@
+'use client'
+
+import Hero from '@/components/Hero'
+import { motion } from 'framer-motion'
+import Script from 'next/script'
+import Head from 'next/head'
+
+export default function PowerWashing() {
+  // Service schema for SEO
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Power Washing Services",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Pressure Washing Los Angeles"
+    },
+    "serviceType": "Power Washing",
+    "areaServed": {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    "description": "Professional power washing services in Los Angeles with advanced equipment for effective cleaning of all surfaces.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "150.00",
+      "priceCurrency": "USD"
+    }
+  };
+
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://www.prontocleanz.com/power-washing" />
+      </Head>
+      <Script
+        id="service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      
+      <Hero
+        title="Expert Power Washing Services"
+        subtitle="High-performance power washing for homes and businesses in Los Angeles"
+        backgroundImage="/images/commercial-cleaning.jpg"
+      />
+
+      <section className="py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-16 text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Los Angeles Power Washing Solutions
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Our power washing services utilize high-pressure water systems to effectively remove tough dirt, grime, mold, and stains from various surfaces.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-white p-8 rounded-lg shadow-md"
+            >
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">What is Power Washing?</h3>
+              <p className="text-gray-600 mb-4">
+                Power washing uses heated water and high pressure to clean surfaces, making it particularly effective for:
+              </p>
+              <ul className="list-disc pl-5 text-gray-600 mb-4">
+                <li>Removing oil and grease stains from driveways and garage floors</li>
+                <li>Eliminating stubborn grime from concrete and brick surfaces</li>
+                <li>Cleaning commercial and industrial equipment</li>
+                <li>Preparing surfaces for painting or sealing</li>
+              </ul>
+              <p className="text-gray-600">
+                The combination of heat and pressure makes power washing ideal for tackling the toughest cleaning challenges that standard pressure washing might struggle with.
+              </p>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+            >
+              <img
+                src="/images/driveway-cleaning.jpg"
+                alt="Power Washing in Los Angeles"
+                className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
+              />
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Equipment</h3>
+              <p className="text-gray-600">
+                We use commercial-grade power washing equipment with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal cleaning results without causing damage to your property.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Power Washing Applications
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Our power washing services are suitable for a wide range of applications
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Concrete Surfaces", 
+                description: "Driveways, sidewalks, parking lots, and garage floors.",
+                image: "/images/driveway-cleaning.jpg"
+              },
+              {
+                title: "Commercial Properties", 
+                description: "Storefronts, building exteriors, loading docks, and dumpster areas.",
+                image: "/images/commercial-cleaning.jpg"
+              },
+              {
+                title: "Industrial Cleaning", 
+                description: "Equipment, machinery, warehouses, and factory floors.",
+                image: "/images/equipment.jpg"
+              },
+              {
+                title: "Deck & Patio Restoration", 
+                description: "Wooden decks, stone patios, and outdoor living spaces.",
+                image: "/images/house-washing.jpg"
+              },
+              {
+                title: "Graffiti Removal", 
+                description: "Effective removal of graffiti from walls and other surfaces.",
+                image: "/images/eco-friendly.jpg"
+              },
+              {
+                title: "Pre-painting Preparation", 
+                description: "Preparing surfaces for painting, staining, or sealing.",
+                image: "/images/roof-cleaning.jpg"
+              }
+            ].map((application, index) => (
+              <motion.div 
+                key={index}
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+              >
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={application.image} 
+                    alt={application.title} 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">{application.title}</h3>
+                  <p className="text-gray-600">{application.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+          
+          <div className="mt-12 text-center">
+            <a 
+              href="/contact" 
+              className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Schedule a Free Estimate
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+} 
