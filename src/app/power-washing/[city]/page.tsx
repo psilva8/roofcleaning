@@ -5,8 +5,10 @@ import { motion } from 'framer-motion'
 import Script from 'next/script'
 import Head from 'next/head'
 import { capitalizeWords } from '@/utils/formatting'
+import { Metadata } from 'next'
 
-export async function generateStaticParams() {
+// Explicitly generate static params - needed for static export
+export function generateStaticParams() {
   const losAngelesCities = [
     'agoura-hills', 'alhambra', 'arcadia', 'artesia', 'avalon', 'azusa', 'baldwin-park', 
     'bell', 'bell-gardens', 'bellflower', 'beverly-hills', 'bradbury', 'burbank', 'calabasas', 
@@ -27,6 +29,9 @@ export async function generateStaticParams() {
     city,
   }));
 }
+
+// This is needed for static generation
+export const dynamicParams = false;
 
 export default function CityPowerWashing({ params }: { params: { city: string } }) {
   const cityName = params.city.replace(/-/g, ' ');
