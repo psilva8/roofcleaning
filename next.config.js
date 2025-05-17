@@ -38,12 +38,6 @@ const nextConfig = {
   trailingSlash: true,
   output: 'export', // Static site export for Cloudflare Pages
   distDir: 'out',
-  // More specific Next.js options for App Router
-  experimental: {
-    // These are valid experimental options for Next.js 14
-    serverActions: false,
-    mdxRs: false,
-  },
 }
 
 module.exports = nextConfig 
