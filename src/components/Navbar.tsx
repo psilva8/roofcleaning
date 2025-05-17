@@ -65,10 +65,10 @@ export default function Navbar() {
               )
             })}
             <a
-              href="/contact"
+              href="tel:+12136649502"
               className="ml-2 bg-primary text-white px-6 py-2 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-0.5"
             >
-              Get a Quote
+              Call Now
             </a>
           </div>
 
@@ -117,11 +117,11 @@ export default function Navbar() {
           })}
           <div className="pt-2">
             <a
-              href="/contact"
+              href="tel:+12136649502"
               className="block w-full text-center px-4 py-3 text-white bg-primary font-semibold tracking-wide hover:bg-primary/90 rounded-lg shadow-sm hover:shadow-md transition-all"
               onClick={() => setIsOpen(false)}
             >
-              Get a Quote
+              Call Now
             </a>
           </div>
         </div>

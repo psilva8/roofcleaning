@@ -118,8 +118,9 @@ export default function Home() {
                     title="Top Pressure Washing in Los Angeles"
         subtitle="Professional, affordable pressure washing services throughout Los Angeles County"
         backgroundImage="/images/hero-bg.jpg"
-        ctaText="Get Your Free Quote"
-        ctaLink="/contact"
+        ctaText="Call Now"
+        ctaLink="tel:+12136649502"
+        isPhoneLink={true}
       />
 
       <section className="py-16">
