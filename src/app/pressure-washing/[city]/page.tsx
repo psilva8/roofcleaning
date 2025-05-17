@@ -1,7 +1,5 @@
 import Hero from '@/components/Hero'
-import { motion } from 'framer-motion'
 import Script from 'next/script'
-import Head from 'next/head'
 import { capitalizeWords } from '@/utils/formatting'
 import { Metadata } from 'next'
 
@@ -32,7 +30,7 @@ export function generateStaticParams() {
 export const dynamicParams = false;
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: { params: { city: string } }) {
+export async function generateMetadata({ params }: { params: { city: string } }): Promise<Metadata> {
   const cityName = params.city.replace(/-/g, ' ');
   const formattedCityName = capitalizeWords(cityName);
   
@@ -74,9 +72,6 @@ export default function CityPressureWashing({ params }: { params: { city: string
 
   return (
     <>
-      <Head>
-        <link rel="canonical" href={`https://www.prontocleanz.com/pressure-washing/${params.city}`} />
-      </Head>
       <Script
         id="service-schema"
         type="application/ld+json"
@@ -91,10 +86,7 @@ export default function CityPressureWashing({ params }: { params: { city: string
 
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <div
             className="mb-16 text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -103,15 +95,10 @@ export default function CityPressureWashing({ params }: { params: { city: string
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our pressure washing service in {formattedCityName} uses state-of-the-art equipment to deliver exceptional cleaning results for residential and commercial properties.
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
+            <div className="animate-fadeIn">
               <img
                 src="/images/house-washing.jpg"
                 alt={`Residential Pressure Washing in ${formattedCityName}`}
@@ -128,14 +115,9 @@ export default function CityPressureWashing({ params }: { params: { city: string
                 <li>Fences and gates</li>
                 <li>Roofs (using soft washing techniques)</li>
               </ul>
-            </motion.div>
+            </div>
             
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
-            >
+            <div className="animate-fadeIn">
               <img
                 src="/images/commercial-cleaning.jpg"
                 alt={`Commercial Pressure Washing in ${formattedCityName}`}
@@ -152,26 +134,21 @@ export default function CityPressureWashing({ params }: { params: { city: string
                 <li>Apartment complexes and condominiums</li>
                 <li>Parking lots and garages</li>
               </ul>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-12 text-center"
-          >
+          <div className="mb-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Why Choose Our Pressure Washing Service in {formattedCityName}
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               We're dedicated to providing exceptional pressure washing services to homeowners and businesses throughout {formattedCityName}
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -200,17 +177,13 @@ export default function CityPressureWashing({ params }: { params: { city: string
                 description: "We stand behind our work with a satisfaction guarantee."
               }
             ].map((benefit, index) => (
-              <motion.div 
+              <div 
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-md"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
               >
                 <h3 className="font-bold text-xl mb-3 text-gray-900">{benefit.title}</h3>
                 <p className="text-gray-600">{benefit.description}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
           

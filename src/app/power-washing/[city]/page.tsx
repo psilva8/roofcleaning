@@ -1,7 +1,5 @@
 import Hero from '@/components/Hero'
-import { motion } from 'framer-motion'
 import Script from 'next/script'
-import Head from 'next/head'
 import { capitalizeWords } from '@/utils/formatting'
 import { Metadata } from 'next'
 
@@ -32,7 +30,7 @@ export function generateStaticParams() {
 export const dynamicParams = false;
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: { params: { city: string } }) {
+export async function generateMetadata({ params }: { params: { city: string } }): Promise<Metadata> {
   const cityName = params.city.replace(/-/g, ' ');
   const formattedCityName = capitalizeWords(cityName);
   
@@ -74,9 +72,6 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
 
   return (
     <>
-      <Head>
-        <link rel="canonical" href={`https://www.prontocleanz.com/power-washing/${params.city}`} />
-      </Head>
       <Script
         id="service-schema"
         type="application/ld+json"
@@ -91,28 +86,17 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
 
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-16 text-center"
-          >
+          <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               {formattedCityName} Power Washing Services
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our power washing services in {formattedCityName} utilize high-pressure water systems to effectively remove tough dirt, grime, mold, and stains from various surfaces.
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="bg-white p-8 rounded-lg shadow-md"
-            >
+            <div className="animate-fadeIn bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Power Washing Benefits in {formattedCityName}</h3>
               <p className="text-gray-600 mb-4">
                 Power washing uses heated water and high pressure to clean surfaces, making it particularly effective for {formattedCityName} properties:
@@ -127,14 +111,9 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
               <p className="text-gray-600">
                 The combination of heat and pressure makes power washing ideal for tackling the toughest cleaning challenges in {formattedCityName} that standard pressure washing might struggle with.
               </p>
-            </motion.div>
+            </div>
             
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.4 }}
-            >
+            <div className="animate-fadeIn">
               <img
                 src="/images/driveway-cleaning.jpg"
                 alt={`Power Washing in ${formattedCityName}`}
@@ -144,26 +123,21 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
               <p className="text-gray-600">
                 We bring the best power washing equipment to {formattedCityName} with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal cleaning results without causing damage to your property.
               </p>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-12 text-center"
-          >
+          <div className="mb-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               {formattedCityName} Power Washing Applications
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our power washing services are suitable for a wide range of applications in {formattedCityName}
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -198,13 +172,9 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
                 image: "/images/roof-cleaning.jpg"
               }
             ].map((application, index) => (
-              <motion.div 
+              <div 
                 key={index}
                 className="bg-white rounded-lg shadow-md overflow-hidden"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
               >
                 <div className="h-48 overflow-hidden">
                   <img 
@@ -217,7 +187,7 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
                   <h3 className="font-bold text-xl mb-2 text-gray-900">{application.title}</h3>
                   <p className="text-gray-600">{application.description}</p>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
           
