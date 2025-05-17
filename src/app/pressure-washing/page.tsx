@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import { motion } from 'framer-motion'
 import Script from 'next/script'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function PressureWashing() {
   // Service schema for SEO
@@ -28,6 +29,22 @@ export default function PressureWashing() {
       "priceCurrency": "USD"
     }
   };
+
+  // Top cities in Los Angeles county
+  const featuredCities = [
+    "los-angeles",
+    "long-beach",
+    "santa-monica",
+    "beverly-hills",
+    "pasadena",
+    "malibu",
+    "glendale",
+    "burbank",
+    "culver-city",
+    "manhattan-beach",
+    "west-hollywood",
+    "redondo-beach"
+  ];
 
   return (
     <>
@@ -186,6 +203,52 @@ export default function PressureWashing() {
               </svg>
               Call Now
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Locations Section */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Pressure Washing Locations
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              We provide professional pressure washing services throughout Los Angeles County. 
+              Click on your city to learn more about our specific services in your area.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {featuredCities.map((city, index) => {
+              const formattedCity = city.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+              
+              return (
+                <motion.div
+                  key={city}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.05 }}
+                >
+                  <Link href={`/pressure-washing/${city}`} className="block py-3 px-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors text-center">
+                    <span className="font-medium text-gray-800">{formattedCity}</span>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </div>
+          
+          <div className="mt-8 text-center">
+            <Link href="#" className="text-primary font-medium hover:underline">
+              View all service areas →
+            </Link>
           </div>
         </div>
       </section>
