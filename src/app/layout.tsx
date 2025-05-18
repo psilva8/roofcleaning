@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: GOOGLE_VERIFICATION,
+    other: {
+      'msvalidate.01': '3EC2BAE1C7DDC7EDD907451571391F94',
+    },
   },
 }
 
@@ -110,6 +113,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc" />
+        <meta name="msvalidate.01" content="3EC2BAE1C7DDC7EDD907451571391F94" />
         <Script
           id="faq-schema"
           type="application/ld+json"
