@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   keywords: 'pressure washing in Los Angeles, Los Angeles pressure washing, power washing Los Angeles, driveway cleaning Los Angeles, house washing Los Angeles, commercial pressure washing Los Angeles, residential pressure washing, building washing',
   robots: 'index, follow',
   authors: [{ name: 'Pressure Washing Los Angeles' }],
+  icons: {
+    icon: '/favicon/favicon.ico',
+    apple: '/favicon/apple-touch-icon.png',
+    shortcut: '/favicon/favicon.ico',
+  },
   openGraph: {
     title: 'Pressure Washing in Los Angeles - Top-Rated Professional Cleaning Services',
     description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway cleaning, and more. Free estimates!',
@@ -114,6 +119,9 @@ export default function RootLayout({
       <head>
         <meta name="google-site-verification" content="SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc" />
         <meta name="msvalidate.01" content="3EC2BAE1C7DDC7EDD907451571391F94" />
+        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
         <Script
           id="faq-schema"
           type="application/ld+json"
