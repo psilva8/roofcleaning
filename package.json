@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:static": "node scripts/generate-sitemap.js && next build && echo 'Export completed. Static files are in the \"out\" directory'",
+    "build:static": "node scripts/generate-sitemap.js && node scripts/generate-city-schemas.js && next build && echo 'Export completed. Static files are in the \"out\" directory'",
     "start": "next start",
     "lint": "next lint",
-    "generate-sitemap": "node scripts/generate-sitemap.js"
+    "generate-sitemap": "node scripts/generate-sitemap.js",
+    "generate-schemas": "node scripts/generate-city-schemas.js"
   },
   "keywords": [],
   "author": "",

@@ -69,6 +69,80 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
       "priceCurrency": "USD"
     }
   };
+  
+  // LocalBusiness schema for city-specific business info
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": `Power Washing ${formattedCityName}`,
+    "description": `Professional power washing services in ${formattedCityName}, Los Angeles County`,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "360 E 2nd St Ste 800",
+      "addressLocality": formattedCityName,
+      "addressRegion": "CA",
+      "postalCode": "90012",
+      "addressCountry": "US"
+    },
+    "telephone": "12136649502",
+    "email": "prontocleanpw@gmail.com",
+    "url": `https://www.prontocleanz.com/power-washing/${params.city}`,
+    "areaServed": {
+      "@type": "City",
+      "name": formattedCityName
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.0522",
+      "longitude": "-118.2437"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
+    "sameAs": [
+      "https://www.facebook.com/prontocleanz",
+      "https://www.instagram.com/prontocleanz"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": `Power Washing Services in ${formattedCityName}`,
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": `Commercial Power Washing in ${formattedCityName}`,
+            "description": `Commercial power washing services for businesses in ${formattedCityName}`
+          },
+          "price": "350.00",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": `Industrial Power Washing in ${formattedCityName}`,
+            "description": `Heavy-duty power washing for industrial properties in ${formattedCityName}`
+          },
+          "price": "450.00",
+          "priceCurrency": "USD"
+        }
+      ]
+    }
+  };
 
   return (
     <>
@@ -76,6 +150,11 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
         id="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <Script
+        id="local-business-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       
       <Hero
