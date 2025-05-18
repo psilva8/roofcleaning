@@ -160,7 +160,7 @@ export default function CityPressureWashing({ params }: { params: { city: string
       <Hero
         title={`Pressure Washing in ${formattedCityName}`}
         subtitle={`Professional pressure washing services throughout ${formattedCityName} and surrounding areas`}
-        backgroundImage="/images/pressure-washing.jpg"
+        backgroundImage="/images/hero-bg.jpg"
       />
 
       <section className="py-16 md:py-24">

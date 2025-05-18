@@ -146,6 +146,14 @@ async function updatePressureWashingSchemas() {
         content = content.slice(0, afterScriptCloseIdx) + scriptTagToInsert + content.slice(afterScriptCloseIdx);
       }
       
+      // Ensure hero image is set to hero-bg.jpg
+      if (content.includes('backgroundImage="/images/pressure-washing.jpg"')) {
+        content = content.replace(
+          'backgroundImage="/images/pressure-washing.jpg"', 
+          'backgroundImage="/images/hero-bg.jpg"'
+        );
+      }
+      
       fs.writeFileSync(filePath, content, 'utf8');
       console.log(`✅ Updated schema for pressure-washing/${city}`);
     } catch (error) {
@@ -271,6 +279,14 @@ async function updatePowerWashingSchemas() {
         const afterScriptCloseIdx = content.indexOf('</Script>', content.indexOf('service-schema')) + 10;
         
         content = content.slice(0, afterScriptCloseIdx) + scriptTagToInsert + content.slice(afterScriptCloseIdx);
+      }
+      
+      // Ensure hero image is set to hero-bg.jpg
+      if (content.includes('backgroundImage="/images/commercial-cleaning.jpg"')) {
+        content = content.replace(
+          'backgroundImage="/images/commercial-cleaning.jpg"', 
+          'backgroundImage="/images/hero-bg.jpg"'
+        );
       }
       
       fs.writeFileSync(filePath, content, 'utf8');
