@@ -14,25 +14,40 @@ async function generateFavicons() {
   console.log('Generating favicons from source:', SOURCE_IMAGE);
 
   try {
-    // Generate favicon.ico (16x16 and 32x32)
+    // Generate favicon (32x32) with better contrast and sharpening for visibility
     await sharp(SOURCE_IMAGE)
-      .resize(32, 32)
+      .resize(32, 32, {
+        kernel: sharp.kernel.nearest, // Use nearest neighbor for sharper small icons
+        fit: 'contain',
+        background: { r: 255, g: 255, b: 255, alpha: 0 }
+      })
+      .sharpen() // Add sharpening to make details more visible
       .toFile(path.join(FAVICON_DIR, 'favicon-32x32.png'));
     
-    console.log('Created favicon-32x32.png');
+    console.log('Created optimized favicon-32x32.png');
 
+    // Still create 16x16 for completeness but we'll prioritize 32x32
     await sharp(SOURCE_IMAGE)
-      .resize(16, 16)
+      .resize(16, 16, {
+        kernel: sharp.kernel.nearest,
+        fit: 'contain',
+        background: { r: 255, g: 255, b: 255, alpha: 0 }
+      })
+      .sharpen()
       .toFile(path.join(FAVICON_DIR, 'favicon-16x16.png'));
     
     console.log('Created favicon-16x16.png');
 
-    // Generate apple-touch-icon.png (180x180)
+    // Generate apple-touch-icon.png (180x180) with optimizations for visibility
     await sharp(SOURCE_IMAGE)
-      .resize(180, 180)
+      .resize(180, 180, {
+        fit: 'contain',
+        background: { r: 255, g: 255, b: 255, alpha: 0 }
+      })
+      .sharpen()
       .toFile(path.join(FAVICON_DIR, 'apple-touch-icon.png'));
     
-    console.log('Created apple-touch-icon.png');
+    console.log('Created optimized apple-touch-icon.png');
 
     // Generate Android icons
     await sharp(SOURCE_IMAGE)
