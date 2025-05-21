@@ -97,7 +97,7 @@ export default function PressureWashingCityPage() {
       "closes": "16:00"
     }
   ],
-  "priceRange": "$$",
+  "priceRange": "$",
   "image": "https://www.prontocleanz.com/images/pressure-washing.jpg",
   "sameAs": [
     "https://www.facebook.com/prontocleanz",
@@ -146,7 +146,7 @@ export default function PressureWashingCityPage() {
       <Hero
         title={`Professional Pressure Washing in Whittier`}
         subtitle="Restore Your Property's Beauty with Our Expert Pressure Washing Services"
-        backgroundImage="/images/hero-bg.jpg"
+        backgroundImage="/images/hero-bg.jpg" quality={100}
         ctaText="Get a Free Quote"
         ctaLink="#contact"
       />

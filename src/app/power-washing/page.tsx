@@ -137,9 +137,7 @@ export default function PowerWashing() {
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
             >
-              <img
-                src="/images/driveway-cleaning.jpg"
-                alt="Power Washing in Los Angeles"
+              <img src="/images/driveway-cleaning.jpg" alt="Power Washing in Los Angeles" width="800" height="600" 
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Equipment</h3>

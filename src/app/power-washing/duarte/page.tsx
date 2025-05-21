@@ -97,7 +97,7 @@ export default function PowerWashingCityPage() {
       "closes": "16:00"
     }
   ],
-  "priceRange": "$$",
+  "priceRange": "$",
   "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
   "sameAs": [
     "https://www.facebook.com/prontocleanz",
@@ -146,7 +146,7 @@ export default function PowerWashingCityPage() {
       <Hero
         title={`Professional Power Washing in Duarte`}
         subtitle="Commercial & Industrial Cleaning Solutions for Your Business Property"
-        backgroundImage="/images/hero-bg.jpg"
+        backgroundImage="/images/hero-bg.jpg" quality={100}
         ctaText="Get a Free Quote"
         ctaLink="#contact"
       />

@@ -91,7 +91,7 @@ export default function PressureWashing() {
       <Hero
         title="Professional Pressure Washing Services"
         subtitle="Expert pressure washing solutions for all surfaces throughout Los Angeles"
-        backgroundImage="/images/hero-bg.jpg"
+        backgroundImage="/images/hero-bg.jpg" quality={100}
       />
 
       <section className="py-16 md:py-24">
@@ -117,9 +117,7 @@ export default function PressureWashing() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <img
-                src="/images/house-washing.jpg"
-                alt="Residential Pressure Washing"
+              <img src="/images/house-washing.jpg" alt="Residential Pressure Washing" width="800" height="600" 
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Residential Pressure Washing</h3>
@@ -141,9 +139,7 @@ export default function PressureWashing() {
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
             >
-              <img
-                src="/images/commercial-cleaning.jpg"
-                alt="Commercial Pressure Washing"
+              <img src="/images/commercial-cleaning.jpg" alt="Commercial Pressure Washing" width="800" height="600" 
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial Pressure Washing</h3>

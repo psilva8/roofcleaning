@@ -32,6 +32,17 @@ const generateCityRoutes = () => {
 const nextConfig = {
   images: {
     unoptimized: true,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ['image/webp', 'image/jpeg'],
+    minimumCacheTTL: 60,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.prontocleanz.com',
+        pathname: '/images/**',
+      },
+    ],
   },
   basePath: '',
   assetPrefix: '',
