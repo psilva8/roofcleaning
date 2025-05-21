@@ -3,11 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaCheckCircle, FaUsers, FaAward, FaRecycle } from "react-icons/fa";
 
-export const metadata = {
-  title: "About Pronto Cleanz | Our Story & Mission",
-  description: "Learn about Pronto Cleanz's journey, our dedicated team, eco-friendly approach, and commitment to exceptional cleaning services in Los Angeles County.",
-  canonical: "https://www.prontocleanz.com/about",
-};
+// Metadata is now in a separate metadata.ts file
 
 export default function AboutPage() {
   // Company schema markup for rich results

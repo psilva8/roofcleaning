@@ -7,10 +7,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export const metadata = {
-  canonical: "https://www.prontocleanz.com/pressure-washing",
-};
-
 export default function PressureWashing() {
   const [showAllLocations, setShowAllLocations] = useState(false);
 
