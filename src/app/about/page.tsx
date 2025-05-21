@@ -1,124 +1,109 @@
-'use client'
+import Script from "next/script";
+import Image from "next/image";
+import Link from "next/link";
+import { FaCheckCircle, FaUsers, FaAward, FaRecycle } from "react-icons/fa";
 
-import { motion } from 'framer-motion'
-import Hero from '@/components/Hero'
+export const metadata = {
+  title: "About Pronto Cleanz | Our Story & Mission",
+  description: "Learn about Pronto Cleanz's journey, our dedicated team, eco-friendly approach, and commitment to exceptional cleaning services in Los Angeles County.",
+  canonical: "https://www.prontocleanz.com/about",
+};
 
-export default function About() {
+export default function AboutPage() {
+  // Company schema markup for rich results
+  const companySchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pronto Cleanz",
+    "url": "https://www.prontocleanz.com",
+    "logo": "https://www.prontocleanz.com/images/logo.png",
+    "foundingDate": "2015",
+    "founders": [
+      {
+        "@type": "Person",
+        "name": "Michael Rodriguez"
+      }
+    ],
+    "description": "Pronto Cleanz is a professional cleaning service company specializing in pressure washing and power washing services throughout Los Angeles County."
+  };
+
   return (
     <>
-      <Hero
-        title="About Our Pressure Washing in Los Angeles"
-        subtitle="The most trusted company for pressure washing in Los Angeles and surrounding areas"
-        backgroundImage="/images/about-bg.jpg"
+      <Script
+        id="company-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(companySchema) }}
       />
-
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Los Angeles's Premier Pressure Washing Company</h2>
-              <div className="space-y-4">
-                <p className="text-gray-600">
-                  With years of experience providing pressure washing in Los Angeles, we have established ourselves as the leading provider of professional cleaning services. Our commitment to quality and customer satisfaction has made us the preferred choice for residential and commercial pressure washing needs throughout Los Angeles County.
-                </p>
-                <p className="text-gray-600">
-                  We understand that every property in Los Angeles has unique cleaning requirements. That's why we offer customized pressure washing solutions tailored to meet your specific needs. From gentle cleaning for delicate surfaces to heavy-duty washing for tough stains, we have the expertise and equipment to deliver outstanding results.
-                </p>
+      
+      {/* Hero Section with Company Story */}
+      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row items-center">
+            <div className="lg:w-1/2 mb-10 lg:mb-0">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Cleaning Journey</h1>
+              <p className="text-xl mb-8">
+                Founded in 2015 by Michael Rodriguez, Pronto Cleanz began with a single pressure washer 
+                and a vision to transform the exterior cleaning industry in Los Angeles.
+              </p>
+              <div className="flex items-center">
+                <FaAward className="text-yellow-400 text-4xl mr-4" />
+                <p className="text-lg">Celebrating 8+ years of cleaning excellence</p>
               </div>
-            </motion.div>
-            <motion.div
-              className="relative h-[400px] rounded-lg overflow-hidden"
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <img
-                src="/images/about-team.jpg"
-                alt="Our pressure washing team"
-                className="object-cover w-full h-full"
-              />
-            </motion.div>
+            </div>
+            <div className="lg:w-1/2 lg:pl-12">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+                <Image 
+                  src="/images/about-team.jpg" 
+                  alt="Pronto Cleanz Team" 
+                  width={600} 
+                  height={400}
+                  className="w-full"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      <section className="bg-gray-100 py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              At the core of our business are the values that drive us to deliver excellence in every project.
+      
+      {/* Our Mission Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Our Mission</h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto mt-4 mb-8"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              To deliver exceptional cleaning results that not only meet but exceed our clients' expectations
+              while maintaining the highest standards of environmental responsibility and customer service.
             </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-            >
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Quality Service</h3>
-              <p className="text-gray-600">We never compromise on the quality of our pressure washing services, using only the best equipment and techniques.</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Customer Satisfaction</h3>
-              <p className="text-gray-600">Your satisfaction is our priority. We work closely with you to ensure we meet and exceed your expectations.</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-            >
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Environmental Responsibility</h3>
-              <p className="text-gray-600">We use eco-friendly cleaning solutions and water-saving techniques to protect our environment.</p>
-            </motion.div>
           </div>
         </div>
       </section>
-
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+      
+      {/* Our Team Section */}
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Meet Our Leadership</h2>
+            <div className="w-24 h-1 bg-blue-600 mx-auto mt-4 mb-8"></div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Contact CTA */}
+      <section className="py-16 bg-blue-700 text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Experience the Pronto Cleanz Difference?</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Contact our team today to discuss your cleaning needs and get a customized quote.
+          </p>
+          <Link 
+            href="/contact" 
+            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition-colors duration-300"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Ready to Experience the Best Pressure Washing in Los Angeles?</h2>
-            <p className="text-gray-600 text-center mb-8">
-              Let us show you why we're the most trusted company for pressure washing in Los Angeles and surrounding communities.
-            </p>
-            <motion.a
-              href="/contact"
-              className="inline-block bg-primary text-white px-8 py-4 rounded-md text-lg font-medium hover:bg-primary/90 transition-colors"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Contact Us Today
-            </motion.a>
-          </motion.div>
+            Get in Touch
+          </Link>
         </div>
       </section>
     </>
-  )
-} 
+  );
+}

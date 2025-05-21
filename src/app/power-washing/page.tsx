@@ -9,6 +9,11 @@ import { useState } from 'react'
 
 export default function PowerWashing() {
   const [showAllLocations, setShowAllLocations] = useState(false);
+export const metadata = {
+  canonical: "https://www.prontocleanz.com/power-washing",
+};
+
+
 
   // Service schema for SEO
   const serviceSchema = {
