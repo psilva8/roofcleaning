@@ -7,11 +7,12 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export default function PressureWashing() {
-  const [showAllLocations, setShowAllLocations] = useState(false);
 export const metadata = {
   canonical: "https://www.prontocleanz.com/pressure-washing",
 };
+
+export default function PressureWashing() {
+  const [showAllLocations, setShowAllLocations] = useState(false);
 
 
   
@@ -94,7 +95,7 @@ export const metadata = {
       <Hero
         title="Professional Pressure Washing Services"
         subtitle="Expert pressure washing solutions for all surfaces throughout Los Angeles"
-        backgroundImage="/images/pressure-washing.jpg"
+        backgroundImage="/images/hero-bg.jpg"
       />
 
       <section className="py-16 md:py-24">
