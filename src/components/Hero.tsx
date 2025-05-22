@@ -10,9 +10,10 @@ interface HeroProps {
   ctaText?: string
   ctaLink?: string
   isPhoneLink?: boolean
+  quality?: number
 }
 
-export default function Hero({ title, subtitle, backgroundImage, ctaText, ctaLink, isPhoneLink = false }: HeroProps) {
+export default function Hero({ title, subtitle, backgroundImage, ctaText, ctaLink, isPhoneLink = false, quality = 90 }: HeroProps) {
   return (
     <div className="relative h-[600px] flex items-center justify-center">
       {/* Background image with overlay */}
