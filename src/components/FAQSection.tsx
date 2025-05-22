@@ -8,14 +8,33 @@ interface FAQ {
 }
 
 interface FAQSectionProps {
-  faqs: FAQ[];
+  faqs?: FAQ[];
   title?: string;
   subtitle?: string;
   cityName?: string;
 }
 
+const defaultFaqs: FAQ[] = [
+  {
+    question: "What types of surfaces can you power wash?",
+    answer: "Our professional power washing services are effective for a wide range of surfaces including concrete, brick, stucco, metal, and many other commercial and industrial surfaces. We adjust our techniques and equipment based on the specific material to ensure effective cleaning without damage."
+  },
+  {
+    question: "How often should commercial properties be power washed?",
+    answer: "Most commercial properties benefit from power washing 2-4 times per year, depending on foot traffic, environmental factors, and industry requirements. High-traffic areas like entrances and sidewalks may need more frequent cleaning, while building exteriors might only need annual service."
+  },
+  {
+    question: "Is power washing safe for the environment?",
+    answer: "Yes, we use environmentally friendly cleaning solutions and water conservation techniques. Our equipment and methods are designed to minimize runoff and prevent contamination while still providing excellent cleaning results."
+  },
+  {
+    question: "Do you offer emergency power washing services?",
+    answer: "Yes, we understand that some situations require immediate attention. We offer expedited and emergency power washing services for situations like graffiti removal, pre-health inspection cleaning, or cleanup after construction or renovation work."
+  }
+];
+
 const FAQSection: React.FC<FAQSectionProps> = ({
-  faqs,
+  faqs = defaultFaqs,
   title = "Frequently Asked Questions",
   subtitle = "Find answers to commonly asked questions about our services",
   cityName = ""

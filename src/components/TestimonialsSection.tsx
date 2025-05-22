@@ -10,14 +10,35 @@ interface Testimonial {
 }
 
 interface TestimonialsSectionProps {
-  testimonials: Testimonial[];
+  testimonials?: Testimonial[];
   title?: string;
   subtitle?: string;
   cityName?: string;
 }
 
+const defaultTestimonials: Testimonial[] = [
+  {
+    name: "John Smith",
+    position: "Business Owner",
+    content: "The power washing service was exceptional. They completely transformed our storefront and parking lot. Highly recommended!",
+    rating: 5
+  },
+  {
+    name: "Sarah Johnson",
+    position: "Property Manager",
+    content: "We've been using their power washing services for our commercial properties for years. Always professional and thorough.",
+    rating: 5
+  },
+  {
+    name: "Michael Rodriguez",
+    position: "Warehouse Supervisor",
+    content: "The industrial power washing service was exactly what we needed. They cleaned years of grime from our loading area in just one day.",
+    rating: 4
+  }
+];
+
 const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
-  testimonials,
+  testimonials = defaultTestimonials,
   title = "What Our Customers Say",
   subtitle = "Read testimonials from our satisfied customers",
   cityName = ""
