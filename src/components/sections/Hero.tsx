@@ -7,11 +7,15 @@ export default function Hero() {
   return (
     <div className="relative h-[600px] w-full">
       {/* Background Image */}
-      <Image src="/images/hero-bg.jpg" alt="Professional pressure washing in Los Angeles"
+      <Image 
+        src="/images/hero-bg.jpg" 
+        alt="Professional pressure washing in Los Angeles"
         fill
         className="object-cover brightness-50"
         priority
-      / quality={90} loading="eager">
+        quality={90} 
+        loading="eager"
+      />
       
       {/* Content Overlay */}
       <div className="absolute inset-0 flex items-center justify-center">
