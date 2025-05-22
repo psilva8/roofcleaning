@@ -48,11 +48,15 @@ export default function AboutPage() {
             </div>
             <div className="lg:w-1/2 lg:pl-12">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
-                <Image src="/images/about-team.jpg" alt="Pronto Cleanz Team" 
+                <Image 
+                  src="/images/about-team.jpg" 
+                  alt="Pronto Cleanz Team" 
                   width={600} 
                   height={400}
                   className="w-full"
-                / quality={90} loading="eager">
+                  quality={90} 
+                  loading="eager"
+                />
               </div>
             </div>
           </div>
