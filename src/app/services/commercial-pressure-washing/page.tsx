@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import Script from 'next/script'
 import Link from 'next/link'
+import AreasWeServe from '@/components/AreasWeServe'
 
 export default function CommercialPressureWashing() {
   // Service schema for commercial pressure washing
@@ -121,6 +122,8 @@ export default function CommercialPressureWashing() {
           </div>
         </div>
       </section>
+
+      <AreasWeServe servicePath="commercial-pressure-washing" serviceTitle="Commercial Pressure Washing" />
     </>
   )
 } 

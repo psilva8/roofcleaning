@@ -1,0 +1,18 @@
+import { Metadata } from 'next'
+
+export const metadata = {
+  title: 'Deck and Patio Cleaning West Covina | Professional Services',
+  description: 'Expert deck and patio cleaning services in West Covina. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+  keywords: 'deck and patio cleaning, west covina deck and patio cleaning, professional cleaning services, eco-friendly cleaning, west covina property maintenance',
+  alternates: {
+    canonical: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/west-covina',
+  },
+  openGraph: {
+    title: 'Deck and Patio Cleaning West Covina | Professional Services',
+    description: 'Expert deck and patio cleaning services in West Covina. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    url: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/west-covina',
+    siteName: 'Pressure Washing Los Angeles',
+    locale: 'en_US',
+    type: 'website',
+  }
+}
