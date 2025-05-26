@@ -1,13 +1,14 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
   const pathname = usePathname()
 
   useEffect(() => {
@@ -22,6 +23,15 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const serviceItems = [
+    { label: 'Commercial Pressure Washing', href: '/services/commercial-pressure-washing' },
+    { label: 'Residential House Washing', href: '/services/residential-house-washing' },
+    { label: 'Concrete Cleaning', href: '/services/concrete-cleaning' },
+    { label: 'Roof Cleaning', href: '/services/roof-cleaning' },
+    { label: 'Deck and Patio Cleaning', href: '/services/deck-and-patio-cleaning' },
+    { label: 'Gutter Cleaning', href: '/services/gutter-cleaning' },
+  ]
 
   const menuItems = [
     { label: 'Home', href: '/' },
@@ -64,6 +74,38 @@ export default function Navbar() {
                 </a>
               )
             })}
+
+            {/* Services Dropdown */}
+            <div className="relative group">
+              <button
+                onClick={() => setServicesOpen(!servicesOpen)}
+                onMouseEnter={() => setServicesOpen(true)}
+                className="px-4 py-2 mx-1 rounded-full font-medium tracking-wide transition-all duration-300 text-gray-600 hover:text-primary hover:bg-blue-50 flex items-center"
+              >
+                Services
+                <ChevronDownIcon className="h-4 w-4 ml-1" />
+              </button>
+
+              <div
+                onMouseLeave={() => setServicesOpen(false)}
+                className={`absolute left-0 mt-2 w-64 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 transition-all duration-300 ${
+                  servicesOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                }`}
+              >
+                <div className="py-2">
+                  {serviceItems.map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      className="block px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-primary"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <a
               href="tel:+12136649502"
               className="ml-2 bg-primary text-white px-6 py-2 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-0.5"
@@ -93,7 +135,7 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 ease-in-out ${
           isOpen 
-            ? 'max-h-96 opacity-100' 
+            ? 'max-h-screen opacity-100' 
             : 'max-h-0 opacity-0 overflow-hidden'
         }`}
       >
@@ -115,6 +157,22 @@ export default function Navbar() {
               </a>
             )
           })}
+
+          {/* Mobile Services Menu */}
+          <div className="px-4 py-2">
+            <div className="font-medium text-gray-900 mb-2">Services</div>
+            {serviceItems.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="block px-4 py-2 text-sm text-gray-600 hover:text-primary hover:bg-blue-50 rounded-lg"
+                onClick={() => setIsOpen(false)}
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+
           <div className="pt-2">
             <a
               href="tel:+12136649502"
