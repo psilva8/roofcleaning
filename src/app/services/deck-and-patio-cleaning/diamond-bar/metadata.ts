@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Deck and Patio Cleaning Diamond Bar | Professional Services',
-  description: 'Expert deck and patio cleaning services in Diamond Bar. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'deck and patio cleaning, diamond bar deck and patio cleaning, professional cleaning services, eco-friendly cleaning, diamond bar property maintenance',
+  description: 'Looking for professional deck and patio cleaning services in Diamond Bar? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'deck and patio cleaning, diamond bar deck and patio cleaning, mildew removal, wood deck cleaning, sealing services, composite deck restoration, diamond bar property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/diamond-bar',
   },
   openGraph: {
     title: 'Deck and Patio Cleaning Diamond Bar | Professional Services',
-    description: 'Expert deck and patio cleaning services in Diamond Bar. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional deck and patio cleaning services in Diamond Bar? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/diamond-bar',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

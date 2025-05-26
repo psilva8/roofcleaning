@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Deck and Patio Cleaning Monrovia | Professional Services',
-  description: 'Expert deck and patio cleaning services in Monrovia. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'deck and patio cleaning, monrovia deck and patio cleaning, professional cleaning services, eco-friendly cleaning, monrovia property maintenance',
+  description: 'Looking for professional deck and patio cleaning services in Monrovia? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'deck and patio cleaning, monrovia deck and patio cleaning, wood deck cleaning, furniture cleaning, sealing services, mildew removal, monrovia property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/monrovia',
   },
   openGraph: {
     title: 'Deck and Patio Cleaning Monrovia | Professional Services',
-    description: 'Expert deck and patio cleaning services in Monrovia. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional deck and patio cleaning services in Monrovia? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/monrovia',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

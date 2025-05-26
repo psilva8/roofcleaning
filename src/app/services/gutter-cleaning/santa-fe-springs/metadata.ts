@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Gutter Cleaning Santa Fe Springs | Professional Services',
-  description: 'Expert gutter cleaning services in Santa Fe Springs. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'gutter cleaning, santa fe springs gutter cleaning, professional cleaning services, eco-friendly cleaning, santa fe springs property maintenance',
+  description: 'Looking for professional gutter cleaning services in Santa Fe Springs? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'gutter cleaning, santa fe springs gutter cleaning, debris removal, downspout cleaning, guard installation, minor repairs, santa fe springs property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/gutter-cleaning/santa-fe-springs',
   },
   openGraph: {
     title: 'Gutter Cleaning Santa Fe Springs | Professional Services',
-    description: 'Expert gutter cleaning services in Santa Fe Springs. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional gutter cleaning services in Santa Fe Springs? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/gutter-cleaning/santa-fe-springs',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

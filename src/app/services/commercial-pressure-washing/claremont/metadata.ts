@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Commercial Pressure Washing Claremont | Professional Services',
-  description: 'Expert commercial pressure washing services in Claremont. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'commercial pressure washing, claremont commercial pressure washing, professional cleaning services, eco-friendly cleaning, claremont property maintenance',
+  description: 'Looking for professional commercial pressure washing services in Claremont? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'commercial pressure washing, claremont commercial pressure washing, building exterior cleaning, oil and grease removal, parking lot and garage cleaning, graffiti removal, claremont property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/commercial-pressure-washing/claremont',
   },
   openGraph: {
     title: 'Commercial Pressure Washing Claremont | Professional Services',
-    description: 'Expert commercial pressure washing services in Claremont. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional commercial pressure washing services in Claremont? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/commercial-pressure-washing/claremont',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

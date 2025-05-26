@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function ConcreteCleaningWhittier() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function ConcreteCleaningWhittier() {
       "@type": "City",
       "name": "Whittier"
     },
-    "description": "Professional concrete cleaning and restoration services in Whittier, Los Angeles County.",
+    "description": "Looking for professional concrete cleaning services in Whittier? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.",
     "serviceType": "Concrete Cleaning"
   }
 
@@ -45,35 +44,31 @@ export default function ConcreteCleaningWhittier() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning in Whittier
+              Expert Concrete Cleaning Services in Whittier
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional concrete cleaning services throughout Whittier. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional concrete cleaning services in Whittier? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in Whittier</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Whittier</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local Whittier service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Stain removal</li>
+                <li>Patio restoration</li>
+                <li>Walkway maintenance</li>
+                <li>Pool deck cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Whittier Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Restore surface appearance</li>
+                <li>Enhance property value</li>
+                <li>Extend concrete life</li>
+                <li>Remove tough stains</li>
               </ul>
             </div>
           </div>

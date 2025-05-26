@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Roof Cleaning San Gabriel | Professional Services',
-  description: 'Expert roof cleaning services in San Gabriel. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'roof cleaning, san gabriel roof cleaning, professional cleaning services, eco-friendly cleaning, san gabriel property maintenance',
+  description: 'Looking for professional roof cleaning services in San Gabriel? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'roof cleaning, san gabriel roof cleaning, moss treatment, gutter system cleaning, shingle cleaning, tile roof cleaning, san gabriel property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/roof-cleaning/san-gabriel',
   },
   openGraph: {
     title: 'Roof Cleaning San Gabriel | Professional Services',
-    description: 'Expert roof cleaning services in San Gabriel. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional roof cleaning services in San Gabriel? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/roof-cleaning/san-gabriel',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Concrete Cleaning Lancaster | Professional Services',
-  description: 'Expert concrete cleaning services in Lancaster. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'concrete cleaning, lancaster concrete cleaning, professional cleaning services, eco-friendly cleaning, lancaster property maintenance',
+  description: 'Looking for professional concrete cleaning services in Lancaster? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'concrete cleaning, lancaster concrete cleaning, stain removal, garage floor cleaning, walkway maintenance, pool deck cleaning, lancaster property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/concrete-cleaning/lancaster',
   },
   openGraph: {
     title: 'Concrete Cleaning Lancaster | Professional Services',
-    description: 'Expert concrete cleaning services in Lancaster. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional concrete cleaning services in Lancaster? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/concrete-cleaning/lancaster',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function ResidentialHouseWashingLaVerne() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function ResidentialHouseWashingLaVerne() {
       "@type": "City",
       "name": "La Verne"
     },
-    "description": "Expert house washing services for homes in La Verne, Los Angeles County.",
+    "description": "Looking for professional residential house washing services in La Verne? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.",
     "serviceType": "Residential House Washing"
   }
 
@@ -45,35 +44,31 @@ export default function ResidentialHouseWashingLaVerne() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Residential House Washing in La Verne
+              Expert Residential House Washing Services in La Verne
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional residential house washing services throughout La Verne. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional residential house washing services in La Verne? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in La Verne</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in La Verne</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local La Verne service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Siding and stucco cleaning</li>
+                <li>Fence washing</li>
+                <li>Garage door cleaning</li>
+                <li>Eaves and soffit cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for La Verne Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Prevent paint damage</li>
+                <li>Protect home value</li>
+                <li>Boost curb appeal</li>
+                <li>Remove harmful mold</li>
               </ul>
             </div>
           </div>

@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function GutterCleaningLosAngeles() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function GutterCleaningLosAngeles() {
       "@type": "City",
       "name": "Los Angeles"
     },
-    "description": "Professional gutter cleaning and maintenance services in Los Angeles, Los Angeles County.",
+    "description": "Looking for professional gutter cleaning services in Los Angeles? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.",
     "serviceType": "Gutter Cleaning"
   }
 
@@ -45,35 +44,31 @@ export default function GutterCleaningLosAngeles() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Gutter Cleaning in Los Angeles
+              Expert Gutter Cleaning Services in Los Angeles
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional gutter cleaning services throughout Los Angeles. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional gutter cleaning services in Los Angeles? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in Los Angeles</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Los Angeles</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local Los Angeles service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Minor repairs</li>
+                <li>Downspout cleaning</li>
+                <li>Debris removal</li>
+                <li>Guard installation</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Los Angeles Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Maintain roof health</li>
+                <li>Protect foundation</li>
+                <li>Save on repairs</li>
+                <li>Avoid pest issues</li>
               </ul>
             </div>
           </div>

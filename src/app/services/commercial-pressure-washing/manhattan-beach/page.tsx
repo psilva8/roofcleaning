@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function CommercialPressureWashingManhattanBeach() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function CommercialPressureWashingManhattanBeach() {
       "@type": "City",
       "name": "Manhattan Beach"
     },
-    "description": "Professional commercial pressure washing services for businesses in Manhattan Beach, Los Angeles County.",
+    "description": "Looking for professional commercial pressure washing services in Manhattan Beach? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.",
     "serviceType": "Commercial Pressure Washing"
   }
 
@@ -45,35 +44,31 @@ export default function CommercialPressureWashingManhattanBeach() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing in Manhattan Beach
+              Expert Commercial Pressure Washing Services in Manhattan Beach
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional commercial pressure washing services throughout Manhattan Beach. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional commercial pressure washing services in Manhattan Beach? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in Manhattan Beach</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Manhattan Beach</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local Manhattan Beach service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Building exterior cleaning</li>
+                <li>Parking lot and garage cleaning</li>
+                <li>Sidewalk and walkway cleaning</li>
+                <li>Dumpster pad cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Manhattan Beach Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Extend surface life</li>
+                <li>Improve business appearance</li>
+                <li>Remove harmful contaminants</li>
+                <li>Enhance property value</li>
               </ul>
             </div>
           </div>

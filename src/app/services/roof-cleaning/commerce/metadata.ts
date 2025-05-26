@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Roof Cleaning Commerce | Professional Services',
-  description: 'Expert roof cleaning services in Commerce. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'roof cleaning, commerce roof cleaning, professional cleaning services, eco-friendly cleaning, commerce property maintenance',
+  description: 'Looking for professional roof cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'roof cleaning, commerce roof cleaning, algae removal, moss treatment, gutter system cleaning, shingle cleaning, commerce property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/roof-cleaning/commerce',
   },
   openGraph: {
     title: 'Roof Cleaning Commerce | Professional Services',
-    description: 'Expert roof cleaning services in Commerce. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional roof cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/roof-cleaning/commerce',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

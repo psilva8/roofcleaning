@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Roof Cleaning Gardena | Professional Services',
-  description: 'Expert roof cleaning services in Gardena. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'roof cleaning, gardena roof cleaning, professional cleaning services, eco-friendly cleaning, gardena property maintenance',
+  description: 'Looking for professional roof cleaning services in Gardena? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'roof cleaning, gardena roof cleaning, tile roof cleaning, algae removal, preventive treatments, moss treatment, gardena property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/roof-cleaning/gardena',
   },
   openGraph: {
     title: 'Roof Cleaning Gardena | Professional Services',
-    description: 'Expert roof cleaning services in Gardena. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional roof cleaning services in Gardena? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/roof-cleaning/gardena',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

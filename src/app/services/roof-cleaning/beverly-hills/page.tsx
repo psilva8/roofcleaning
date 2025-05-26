@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function RoofCleaningBeverlyHills() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function RoofCleaningBeverlyHills() {
       "@type": "City",
       "name": "Beverly Hills"
     },
-    "description": "Safe and effective roof cleaning services in Beverly Hills, Los Angeles County.",
+    "description": "Looking for professional roof cleaning services in Beverly Hills? We specialize in serving luxury estates and high-end commercial properties, addressing common challenges like maintaining prestigious property appearances. Our team focuses on premium service with attention to detail to deliver exceptional results.",
     "serviceType": "Roof Cleaning"
   }
 
@@ -45,35 +44,31 @@ export default function RoofCleaningBeverlyHills() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Roof Cleaning in Beverly Hills
+              Expert Roof Cleaning Services in Beverly Hills
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional roof cleaning services throughout Beverly Hills. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional roof cleaning services in Beverly Hills? We specialize in serving luxury estates and high-end commercial properties, addressing common challenges like maintaining prestigious property appearances. Our team focuses on premium service with attention to detail to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in Beverly Hills</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Beverly Hills</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local Beverly Hills service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Moss treatment</li>
+                <li>Preventive treatments</li>
+                <li>Tile roof cleaning</li>
+                <li>Algae removal</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Beverly Hills Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Prevent leaks</li>
+                <li>Enhance curb appeal</li>
+                <li>Extend roof lifespan</li>
+                <li>Prevent damage</li>
               </ul>
             </div>
           </div>

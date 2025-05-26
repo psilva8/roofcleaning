@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Concrete Cleaning Long Beach | Professional Services',
-  description: 'Expert concrete cleaning services in Long Beach. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'concrete cleaning, long beach concrete cleaning, professional cleaning services, eco-friendly cleaning, long beach property maintenance',
+  description: 'Looking for professional concrete cleaning services in Long Beach? We specialize in serving coastal properties and marine-adjacent buildings, addressing common challenges like salt air exposure and maritime climate. Our team focuses on corrosion prevention and salt removal to deliver exceptional results.',
+  keywords: 'concrete cleaning, long beach concrete cleaning, patio restoration, pool deck cleaning, driveway cleaning, walkway maintenance, long beach property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/concrete-cleaning/long-beach',
   },
   openGraph: {
     title: 'Concrete Cleaning Long Beach | Professional Services',
-    description: 'Expert concrete cleaning services in Long Beach. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional concrete cleaning services in Long Beach? We specialize in serving coastal properties and marine-adjacent buildings, addressing common challenges like salt air exposure and maritime climate. Our team focuses on corrosion prevention and salt removal to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/concrete-cleaning/long-beach',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

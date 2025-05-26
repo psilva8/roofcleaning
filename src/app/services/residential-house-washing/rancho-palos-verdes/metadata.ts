@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Residential House Washing Rancho Palos Verdes | Professional Services',
-  description: 'Expert residential house washing services in Rancho Palos Verdes. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'residential house washing, rancho palos verdes residential house washing, professional cleaning services, eco-friendly cleaning, rancho palos verdes property maintenance',
+  description: 'Looking for professional residential house washing services in Rancho Palos Verdes? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'residential house washing, rancho palos verdes residential house washing, fence washing, window washing, siding and stucco cleaning, eaves and soffit cleaning, rancho palos verdes property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/rancho-palos-verdes',
   },
   openGraph: {
     title: 'Residential House Washing Rancho Palos Verdes | Professional Services',
-    description: 'Expert residential house washing services in Rancho Palos Verdes. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional residential house washing services in Rancho Palos Verdes? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/rancho-palos-verdes',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

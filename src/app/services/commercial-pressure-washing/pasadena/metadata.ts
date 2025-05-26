@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Commercial Pressure Washing Pasadena | Professional Services',
-  description: 'Expert commercial pressure washing services in Pasadena. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'commercial pressure washing, pasadena commercial pressure washing, professional cleaning services, eco-friendly cleaning, pasadena property maintenance',
+  description: 'Looking for professional commercial pressure washing services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.',
+  keywords: 'commercial pressure washing, pasadena commercial pressure washing, parking lot and garage cleaning, sidewalk and walkway cleaning, graffiti removal, dumpster pad cleaning, pasadena property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/commercial-pressure-washing/pasadena',
   },
   openGraph: {
     title: 'Commercial Pressure Washing Pasadena | Professional Services',
-    description: 'Expert commercial pressure washing services in Pasadena. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional commercial pressure washing services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/commercial-pressure-washing/pasadena',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Concrete Cleaning La Verne | Professional Services',
-  description: 'Expert concrete cleaning services in La Verne. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'concrete cleaning, la verne concrete cleaning, professional cleaning services, eco-friendly cleaning, la verne property maintenance',
+  description: 'Looking for professional concrete cleaning services in La Verne? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'concrete cleaning, la verne concrete cleaning, garage floor cleaning, walkway maintenance, pool deck cleaning, patio restoration, la verne property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/concrete-cleaning/la-verne',
   },
   openGraph: {
     title: 'Concrete Cleaning La Verne | Professional Services',
-    description: 'Expert concrete cleaning services in La Verne. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional concrete cleaning services in La Verne? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/concrete-cleaning/la-verne',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

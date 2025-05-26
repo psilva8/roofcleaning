@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Residential House Washing Baldwin Park | Professional Services',
-  description: 'Expert residential house washing services in Baldwin Park. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'residential house washing, baldwin park residential house washing, professional cleaning services, eco-friendly cleaning, baldwin park property maintenance',
+  description: 'Looking for professional residential house washing services in Baldwin Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'residential house washing, baldwin park residential house washing, eaves and soffit cleaning, window washing, siding and stucco cleaning, fence washing, baldwin park property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/baldwin-park',
   },
   openGraph: {
     title: 'Residential House Washing Baldwin Park | Professional Services',
-    description: 'Expert residential house washing services in Baldwin Park. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional residential house washing services in Baldwin Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/baldwin-park',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

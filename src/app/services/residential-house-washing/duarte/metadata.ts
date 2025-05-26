@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Residential House Washing Duarte | Professional Services',
-  description: 'Expert residential house washing services in Duarte. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'residential house washing, duarte residential house washing, professional cleaning services, eco-friendly cleaning, duarte property maintenance',
+  description: 'Looking for professional residential house washing services in Duarte? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'residential house washing, duarte residential house washing, garage door cleaning, fence washing, eaves and soffit cleaning, window washing, duarte property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/duarte',
   },
   openGraph: {
     title: 'Residential House Washing Duarte | Professional Services',
-    description: 'Expert residential house washing services in Duarte. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional residential house washing services in Duarte? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/duarte',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

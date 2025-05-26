@@ -4,7 +4,6 @@ import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function DeckAndPatioCleaningPasadena() {
-  // Service schema with city-specific information
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -23,7 +22,7 @@ export default function DeckAndPatioCleaningPasadena() {
       "@type": "City",
       "name": "Pasadena"
     },
-    "description": "Expert deck and patio cleaning services in Pasadena, Los Angeles County.",
+    "description": "Looking for professional deck and patio cleaning services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.",
     "serviceType": "Deck and Patio Cleaning"
   }
 
@@ -45,35 +44,31 @@ export default function DeckAndPatioCleaningPasadena() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning in Pasadena
+              Expert Deck and Patio Cleaning Services in Pasadena
             </h2>
             <p className="text-lg text-gray-600">
-              We provide professional deck and patio cleaning services throughout Pasadena. 
-              Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions 
-              to deliver exceptional results for your property.
+              Looking for professional deck and patio cleaning services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us in Pasadena</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Pasadena</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Local Pasadena service provider</li>
-                <li>Experienced and professional team</li>
-                <li>Advanced cleaning equipment</li>
-                <li>Eco-friendly cleaning solutions</li>
-                <li>Satisfaction guaranteed</li>
+                <li>Furniture cleaning</li>
+                <li>Sealing services</li>
+                <li>Stone patio cleaning</li>
+                <li>Composite deck restoration</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Our Process</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Pasadena Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Free property assessment</li>
-                <li>Customized cleaning plan</li>
-                <li>Professional execution</li>
-                <li>Quality inspection</li>
-                <li>Customer satisfaction review</li>
+                <li>Protect investment</li>
+                <li>Extend deck life</li>
+                <li>Prevent wood rot</li>
+                <li>Enhance outdoor space</li>
               </ul>
             </div>
           </div>

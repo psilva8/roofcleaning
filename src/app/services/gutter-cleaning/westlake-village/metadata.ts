@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Gutter Cleaning Westlake Village | Professional Services',
-  description: 'Expert gutter cleaning services in Westlake Village. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'gutter cleaning, westlake village gutter cleaning, professional cleaning services, eco-friendly cleaning, westlake village property maintenance',
+  description: 'Looking for professional gutter cleaning services in Westlake Village? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'gutter cleaning, westlake village gutter cleaning, debris removal, downspout cleaning, gutter inspection, minor repairs, westlake village property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/gutter-cleaning/westlake-village',
   },
   openGraph: {
     title: 'Gutter Cleaning Westlake Village | Professional Services',
-    description: 'Expert gutter cleaning services in Westlake Village. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional gutter cleaning services in Westlake Village? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/gutter-cleaning/westlake-village',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

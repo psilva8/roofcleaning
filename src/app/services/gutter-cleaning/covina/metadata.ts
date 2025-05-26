@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Gutter Cleaning Covina | Professional Services',
-  description: 'Expert gutter cleaning services in Covina. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'gutter cleaning, covina gutter cleaning, professional cleaning services, eco-friendly cleaning, covina property maintenance',
+  description: 'Looking for professional gutter cleaning services in Covina? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'gutter cleaning, covina gutter cleaning, debris removal, downspout cleaning, maintenance plans, guard installation, covina property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/gutter-cleaning/covina',
   },
   openGraph: {
     title: 'Gutter Cleaning Covina | Professional Services',
-    description: 'Expert gutter cleaning services in Covina. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional gutter cleaning services in Covina? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/gutter-cleaning/covina',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',

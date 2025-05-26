@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata = {
   title: 'Residential House Washing San Gabriel | Professional Services',
-  description: 'Expert residential house washing services in San Gabriel. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
-  keywords: 'residential house washing, san gabriel residential house washing, professional cleaning services, eco-friendly cleaning, san gabriel property maintenance',
+  description: 'Looking for professional residential house washing services in San Gabriel? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
+  keywords: 'residential house washing, san gabriel residential house washing, eaves and soffit cleaning, entry and porch cleaning, fence washing, window washing, san gabriel property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/san-gabriel',
   },
   openGraph: {
     title: 'Residential House Washing San Gabriel | Professional Services',
-    description: 'Expert residential house washing services in San Gabriel. Professional team, advanced equipment, and eco-friendly solutions. Get a free quote today!',
+    description: 'Looking for professional residential house washing services in San Gabriel? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/san-gabriel',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',
