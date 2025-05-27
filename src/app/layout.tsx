@@ -16,7 +16,7 @@ const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.prontocleanz.com'),
-  title: 'Pressure Washing in Los Angeles - Top-Rated Professional Cleaning Services',
+  title: 'Top Pressure Washing in Los Angeles',
   description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway cleaning, and more. Free estimates!',
   keywords: 'pressure washing in Los Angeles, Los Angeles pressure washing, power washing Los Angeles, driveway cleaning Los Angeles, house washing Los Angeles, commercial pressure washing Los Angeles, residential pressure washing, building washing',
   robots: 'index, follow',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon/favicon.ico',
   },
   openGraph: {
-    title: 'Pressure Washing in Los Angeles - Top-Rated Professional Cleaning Services',
+    title: 'Top Pressure Washing in Los Angeles',
     description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway cleaning, and more. Free estimates!',
     url: 'https://www.prontocleanz.com',
     siteName: 'Pressure Washing Los Angeles',
