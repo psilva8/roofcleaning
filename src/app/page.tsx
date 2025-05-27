@@ -166,6 +166,76 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <motion.div 
+              className="bg-white rounded-lg shadow-md p-8"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Regular Maintenance Programs</h3>
+              <p className="text-gray-600 mb-4">
+                Keep your property looking its best with our scheduled pressure washing in Los Angeles. Our maintenance programs are designed to prevent buildup and maintain your property's curb appeal year-round.
+              </p>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Customized cleaning schedules
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Priority scheduling for maintenance clients
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Preventive care to extend surface life
+                </li>
+              </ul>
+            </motion.div>
+
+            <motion.div 
+              className="bg-white rounded-lg shadow-md p-8"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Pressure Washing</h3>
+              <p className="text-gray-600 mb-4">
+                As a responsible pressure washing company in Los Angeles, we use environmentally friendly cleaning solutions and water-saving techniques to protect both your property and the environment.
+              </p>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Biodegradable cleaning solutions
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Water reclamation systems
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  EPA-compliant practices
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       <Transformations />
 
       <section className="py-16 bg-gray-50">
