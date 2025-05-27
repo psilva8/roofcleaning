@@ -34,7 +34,6 @@ export default function Navbar() {
   ]
 
   const menuItems = [
-    { label: 'Home', href: '/' },
     { label: 'Pressure Washing', href: '/pressure-washing' },
     { label: 'Power Washing', href: '/power-washing' },
     { label: 'About', href: '/about' },
