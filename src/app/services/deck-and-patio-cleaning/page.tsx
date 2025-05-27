@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import Script from 'next/script'
 import Link from 'next/link'
+import AreasWeServe from '@/components/AreasWeServe'
 
 export default function DeckAndPatioCleaning() {
   // Service schema for deck and patio cleaning
@@ -182,6 +183,8 @@ export default function DeckAndPatioCleaning() {
           </div>
         </div>
       </section>
+
+      <AreasWeServe servicePath="deck-and-patio-cleaning" serviceTitle="Deck & Patio Cleaning" />
     </>
   )
 } 
