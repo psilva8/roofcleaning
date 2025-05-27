@@ -44,7 +44,7 @@ export default function ConcreteCleaningMaywood() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning Services in Maywood
+              Concrete Cleaning in Maywood
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional concrete cleaning services in Maywood? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function ConcreteCleaningMaywood() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Maywood</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Stain removal</li>
                 <li>Driveway cleaning</li>
-                <li>Walkway maintenance</li>
                 <li>Patio restoration</li>
+                <li>Walkway maintenance</li>
+                <li>Pool deck cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Maywood Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Remove tough stains</li>
                 <li>Enhance property value</li>
                 <li>Restore surface appearance</li>
-                <li>Prevent concrete damage</li>
+                <li>Extend concrete life</li>
+                <li>Improve safety</li>
               </ul>
             </div>
           </div>

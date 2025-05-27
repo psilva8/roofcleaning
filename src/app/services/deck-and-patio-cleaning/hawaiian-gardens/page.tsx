@@ -44,7 +44,7 @@ export default function DeckAndPatioCleaningHawaiianGardens() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning Services in Hawaiian Gardens
+              Deck and Patio Cleaning in Hawaiian Gardens
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional deck and patio cleaning services in Hawaiian Gardens? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function DeckAndPatioCleaningHawaiianGardens() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Hawaiian Gardens</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
+                <li>Mildew removal</li>
                 <li>Wood deck cleaning</li>
+                <li>Sealing services</li>
                 <li>Composite deck restoration</li>
-                <li>Stone patio cleaning</li>
-                <li>Furniture cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Hawaiian Gardens Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Restore natural beauty</li>
                 <li>Prevent wood rot</li>
+                <li>Restore natural beauty</li>
                 <li>Protect investment</li>
-                <li>Extend deck life</li>
+                <li>Improve safety</li>
               </ul>
             </div>
           </div>

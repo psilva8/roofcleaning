@@ -44,7 +44,7 @@ export default function ConcreteCleaningHermosaBeach() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning Services in Hermosa Beach
+              Concrete Cleaning in Hermosa Beach
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional concrete cleaning services in Hermosa Beach? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,18 +55,18 @@ export default function ConcreteCleaningHermosaBeach() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Hermosa Beach</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Garage floor cleaning</li>
-                <li>Driveway cleaning</li>
-                <li>Patio restoration</li>
                 <li>Stain removal</li>
+                <li>Driveway cleaning</li>
+                <li>Pool deck cleaning</li>
+                <li>Garage floor cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Hermosa Beach Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Restore surface appearance</li>
                 <li>Remove tough stains</li>
+                <li>Improve safety</li>
                 <li>Enhance property value</li>
                 <li>Prevent concrete damage</li>
               </ul>

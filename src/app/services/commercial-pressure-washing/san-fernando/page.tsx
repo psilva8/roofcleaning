@@ -44,7 +44,7 @@ export default function CommercialPressureWashingSanFernando() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing Services in San Fernando
+              Commercial Pressure Washing in San Fernando
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional commercial pressure washing services in San Fernando? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -56,9 +56,9 @@ export default function CommercialPressureWashingSanFernando() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in San Fernando</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Dumpster pad cleaning</li>
-                <li>Graffiti removal</li>
-                <li>Parking lot and garage cleaning</li>
                 <li>Sidewalk and walkway cleaning</li>
+                <li>Parking lot and garage cleaning</li>
+                <li>Graffiti removal</li>
               </ul>
             </div>
 
@@ -66,9 +66,9 @@ export default function CommercialPressureWashingSanFernando() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for San Fernando Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Prevent slip hazards</li>
+                <li>Enhance property value</li>
+                <li>Improve business appearance</li>
                 <li>Maintain safe environment</li>
-                <li>Remove harmful contaminants</li>
-                <li>Extend surface life</li>
               </ul>
             </div>
           </div>

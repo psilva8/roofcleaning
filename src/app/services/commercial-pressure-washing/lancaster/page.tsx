@@ -44,7 +44,7 @@ export default function CommercialPressureWashingLancaster() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing Services in Lancaster
+              Commercial Pressure Washing in Lancaster
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional commercial pressure washing services in Lancaster? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -58,17 +58,17 @@ export default function CommercialPressureWashingLancaster() {
                 <li>Building exterior cleaning</li>
                 <li>Parking lot and garage cleaning</li>
                 <li>Sidewalk and walkway cleaning</li>
-                <li>Oil and grease removal</li>
+                <li>Dumpster pad cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Lancaster Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Improve business appearance</li>
-                <li>Enhance property value</li>
-                <li>Maintain safe environment</li>
                 <li>Remove harmful contaminants</li>
+                <li>Prevent slip hazards</li>
+                <li>Maintain safe environment</li>
+                <li>Improve business appearance</li>
               </ul>
             </div>
           </div>

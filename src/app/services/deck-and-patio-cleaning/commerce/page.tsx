@@ -44,7 +44,7 @@ export default function DeckAndPatioCleaningCommerce() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning Services in Commerce
+              Deck and Patio Cleaning in Commerce
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional deck and patio cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -57,8 +57,8 @@ export default function DeckAndPatioCleaningCommerce() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Mildew removal</li>
                 <li>Furniture cleaning</li>
-                <li>Sealing services</li>
                 <li>Stone patio cleaning</li>
+                <li>Composite deck restoration</li>
               </ul>
             </div>
 
@@ -66,8 +66,8 @@ export default function DeckAndPatioCleaningCommerce() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Commerce Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Extend deck life</li>
-                <li>Protect investment</li>
                 <li>Restore natural beauty</li>
+                <li>Protect investment</li>
                 <li>Prevent wood rot</li>
               </ul>
             </div>

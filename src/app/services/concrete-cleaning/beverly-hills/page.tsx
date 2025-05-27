@@ -44,7 +44,7 @@ export default function ConcreteCleaningBeverlyHills() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning Services in Beverly Hills
+              Concrete Cleaning in Beverly Hills
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional concrete cleaning services in Beverly Hills? We specialize in serving luxury estates and high-end commercial properties, addressing common challenges like maintaining prestigious property appearances. Our team focuses on premium service with attention to detail to deliver exceptional results.
@@ -55,19 +55,19 @@ export default function ConcreteCleaningBeverlyHills() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Beverly Hills</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Garage floor cleaning</li>
-                <li>Pool deck cleaning</li>
-                <li>Stain removal</li>
                 <li>Driveway cleaning</li>
+                <li>Patio restoration</li>
+                <li>Pool deck cleaning</li>
+                <li>Garage floor cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Beverly Hills Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Restore surface appearance</li>
-                <li>Enhance property value</li>
+                <li>Extend concrete life</li>
                 <li>Remove tough stains</li>
+                <li>Enhance property value</li>
                 <li>Improve safety</li>
               </ul>
             </div>

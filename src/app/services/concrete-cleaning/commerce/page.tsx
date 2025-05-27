@@ -44,7 +44,7 @@ export default function ConcreteCleaningCommerce() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning Services in Commerce
+              Concrete Cleaning in Commerce
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional concrete cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -57,8 +57,8 @@ export default function ConcreteCleaningCommerce() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Driveway cleaning</li>
                 <li>Patio restoration</li>
-                <li>Stain removal</li>
-                <li>Pool deck cleaning</li>
+                <li>Garage floor cleaning</li>
+                <li>Walkway maintenance</li>
               </ul>
             </div>
 
@@ -67,7 +67,7 @@ export default function ConcreteCleaningCommerce() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Remove tough stains</li>
                 <li>Restore surface appearance</li>
-                <li>Extend concrete life</li>
+                <li>Improve safety</li>
                 <li>Prevent concrete damage</li>
               </ul>
             </div>

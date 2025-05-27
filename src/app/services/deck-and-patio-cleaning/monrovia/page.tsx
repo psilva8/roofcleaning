@@ -44,7 +44,7 @@ export default function DeckAndPatioCleaningMonrovia() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning Services in Monrovia
+              Deck and Patio Cleaning in Monrovia
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional deck and patio cleaning services in Monrovia? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function DeckAndPatioCleaningMonrovia() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Monrovia</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Wood deck cleaning</li>
-                <li>Composite deck restoration</li>
-                <li>Stone patio cleaning</li>
                 <li>Furniture cleaning</li>
+                <li>Mildew removal</li>
+                <li>Wood deck cleaning</li>
+                <li>Sealing services</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Monrovia Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Protect investment</li>
-                <li>Improve safety</li>
-                <li>Restore natural beauty</li>
+                <li>Enhance outdoor space</li>
                 <li>Prevent wood rot</li>
+                <li>Restore natural beauty</li>
+                <li>Extend deck life</li>
               </ul>
             </div>
           </div>

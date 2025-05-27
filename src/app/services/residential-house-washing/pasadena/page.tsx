@@ -44,7 +44,7 @@ export default function ResidentialHouseWashingPasadena() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Residential House Washing Services in Pasadena
+              Residential House Washing in Pasadena
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional residential house washing services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function ResidentialHouseWashingPasadena() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Pasadena</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Entry and porch cleaning</li>
-                <li>Fence washing</li>
-                <li>Siding and stucco cleaning</li>
                 <li>Eaves and soffit cleaning</li>
+                <li>Siding and stucco cleaning</li>
+                <li>Garage door cleaning</li>
+                <li>Window washing</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Pasadena Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
+                <li>Remove harmful mold</li>
                 <li>Prevent paint damage</li>
+                <li>Protect home value</li>
                 <li>Boost curb appeal</li>
-                <li>Maintain home condition</li>
-                <li>Prepare for painting</li>
               </ul>
             </div>
           </div>

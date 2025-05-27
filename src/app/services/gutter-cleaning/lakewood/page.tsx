@@ -44,7 +44,7 @@ export default function GutterCleaningLakewood() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Gutter Cleaning Services in Lakewood
+              Gutter Cleaning in Lakewood
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional gutter cleaning services in Lakewood? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function GutterCleaningLakewood() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Lakewood</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Maintenance plans</li>
-                <li>Guard installation</li>
-                <li>Minor repairs</li>
                 <li>Gutter inspection</li>
+                <li>Guard installation</li>
+                <li>Downspout cleaning</li>
+                <li>Maintenance plans</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Lakewood Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Prevent water damage</li>
+                <li>Prevent overflow</li>
                 <li>Protect foundation</li>
-                <li>Avoid pest issues</li>
                 <li>Maintain roof health</li>
+                <li>Avoid pest issues</li>
               </ul>
             </div>
           </div>

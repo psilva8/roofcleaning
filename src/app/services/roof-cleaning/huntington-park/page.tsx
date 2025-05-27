@@ -44,7 +44,7 @@ export default function RoofCleaningHuntingtonPark() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Roof Cleaning Services in Huntington Park
+              Roof Cleaning in Huntington Park
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional roof cleaning services in Huntington Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -57,18 +57,18 @@ export default function RoofCleaningHuntingtonPark() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Algae removal</li>
                 <li>Moss treatment</li>
-                <li>Shingle cleaning</li>
-                <li>Tile roof cleaning</li>
+                <li>Gutter system cleaning</li>
+                <li>Preventive treatments</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Huntington Park Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Prevent damage</li>
                 <li>Extend roof lifespan</li>
+                <li>Prevent damage</li>
                 <li>Improve energy efficiency</li>
-                <li>Prevent leaks</li>
+                <li>Maintain warranty</li>
               </ul>
             </div>
           </div>

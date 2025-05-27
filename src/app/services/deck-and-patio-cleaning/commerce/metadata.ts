@@ -1,14 +1,14 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'Deck and Patio Cleaning Commerce | Professional Services',
+  title: 'Deck and Patio Cleaning in Commerce | Professional Services',
   description: 'Looking for professional deck and patio cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'deck and patio cleaning, commerce deck and patio cleaning, furniture cleaning, wood deck cleaning, mildew removal, sealing services, commerce property maintenance',
+  keywords: 'deck and patio cleaning, commerce deck and patio cleaning, stone patio cleaning, furniture cleaning, mildew removal, composite deck restoration, commerce property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/commerce',
   },
   openGraph: {
-    title: 'Deck and Patio Cleaning Commerce | Professional Services',
+    title: 'Deck and Patio Cleaning in Commerce | Professional Services',
     description: 'Looking for professional deck and patio cleaning services in Commerce? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/commerce',
     siteName: 'Pressure Washing Los Angeles',

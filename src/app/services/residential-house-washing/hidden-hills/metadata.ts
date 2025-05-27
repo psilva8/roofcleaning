@@ -1,14 +1,14 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'Residential House Washing Hidden Hills | Professional Services',
+  title: 'Residential House Washing in Hidden Hills | Professional Services',
   description: 'Looking for professional residential house washing services in Hidden Hills? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'residential house washing, hidden hills residential house washing, garage door cleaning, eaves and soffit cleaning, entry and porch cleaning, window washing, hidden hills property maintenance',
+  keywords: 'residential house washing, hidden hills residential house washing, siding and stucco cleaning, fence washing, window washing, eaves and soffit cleaning, hidden hills property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/hidden-hills',
   },
   openGraph: {
-    title: 'Residential House Washing Hidden Hills | Professional Services',
+    title: 'Residential House Washing in Hidden Hills | Professional Services',
     description: 'Looking for professional residential house washing services in Hidden Hills? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/hidden-hills',
     siteName: 'Pressure Washing Los Angeles',

@@ -1,14 +1,14 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'Residential House Washing Inglewood | Professional Services',
+  title: 'Residential House Washing in Inglewood | Professional Services',
   description: 'Looking for professional residential house washing services in Inglewood? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'residential house washing, inglewood residential house washing, garage door cleaning, siding and stucco cleaning, window washing, fence washing, inglewood property maintenance',
+  keywords: 'residential house washing, inglewood residential house washing, garage door cleaning, entry and porch cleaning, siding and stucco cleaning, window washing, inglewood property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/residential-house-washing/inglewood',
   },
   openGraph: {
-    title: 'Residential House Washing Inglewood | Professional Services',
+    title: 'Residential House Washing in Inglewood | Professional Services',
     description: 'Looking for professional residential house washing services in Inglewood? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/residential-house-washing/inglewood',
     siteName: 'Pressure Washing Los Angeles',

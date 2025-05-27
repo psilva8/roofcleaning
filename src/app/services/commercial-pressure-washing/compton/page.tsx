@@ -44,7 +44,7 @@ export default function CommercialPressureWashingCompton() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing Services in Compton
+              Commercial Pressure Washing in Compton
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional commercial pressure washing services in Compton? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,9 +55,9 @@ export default function CommercialPressureWashingCompton() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Compton</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Graffiti removal</li>
-                <li>Building exterior cleaning</li>
                 <li>Oil and grease removal</li>
+                <li>Sidewalk and walkway cleaning</li>
+                <li>Dumpster pad cleaning</li>
                 <li>Parking lot and garage cleaning</li>
               </ul>
             </div>
@@ -65,10 +65,10 @@ export default function CommercialPressureWashingCompton() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Compton Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Enhance property value</li>
-                <li>Prevent slip hazards</li>
                 <li>Improve business appearance</li>
-                <li>Remove harmful contaminants</li>
+                <li>Maintain safe environment</li>
+                <li>Prevent slip hazards</li>
+                <li>Extend surface life</li>
               </ul>
             </div>
           </div>

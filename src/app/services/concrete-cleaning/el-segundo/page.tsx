@@ -44,7 +44,7 @@ export default function ConcreteCleaningElSegundo() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Concrete Cleaning Services in El Segundo
+              Concrete Cleaning in El Segundo
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional concrete cleaning services in El Segundo? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -56,9 +56,9 @@ export default function ConcreteCleaningElSegundo() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in El Segundo</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Pool deck cleaning</li>
-                <li>Garage floor cleaning</li>
                 <li>Patio restoration</li>
-                <li>Driveway cleaning</li>
+                <li>Garage floor cleaning</li>
+                <li>Walkway maintenance</li>
               </ul>
             </div>
 
@@ -66,9 +66,9 @@ export default function ConcreteCleaningElSegundo() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for El Segundo Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Restore surface appearance</li>
-                <li>Remove tough stains</li>
-                <li>Improve safety</li>
+                <li>Enhance property value</li>
                 <li>Extend concrete life</li>
+                <li>Remove tough stains</li>
               </ul>
             </div>
           </div>

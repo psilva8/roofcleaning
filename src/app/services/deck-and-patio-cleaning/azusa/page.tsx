@@ -44,7 +44,7 @@ export default function DeckAndPatioCleaningAzusa() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning Services in Azusa
+              Deck and Patio Cleaning in Azusa
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional deck and patio cleaning services in Azusa? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -56,19 +56,19 @@ export default function DeckAndPatioCleaningAzusa() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Azusa</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Wood deck cleaning</li>
-                <li>Sealing services</li>
-                <li>Stone patio cleaning</li>
                 <li>Composite deck restoration</li>
+                <li>Stone patio cleaning</li>
+                <li>Mildew removal</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Azusa Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Restore natural beauty</li>
-                <li>Protect investment</li>
-                <li>Prevent wood rot</li>
+                <li>Enhance outdoor space</li>
                 <li>Improve safety</li>
+                <li>Restore natural beauty</li>
+                <li>Extend deck life</li>
               </ul>
             </div>
           </div>

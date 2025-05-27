@@ -44,7 +44,7 @@ export default function CommercialPressureWashingPasadena() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing Services in Pasadena
+              Commercial Pressure Washing in Pasadena
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional commercial pressure washing services in Pasadena? We specialize in serving historic homes and traditional architecture, addressing common challenges like preserving delicate historical surfaces. Our team focuses on gentle cleaning methods and heritage preservation to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function CommercialPressureWashingPasadena() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Pasadena</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Graffiti removal</li>
-                <li>Dumpster pad cleaning</li>
-                <li>Sidewalk and walkway cleaning</li>
                 <li>Oil and grease removal</li>
+                <li>Graffiti removal</li>
+                <li>Building exterior cleaning</li>
+                <li>Parking lot and garage cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Pasadena Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
+                <li>Maintain safe environment</li>
                 <li>Prevent slip hazards</li>
-                <li>Remove harmful contaminants</li>
-                <li>Extend surface life</li>
                 <li>Enhance property value</li>
+                <li>Improve business appearance</li>
               </ul>
             </div>
           </div>

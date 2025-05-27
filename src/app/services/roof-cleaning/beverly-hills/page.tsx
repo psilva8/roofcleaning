@@ -44,7 +44,7 @@ export default function RoofCleaningBeverlyHills() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Roof Cleaning Services in Beverly Hills
+              Roof Cleaning in Beverly Hills
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional roof cleaning services in Beverly Hills? We specialize in serving luxury estates and high-end commercial properties, addressing common challenges like maintaining prestigious property appearances. Our team focuses on premium service with attention to detail to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function RoofCleaningBeverlyHills() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Beverly Hills</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Moss treatment</li>
-                <li>Preventive treatments</li>
-                <li>Tile roof cleaning</li>
                 <li>Algae removal</li>
+                <li>Tile roof cleaning</li>
+                <li>Moss treatment</li>
+                <li>Shingle cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Beverly Hills Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Prevent leaks</li>
                 <li>Enhance curb appeal</li>
-                <li>Extend roof lifespan</li>
-                <li>Prevent damage</li>
+                <li>Maintain warranty</li>
+                <li>Improve energy efficiency</li>
+                <li>Prevent leaks</li>
               </ul>
             </div>
           </div>

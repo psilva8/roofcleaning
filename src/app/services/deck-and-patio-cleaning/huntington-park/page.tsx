@@ -44,7 +44,7 @@ export default function DeckAndPatioCleaningHuntingtonPark() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Deck and Patio Cleaning Services in Huntington Park
+              Deck and Patio Cleaning in Huntington Park
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional deck and patio cleaning services in Huntington Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function DeckAndPatioCleaningHuntingtonPark() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Huntington Park</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Stone patio cleaning</li>
-                <li>Furniture cleaning</li>
-                <li>Sealing services</li>
+                <li>Wood deck cleaning</li>
                 <li>Composite deck restoration</li>
+                <li>Furniture cleaning</li>
+                <li>Mildew removal</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Huntington Park Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Extend deck life</li>
+                <li>Protect investment</li>
                 <li>Prevent wood rot</li>
                 <li>Restore natural beauty</li>
-                <li>Protect investment</li>
+                <li>Enhance outdoor space</li>
               </ul>
             </div>
           </div>

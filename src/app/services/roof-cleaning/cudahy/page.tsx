@@ -44,7 +44,7 @@ export default function RoofCleaningCudahy() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Roof Cleaning Services in Cudahy
+              Roof Cleaning in Cudahy
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional roof cleaning services in Cudahy? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function RoofCleaningCudahy() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Cudahy</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Preventive treatments</li>
-                <li>Shingle cleaning</li>
-                <li>Tile roof cleaning</li>
                 <li>Moss treatment</li>
+                <li>Shingle cleaning</li>
+                <li>Preventive treatments</li>
+                <li>Tile roof cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Cudahy Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Extend roof lifespan</li>
+                <li>Maintain warranty</li>
+                <li>Prevent leaks</li>
                 <li>Prevent damage</li>
                 <li>Improve energy efficiency</li>
-                <li>Maintain warranty</li>
               </ul>
             </div>
           </div>

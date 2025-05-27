@@ -44,7 +44,7 @@ export default function GutterCleaningLaCanadaFlintridge() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Gutter Cleaning Services in La Canada Flintridge
+              Gutter Cleaning in La Canada Flintridge
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional gutter cleaning services in La Canada Flintridge? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -56,9 +56,9 @@ export default function GutterCleaningLaCanadaFlintridge() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in La Canada Flintridge</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Guard installation</li>
+                <li>Debris removal</li>
                 <li>Maintenance plans</li>
                 <li>Minor repairs</li>
-                <li>Debris removal</li>
               </ul>
             </div>
 
@@ -66,9 +66,9 @@ export default function GutterCleaningLaCanadaFlintridge() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for La Canada Flintridge Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Prevent overflow</li>
-                <li>Protect foundation</li>
                 <li>Maintain roof health</li>
-                <li>Prevent water damage</li>
+                <li>Avoid pest issues</li>
+                <li>Protect foundation</li>
               </ul>
             </div>
           </div>

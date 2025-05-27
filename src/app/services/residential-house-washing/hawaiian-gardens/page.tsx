@@ -44,7 +44,7 @@ export default function ResidentialHouseWashingHawaiianGardens() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Residential House Washing Services in Hawaiian Gardens
+              Residential House Washing in Hawaiian Gardens
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional residential house washing services in Hawaiian Gardens? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function ResidentialHouseWashingHawaiianGardens() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Hawaiian Gardens</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
+                <li>Garage door cleaning</li>
+                <li>Eaves and soffit cleaning</li>
                 <li>Fence washing</li>
                 <li>Entry and porch cleaning</li>
-                <li>Eaves and soffit cleaning</li>
-                <li>Window washing</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Hawaiian Gardens Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Maintain home condition</li>
                 <li>Boost curb appeal</li>
+                <li>Maintain home condition</li>
                 <li>Protect home value</li>
-                <li>Prepare for painting</li>
+                <li>Remove harmful mold</li>
               </ul>
             </div>
           </div>

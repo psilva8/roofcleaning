@@ -44,7 +44,7 @@ export default function ResidentialHouseWashingLongBeach() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Residential House Washing Services in Long Beach
+              Residential House Washing in Long Beach
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional residential house washing services in Long Beach? We specialize in serving coastal properties and marine-adjacent buildings, addressing common challenges like salt air exposure and maritime climate. Our team focuses on corrosion prevention and salt removal to deliver exceptional results.
@@ -55,20 +55,20 @@ export default function ResidentialHouseWashingLongBeach() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Long Beach</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Fence washing</li>
                 <li>Siding and stucco cleaning</li>
+                <li>Fence washing</li>
+                <li>Eaves and soffit cleaning</li>
                 <li>Window washing</li>
-                <li>Garage door cleaning</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Long Beach Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Boost curb appeal</li>
-                <li>Remove harmful mold</li>
-                <li>Prevent paint damage</li>
                 <li>Protect home value</li>
+                <li>Boost curb appeal</li>
+                <li>Prepare for painting</li>
+                <li>Remove harmful mold</li>
               </ul>
             </div>
           </div>

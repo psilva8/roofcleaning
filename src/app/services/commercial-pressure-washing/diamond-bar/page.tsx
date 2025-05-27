@@ -44,7 +44,7 @@ export default function CommercialPressureWashingDiamondBar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert Commercial Pressure Washing Services in Diamond Bar
+              Commercial Pressure Washing in Diamond Bar
             </h2>
             <p className="text-lg text-gray-600">
               Looking for professional commercial pressure washing services in Diamond Bar? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.
@@ -55,10 +55,10 @@ export default function CommercialPressureWashingDiamondBar() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Diamond Bar</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Oil and grease removal</li>
-                <li>Dumpster pad cleaning</li>
-                <li>Building exterior cleaning</li>
                 <li>Graffiti removal</li>
+                <li>Building exterior cleaning</li>
+                <li>Parking lot and garage cleaning</li>
+                <li>Sidewalk and walkway cleaning</li>
               </ul>
             </div>
 
@@ -66,9 +66,9 @@ export default function CommercialPressureWashingDiamondBar() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Benefits for Diamond Bar Properties</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Enhance property value</li>
+                <li>Maintain safe environment</li>
+                <li>Prevent slip hazards</li>
                 <li>Extend surface life</li>
-                <li>Improve business appearance</li>
-                <li>Remove harmful contaminants</li>
               </ul>
             </div>
           </div>

@@ -1,14 +1,14 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'Deck and Patio Cleaning Baldwin Park | Professional Services',
+  title: 'Deck and Patio Cleaning in Baldwin Park | Professional Services',
   description: 'Looking for professional deck and patio cleaning services in Baldwin Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'deck and patio cleaning, baldwin park deck and patio cleaning, wood deck cleaning, composite deck restoration, furniture cleaning, mildew removal, baldwin park property maintenance',
+  keywords: 'deck and patio cleaning, baldwin park deck and patio cleaning, sealing services, furniture cleaning, composite deck restoration, stone patio cleaning, baldwin park property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/baldwin-park',
   },
   openGraph: {
-    title: 'Deck and Patio Cleaning Baldwin Park | Professional Services',
+    title: 'Deck and Patio Cleaning in Baldwin Park | Professional Services',
     description: 'Looking for professional deck and patio cleaning services in Baldwin Park? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
     url: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/baldwin-park',
     siteName: 'Pressure Washing Los Angeles',

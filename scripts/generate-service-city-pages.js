@@ -208,6 +208,7 @@ function generateCityContent(service, city) {
 // Function to generate page content
 function generatePageContent(service, city) {
   const content = generateCityContent(service, city)
+  const pageTitle = `${service.title} in ${city}`
   
   return `import Hero from '@/components/Hero'
 import Script from 'next/script'
@@ -218,7 +219,7 @@ export default function ${service.path.split('-').map(word => word.charAt(0).toU
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "${service.title} in ${city}",
+    "name": "${pageTitle}",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pressure Washing Los Angeles",
@@ -246,7 +247,7 @@ export default function ${service.path.split('-').map(word => word.charAt(0).toU
       />
       
       <Hero
-        title="${service.title} in ${city}"
+        title="${pageTitle}"
         subtitle="Professional ${service.title.toLowerCase()} services for ${city} properties"
         backgroundImage="${service.image}"
       />
@@ -255,7 +256,7 @@ export default function ${service.path.split('-').map(word => word.charAt(0).toU
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Expert ${service.title} Services in ${city}
+              ${pageTitle}
             </h2>
             <p className="text-lg text-gray-600">
               ${content.intro}
@@ -298,18 +299,19 @@ export default function ${service.path.split('-').map(word => word.charAt(0).toU
 // Function to generate metadata content
 function generateMetadataContent(service, city) {
   const content = generateCityContent(service, city)
+  const pageTitle = `${service.title} in ${city}`
   
   return `import { Metadata } from 'next'
 
 export const metadata = {
-  title: '${service.title} ${city} | Professional Services',
+  title: '${pageTitle} | Professional Services',
   description: '${content.intro}',
   keywords: '${service.title.toLowerCase()}, ${city.toLowerCase()} ${service.title.toLowerCase()}, ${content.features.join(', ').toLowerCase()}, ${city.toLowerCase()} property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/${service.path}/${cityToSlug(city)}',
   },
   openGraph: {
-    title: '${service.title} ${city} | Professional Services',
+    title: '${pageTitle} | Professional Services',
     description: '${content.intro}',
     url: 'https://www.prontocleanz.com/services/${service.path}/${cityToSlug(city)}',
     siteName: 'Pressure Washing Los Angeles',
