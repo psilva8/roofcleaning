@@ -134,32 +134,58 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              {title: 'Residential Pressure Washing', image: '/images/house-washing.jpg'},
-              {title: 'Commercial Pressure Washing', image: '/images/commercial-cleaning.jpg'},
-              {title: 'Driveway & Sidewalk Cleaning', image: '/images/driveway-cleaning.jpg'},
-              {title: 'Roof Cleaning', image: '/images/roof-cleaning.jpg'},
-              {title: 'Regular Maintenance', image: '/images/equipment.jpg'},
-              {title: 'Eco-Friendly Solutions', image: '/images/eco-friendly.jpg'}
+              {
+                title: 'Residential Pressure Washing',
+                image: '/images/house-washing.jpg',
+                link: 'https://www.prontocleanz.com/services/residential-house-washing/'
+              },
+              {
+                title: 'Commercial Pressure Washing',
+                image: '/images/commercial-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/commercial-pressure-washing/'
+              },
+              {
+                title: 'Driveway & Sidewalk Cleaning',
+                image: '/images/driveway-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/concrete-cleaning/'
+              },
+              {
+                title: 'Roof Cleaning',
+                image: '/images/roof-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/roof-cleaning/'
+              },
+              {
+                title: 'Gutter Cleaning',
+                image: '/images/gutter-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/gutter-cleaning/'
+              },
+              {
+                title: 'Deck & Patio Cleaning',
+                image: '/images/deck-patio.jpg',
+                link: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/'
+              }
             ].map((service, index) => (
               <motion.div 
                 key={index} 
-                className="bg-white rounded-lg shadow-md overflow-hidden"
+                className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:shadow-lg transition-shadow"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={service.image} 
-                    alt={service.title} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-gray-900">{service.title}</h3>
-                  <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
-                </div>
+                <a href={service.link} className="block">
+                  <div className="h-48 overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.title} 
+                      className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-bold text-xl mb-2 text-gray-900">{service.title}</h3>
+                    <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
+                  </div>
+                </a>
               </motion.div>
             ))}
           </div>
