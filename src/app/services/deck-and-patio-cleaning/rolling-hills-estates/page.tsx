@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningRollingHillsEstates() {
       <Hero
         title="Deck and Patio Cleaning in Rolling Hills Estates"
         subtitle="Professional deck and patio cleaning services for Rolling Hills Estates properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

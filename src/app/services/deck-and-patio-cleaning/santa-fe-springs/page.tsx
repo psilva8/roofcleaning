@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSantaFeSprings() {
       <Hero
         title="Deck and Patio Cleaning in Santa Fe Springs"
         subtitle="Professional deck and patio cleaning services for Santa Fe Springs properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

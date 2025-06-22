@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningBeverlyHills() {
       <Hero
         title="Deck and Patio Cleaning in Beverly Hills"
         subtitle="Professional deck and patio cleaning services for Beverly Hills properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

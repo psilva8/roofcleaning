@@ -37,7 +37,7 @@ export default function GutterCleaningDiamondBar() {
       <Hero
         title="Gutter Cleaning in Diamond Bar"
         subtitle="Professional gutter cleaning services for Diamond Bar properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSouthGate() {
       <Hero
         title="Deck and Patio Cleaning in South Gate"
         subtitle="Professional deck and patio cleaning services for South Gate properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

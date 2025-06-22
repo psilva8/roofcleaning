@@ -37,7 +37,7 @@ export default function GutterCleaningAlhambra() {
       <Hero
         title="Gutter Cleaning in Alhambra"
         subtitle="Professional gutter cleaning services for Alhambra properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

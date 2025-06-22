@@ -37,7 +37,7 @@ export default function GutterCleaningWestCovina() {
       <Hero
         title="Gutter Cleaning in West Covina"
         subtitle="Professional gutter cleaning services for West Covina properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

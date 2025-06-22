@@ -37,7 +37,7 @@ export default function GutterCleaningHawaiianGardens() {
       <Hero
         title="Gutter Cleaning in Hawaiian Gardens"
         subtitle="Professional gutter cleaning services for Hawaiian Gardens properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

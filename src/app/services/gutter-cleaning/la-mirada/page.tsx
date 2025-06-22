@@ -37,7 +37,7 @@ export default function GutterCleaningLaMirada() {
       <Hero
         title="Gutter Cleaning in La Mirada"
         subtitle="Professional gutter cleaning services for La Mirada properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

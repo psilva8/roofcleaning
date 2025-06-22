@@ -37,7 +37,7 @@ export default function GutterCleaningLongBeach() {
       <Hero
         title="Gutter Cleaning in Long Beach"
         subtitle="Professional gutter cleaning services for Long Beach properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

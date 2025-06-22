@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningLaHabraHeights() {
       <Hero
         title="Deck and Patio Cleaning in La Habra Heights"
         subtitle="Professional deck and patio cleaning services for La Habra Heights properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

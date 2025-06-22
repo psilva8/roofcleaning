@@ -37,7 +37,7 @@ export default function GutterCleaningSanMarino() {
       <Hero
         title="Gutter Cleaning in San Marino"
         subtitle="Professional gutter cleaning services for San Marino properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

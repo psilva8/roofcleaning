@@ -37,7 +37,7 @@ export default function GutterCleaningRedondoBeach() {
       <Hero
         title="Gutter Cleaning in Redondo Beach"
         subtitle="Professional gutter cleaning services for Redondo Beach properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

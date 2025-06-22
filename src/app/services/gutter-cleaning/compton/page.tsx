@@ -37,7 +37,7 @@ export default function GutterCleaningCompton() {
       <Hero
         title="Gutter Cleaning in Compton"
         subtitle="Professional gutter cleaning services for Compton properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSanGabriel() {
       <Hero
         title="Deck and Patio Cleaning in San Gabriel"
         subtitle="Professional deck and patio cleaning services for San Gabriel properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

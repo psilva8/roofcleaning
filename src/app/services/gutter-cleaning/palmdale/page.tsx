@@ -37,7 +37,7 @@ export default function GutterCleaningPalmdale() {
       <Hero
         title="Gutter Cleaning in Palmdale"
         subtitle="Professional gutter cleaning services for Palmdale properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

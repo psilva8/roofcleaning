@@ -37,7 +37,7 @@ export default function GutterCleaningCulverCity() {
       <Hero
         title="Gutter Cleaning in Culver City"
         subtitle="Professional gutter cleaning services for Culver City properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

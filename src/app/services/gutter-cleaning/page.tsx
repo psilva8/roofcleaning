@@ -38,7 +38,7 @@ export default function GutterCleaning() {
       <Hero
         title="Professional Gutter Cleaning"
         subtitle="Protect your home with our expert gutter maintenance services"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

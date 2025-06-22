@@ -37,7 +37,7 @@ export default function GutterCleaningWestHollywood() {
       <Hero
         title="Gutter Cleaning in West Hollywood"
         subtitle="Professional gutter cleaning services for West Hollywood properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

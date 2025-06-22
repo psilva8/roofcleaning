@@ -27,12 +27,12 @@ const services = [
   {
     title: 'Gutter Cleaning',
     description: 'Professional gutter maintenance and debris removal',
-    image: '/images/gutter cleaning.jpg'
+    image: '/images/gutter-cleaning.jpg'
   },
   {
     title: 'Deck & Patio Cleaning',
     description: 'Restore outdoor living spaces to their original beauty',
-    image: '/images/deck and pato cleaning.jpg'
+    image: '/images/deck-and-patio-cleaning.jpg'
   }
 ]
 

@@ -37,7 +37,7 @@ export default function GutterCleaningMalibu() {
       <Hero
         title="Gutter Cleaning in Malibu"
         subtitle="Professional gutter cleaning services for Malibu properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

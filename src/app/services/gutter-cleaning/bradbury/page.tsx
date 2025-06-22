@@ -37,7 +37,7 @@ export default function GutterCleaningBradbury() {
       <Hero
         title="Gutter Cleaning in Bradbury"
         subtitle="Professional gutter cleaning services for Bradbury properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

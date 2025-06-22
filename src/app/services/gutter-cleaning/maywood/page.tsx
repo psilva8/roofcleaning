@@ -37,7 +37,7 @@ export default function GutterCleaningMaywood() {
       <Hero
         title="Gutter Cleaning in Maywood"
         subtitle="Professional gutter cleaning services for Maywood properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

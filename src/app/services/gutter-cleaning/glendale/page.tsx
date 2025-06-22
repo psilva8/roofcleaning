@@ -37,7 +37,7 @@ export default function GutterCleaningGlendale() {
       <Hero
         title="Gutter Cleaning in Glendale"
         subtitle="Professional gutter cleaning services for Glendale properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

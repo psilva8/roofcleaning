@@ -37,7 +37,7 @@ export default function GutterCleaningRosemead() {
       <Hero
         title="Gutter Cleaning in Rosemead"
         subtitle="Professional gutter cleaning services for Rosemead properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

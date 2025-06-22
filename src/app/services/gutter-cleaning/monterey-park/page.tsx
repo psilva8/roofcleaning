@@ -37,7 +37,7 @@ export default function GutterCleaningMontereyPark() {
       <Hero
         title="Gutter Cleaning in Monterey Park"
         subtitle="Professional gutter cleaning services for Monterey Park properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningBellflower() {
       <Hero
         title="Deck and Patio Cleaning in Bellflower"
         subtitle="Professional deck and patio cleaning services for Bellflower properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -1,80 +1,85 @@
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
 
-// Function to fix image paths and handling
-async function fixImagePaths() {
-  console.log('Fixing image paths in components...');
+// Function to recursively find all files with specific extension
+function findFiles(dir, extension) {
+  const files = [];
   
-  // Find all TSX files in the src directory
-  const files = glob.sync('src/**/*.tsx');
-  
-  let updatedCount = 0;
-  
-  for (const file of files) {
-    try {
-      let content = fs.readFileSync(file, 'utf8');
-      let originalContent = content;
+  function traverse(currentDir) {
+    const items = fs.readdirSync(currentDir);
+    
+    for (const item of items) {
+      const fullPath = path.join(currentDir, item);
+      const stat = fs.statSync(fullPath);
       
-      // Replace img tags with explicit width and height
-      content = content.replace(
-        /<img\s+src="([^"]+)"\s+alt="([^"]+)"([^>]*)>/g,
-        (match, src, alt, rest) => {
-          // Check if the rest already contains width and height
-          if (!rest.includes('width=') || !rest.includes('height=')) {
-            return `<img src="${src}" alt="${alt}" width="800" height="600" ${rest}>`;
-          }
-          return match;
-        }
-      );
-      
-      // Replace relative image paths to ensure they have proper format for static export
-      content = content.replace(
-        /src="(\/images\/[^"]+)"/g,
-        'src="$1"'
-      );
-
-      // Replace backgroundImage style with properly formatted path
-      content = content.replace(
-        /backgroundImage:\s*`[^`]*url\(\$\{([^}]+)\}\)`/g,
-        (match, path) => {
-          return `backgroundImage: \`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\${${path}})\``;
-        }
-      );
-      
-      // Update next/image components to use better quality and loading strategy
-      content = content.replace(
-        /<Image\s+src="([^"]+)"\s+alt="([^"]+)"([^>]*)>/g,
-        (match, src, alt, rest) => {
-          if (!rest.includes('quality=')) {
-            rest = rest + ' quality={90}';
-          }
-          if (!rest.includes('loading=')) {
-            rest = rest + ' loading="eager"';
-          }
-          return `<Image src="${src}" alt="${alt}"${rest}>`;
-        }
-      );
-      
-      // Update Hero component to use higher quality image
-      content = content.replace(
-        /backgroundImage="\/images\/hero-bg.jpg"/g,
-        'backgroundImage="/images/hero-bg.jpg" quality={100}'
-      );
-      
-      // Write back if any changes were made
-      if (content !== originalContent) {
-        fs.writeFileSync(file, content, 'utf8');
-        console.log(`✅ Updated image paths in ${file}`);
-        updatedCount++;
+      if (stat.isDirectory()) {
+        traverse(fullPath);
+      } else if (item.endsWith(extension)) {
+        files.push(fullPath);
       }
-    } catch (error) {
-      console.error(`❌ Error processing ${file}:`, error);
     }
   }
   
-  console.log(`Completed updating ${updatedCount} files.`);
+  traverse(dir);
+  return files;
 }
 
-// Run the function
-fixImagePaths().catch(console.error); 
+// Fix gutter cleaning image paths
+function fixGutterCleaningImages() {
+  console.log('🔧 Fixing gutter cleaning image paths...');
+  
+  // Find all gutter cleaning service pages
+  const gutterPages = findFiles('src/app/services/gutter-cleaning', '.tsx');
+  
+  for (const filePath of gutterPages) {
+    try {
+      let content = fs.readFileSync(filePath, 'utf8');
+      
+      // Replace the old image path with the new one
+      const updated = content.replace(
+        '/images/gutter cleaning.jpg',
+        '/images/gutter-cleaning.jpg'
+      );
+      
+      if (updated !== content) {
+        fs.writeFileSync(filePath, updated, 'utf8');
+        console.log(`✅ Updated: ${filePath}`);
+      }
+    } catch (error) {
+      console.error(`❌ Error updating ${filePath}:`, error);
+    }
+  }
+}
+
+// Fix deck and patio cleaning image paths
+function fixDeckPatioCleaningImages() {
+  console.log('🔧 Fixing deck and patio cleaning image paths...');
+  
+  // Find all deck and patio cleaning service pages
+  const deckPages = findFiles('src/app/services/deck-and-patio-cleaning', '.tsx');
+  
+  for (const filePath of deckPages) {
+    try {
+      let content = fs.readFileSync(filePath, 'utf8');
+      
+      // Replace the old image path with the new one
+      const updated = content.replace(
+        '/images/deck and pato cleaning.jpg',
+        '/images/deck-and-patio-cleaning.jpg'
+      );
+      
+      if (updated !== content) {
+        fs.writeFileSync(filePath, updated, 'utf8');
+        console.log(`✅ Updated: ${filePath}`);
+      }
+    } catch (error) {
+      console.error(`❌ Error updating ${filePath}:`, error);
+    }
+  }
+}
+
+// Run the fixes
+console.log('🚀 Starting image path fixes...');
+fixGutterCleaningImages();
+fixDeckPatioCleaningImages();
+console.log('✅ All image paths have been fixed!'); 

@@ -37,7 +37,7 @@ export default function GutterCleaningLaVerne() {
       <Hero
         title="Gutter Cleaning in La Verne"
         subtitle="Professional gutter cleaning services for La Verne properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

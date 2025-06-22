@@ -37,7 +37,7 @@ export default function GutterCleaningArcadia() {
       <Hero
         title="Gutter Cleaning in Arcadia"
         subtitle="Professional gutter cleaning services for Arcadia properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

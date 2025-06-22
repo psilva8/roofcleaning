@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSanMarino() {
       <Hero
         title="Deck and Patio Cleaning in San Marino"
         subtitle="Professional deck and patio cleaning services for San Marino properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -188,7 +188,7 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/deck and pato cleaning.jpg" 
+                    src="/images/deck-and-patio-cleaning.jpg" 
                     alt="Deck & Patio Cleaning" 
                     className="w-full h-full object-cover"
                   />
@@ -223,7 +223,7 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/gutter cleaning.jpg" 
+                    src="/images/gutter-cleaning.jpg" 
                     alt="Gutter Cleaning" 
                     className="w-full h-full object-cover"
                   />

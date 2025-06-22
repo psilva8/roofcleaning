@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningDuarte() {
       <Hero
         title="Deck and Patio Cleaning in Duarte"
         subtitle="Professional deck and patio cleaning services for Duarte properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

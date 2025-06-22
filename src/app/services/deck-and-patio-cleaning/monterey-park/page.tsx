@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningMontereyPark() {
       <Hero
         title="Deck and Patio Cleaning in Monterey Park"
         subtitle="Professional deck and patio cleaning services for Monterey Park properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

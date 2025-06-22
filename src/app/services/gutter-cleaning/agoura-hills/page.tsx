@@ -37,7 +37,7 @@ export default function GutterCleaningAgouraHills() {
       <Hero
         title="Gutter Cleaning in Agoura Hills"
         subtitle="Professional gutter cleaning services for Agoura Hills properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

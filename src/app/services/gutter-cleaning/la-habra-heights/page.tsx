@@ -37,7 +37,7 @@ export default function GutterCleaningLaHabraHeights() {
       <Hero
         title="Gutter Cleaning in La Habra Heights"
         subtitle="Professional gutter cleaning services for La Habra Heights properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

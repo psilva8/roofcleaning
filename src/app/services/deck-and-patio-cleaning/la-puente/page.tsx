@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningLaPuente() {
       <Hero
         title="Deck and Patio Cleaning in La Puente"
         subtitle="Professional deck and patio cleaning services for La Puente properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

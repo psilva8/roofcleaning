@@ -37,7 +37,7 @@ export default function GutterCleaningBeverlyHills() {
       <Hero
         title="Gutter Cleaning in Beverly Hills"
         subtitle="Professional gutter cleaning services for Beverly Hills properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

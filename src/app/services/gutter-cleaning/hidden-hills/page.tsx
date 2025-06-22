@@ -37,7 +37,7 @@ export default function GutterCleaningHiddenHills() {
       <Hero
         title="Gutter Cleaning in Hidden Hills"
         subtitle="Professional gutter cleaning services for Hidden Hills properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

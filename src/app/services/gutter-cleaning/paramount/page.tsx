@@ -37,7 +37,7 @@ export default function GutterCleaningParamount() {
       <Hero
         title="Gutter Cleaning in Paramount"
         subtitle="Professional gutter cleaning services for Paramount properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

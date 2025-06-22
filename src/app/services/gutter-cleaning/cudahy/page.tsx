@@ -37,7 +37,7 @@ export default function GutterCleaningCudahy() {
       <Hero
         title="Gutter Cleaning in Cudahy"
         subtitle="Professional gutter cleaning services for Cudahy properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

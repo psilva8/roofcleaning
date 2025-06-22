@@ -37,7 +37,7 @@ export default function GutterCleaningLynwood() {
       <Hero
         title="Gutter Cleaning in Lynwood"
         subtitle="Professional gutter cleaning services for Lynwood properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

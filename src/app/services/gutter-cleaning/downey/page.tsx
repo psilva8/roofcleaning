@@ -37,7 +37,7 @@ export default function GutterCleaningDowney() {
       <Hero
         title="Gutter Cleaning in Downey"
         subtitle="Professional gutter cleaning services for Downey properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

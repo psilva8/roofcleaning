@@ -37,7 +37,7 @@ export default function GutterCleaningBell() {
       <Hero
         title="Gutter Cleaning in Bell"
         subtitle="Professional gutter cleaning services for Bell properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

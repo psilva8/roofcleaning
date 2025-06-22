@@ -37,7 +37,7 @@ export default function GutterCleaningArtesia() {
       <Hero
         title="Gutter Cleaning in Artesia"
         subtitle="Professional gutter cleaning services for Artesia properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

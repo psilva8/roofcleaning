@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningCerritos() {
       <Hero
         title="Deck and Patio Cleaning in Cerritos"
         subtitle="Professional deck and patio cleaning services for Cerritos properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

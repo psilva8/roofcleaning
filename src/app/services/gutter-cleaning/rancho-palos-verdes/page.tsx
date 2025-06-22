@@ -37,7 +37,7 @@ export default function GutterCleaningRanchoPalosVerdes() {
       <Hero
         title="Gutter Cleaning in Rancho Palos Verdes"
         subtitle="Professional gutter cleaning services for Rancho Palos Verdes properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function GutterCleaningHermosaBeach() {
       <Hero
         title="Gutter Cleaning in Hermosa Beach"
         subtitle="Professional gutter cleaning services for Hermosa Beach properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

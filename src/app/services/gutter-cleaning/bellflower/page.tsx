@@ -37,7 +37,7 @@ export default function GutterCleaningBellflower() {
       <Hero
         title="Gutter Cleaning in Bellflower"
         subtitle="Professional gutter cleaning services for Bellflower properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

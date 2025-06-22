@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningWestCovina() {
       <Hero
         title="Deck and Patio Cleaning in West Covina"
         subtitle="Professional deck and patio cleaning services for West Covina properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

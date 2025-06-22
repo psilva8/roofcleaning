@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningAvalon() {
       <Hero
         title="Deck and Patio Cleaning in Avalon"
         subtitle="Professional deck and patio cleaning services for Avalon properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

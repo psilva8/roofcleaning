@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningLaMirada() {
       <Hero
         title="Deck and Patio Cleaning in La Mirada"
         subtitle="Professional deck and patio cleaning services for La Mirada properties"
-        backgroundImage="/images/deck and pato cleaning.jpg"
+        backgroundImage="/images/deck-and-patio-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

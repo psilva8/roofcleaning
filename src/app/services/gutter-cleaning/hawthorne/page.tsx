@@ -37,7 +37,7 @@ export default function GutterCleaningHawthorne() {
       <Hero
         title="Gutter Cleaning in Hawthorne"
         subtitle="Professional gutter cleaning services for Hawthorne properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

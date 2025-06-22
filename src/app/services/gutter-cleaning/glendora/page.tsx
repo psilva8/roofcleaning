@@ -37,7 +37,7 @@ export default function GutterCleaningGlendora() {
       <Hero
         title="Gutter Cleaning in Glendora"
         subtitle="Professional gutter cleaning services for Glendora properties"
-        backgroundImage="/images/gutter cleaning.jpg"
+        backgroundImage="/images/gutter-cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">
