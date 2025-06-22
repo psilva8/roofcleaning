@@ -37,7 +37,7 @@ export default function GutterCleaningTorrance() {
       <Hero
         title="Gutter Cleaning in Torrance"
         subtitle="Professional gutter cleaning services for Torrance properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

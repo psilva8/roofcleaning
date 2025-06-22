@@ -37,7 +37,7 @@ export default function GutterCleaningAvalon() {
       <Hero
         title="Gutter Cleaning in Avalon"
         subtitle="Professional gutter cleaning services for Avalon properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

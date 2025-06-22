@@ -37,7 +37,7 @@ export default function GutterCleaningNorwalk() {
       <Hero
         title="Gutter Cleaning in Norwalk"
         subtitle="Professional gutter cleaning services for Norwalk properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

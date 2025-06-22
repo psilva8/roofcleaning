@@ -37,7 +37,7 @@ export default function GutterCleaningLaPuente() {
       <Hero
         title="Gutter Cleaning in La Puente"
         subtitle="Professional gutter cleaning services for La Puente properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

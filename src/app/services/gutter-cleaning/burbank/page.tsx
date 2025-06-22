@@ -37,7 +37,7 @@ export default function GutterCleaningBurbank() {
       <Hero
         title="Gutter Cleaning in Burbank"
         subtitle="Professional gutter cleaning services for Burbank properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

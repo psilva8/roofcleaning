@@ -37,7 +37,7 @@ export default function GutterCleaningSantaMonica() {
       <Hero
         title="Gutter Cleaning in Santa Monica"
         subtitle="Professional gutter cleaning services for Santa Monica properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

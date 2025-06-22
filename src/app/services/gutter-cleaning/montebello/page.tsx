@@ -37,7 +37,7 @@ export default function GutterCleaningMontebello() {
       <Hero
         title="Gutter Cleaning in Montebello"
         subtitle="Professional gutter cleaning services for Montebello properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function GutterCleaningLancaster() {
       <Hero
         title="Gutter Cleaning in Lancaster"
         subtitle="Professional gutter cleaning services for Lancaster properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

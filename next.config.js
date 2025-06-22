@@ -30,6 +30,7 @@ const generateCityRoutes = () => {
 };
 
 const nextConfig = {
+  output: 'export',
   images: {
     unoptimized: true,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
@@ -47,7 +48,6 @@ const nextConfig = {
   basePath: '',
   assetPrefix: '',
   trailingSlash: true,
-  output: 'export', // Static site export for Cloudflare Pages
   distDir: 'out',
 }
 

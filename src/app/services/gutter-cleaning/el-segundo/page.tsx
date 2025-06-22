@@ -37,7 +37,7 @@ export default function GutterCleaningElSegundo() {
       <Hero
         title="Gutter Cleaning in El Segundo"
         subtitle="Professional gutter cleaning services for El Segundo properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

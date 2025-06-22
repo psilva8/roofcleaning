@@ -37,7 +37,7 @@ export default function GutterCleaningCarson() {
       <Hero
         title="Gutter Cleaning in Carson"
         subtitle="Professional gutter cleaning services for Carson properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

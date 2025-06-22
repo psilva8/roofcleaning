@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningCompton() {
       <Hero
         title="Deck and Patio Cleaning in Compton"
         subtitle="Professional deck and patio cleaning services for Compton properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function GutterCleaningManhattanBeach() {
       <Hero
         title="Gutter Cleaning in Manhattan Beach"
         subtitle="Professional gutter cleaning services for Manhattan Beach properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function GutterCleaningSantaFeSprings() {
       <Hero
         title="Gutter Cleaning in Santa Fe Springs"
         subtitle="Professional gutter cleaning services for Santa Fe Springs properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function GutterCleaningMonrovia() {
       <Hero
         title="Gutter Cleaning in Monrovia"
         subtitle="Professional gutter cleaning services for Monrovia properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

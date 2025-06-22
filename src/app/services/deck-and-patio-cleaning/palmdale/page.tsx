@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningPalmdale() {
       <Hero
         title="Deck and Patio Cleaning in Palmdale"
         subtitle="Professional deck and patio cleaning services for Palmdale properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

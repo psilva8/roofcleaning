@@ -37,7 +37,7 @@ export default function GutterCleaningBaldwinPark() {
       <Hero
         title="Gutter Cleaning in Baldwin Park"
         subtitle="Professional gutter cleaning services for Baldwin Park properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

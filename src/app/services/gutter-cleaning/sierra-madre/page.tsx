@@ -37,7 +37,7 @@ export default function GutterCleaningSierraMadre() {
       <Hero
         title="Gutter Cleaning in Sierra Madre"
         subtitle="Professional gutter cleaning services for Sierra Madre properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

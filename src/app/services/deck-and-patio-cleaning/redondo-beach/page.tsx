@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningRedondoBeach() {
       <Hero
         title="Deck and Patio Cleaning in Redondo Beach"
         subtitle="Professional deck and patio cleaning services for Redondo Beach properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

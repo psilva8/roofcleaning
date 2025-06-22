@@ -37,7 +37,7 @@ export default function GutterCleaningPalosVerdesEstates() {
       <Hero
         title="Gutter Cleaning in Palos Verdes Estates"
         subtitle="Professional gutter cleaning services for Palos Verdes Estates properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningWhittier() {
       <Hero
         title="Deck and Patio Cleaning in Whittier"
         subtitle="Professional deck and patio cleaning services for Whittier properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

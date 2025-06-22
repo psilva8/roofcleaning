@@ -37,7 +37,7 @@ export default function GutterCleaningRollingHills() {
       <Hero
         title="Gutter Cleaning in Rolling Hills"
         subtitle="Professional gutter cleaning services for Rolling Hills properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

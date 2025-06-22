@@ -37,7 +37,7 @@ export default function GutterCleaningSanFernando() {
       <Hero
         title="Gutter Cleaning in San Fernando"
         subtitle="Professional gutter cleaning services for San Fernando properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

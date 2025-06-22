@@ -37,7 +37,7 @@ export default function GutterCleaningSouthPasadena() {
       <Hero
         title="Gutter Cleaning in South Pasadena"
         subtitle="Professional gutter cleaning services for South Pasadena properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

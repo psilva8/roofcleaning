@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningTempleCity() {
       <Hero
         title="Deck and Patio Cleaning in Temple City"
         subtitle="Professional deck and patio cleaning services for Temple City properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

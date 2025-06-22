@@ -37,7 +37,7 @@ export default function GutterCleaningGardena() {
       <Hero
         title="Gutter Cleaning in Gardena"
         subtitle="Professional gutter cleaning services for Gardena properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

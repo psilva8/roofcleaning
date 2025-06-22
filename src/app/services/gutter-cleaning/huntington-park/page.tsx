@@ -37,7 +37,7 @@ export default function GutterCleaningHuntingtonPark() {
       <Hero
         title="Gutter Cleaning in Huntington Park"
         subtitle="Professional gutter cleaning services for Huntington Park properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

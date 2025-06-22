@@ -37,7 +37,7 @@ export default function GutterCleaningElMonte() {
       <Hero
         title="Gutter Cleaning in El Monte"
         subtitle="Professional gutter cleaning services for El Monte properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

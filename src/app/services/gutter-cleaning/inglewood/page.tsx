@@ -37,7 +37,7 @@ export default function GutterCleaningInglewood() {
       <Hero
         title="Gutter Cleaning in Inglewood"
         subtitle="Professional gutter cleaning services for Inglewood properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

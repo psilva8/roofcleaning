@@ -37,7 +37,7 @@ export default function GutterCleaningCalabasas() {
       <Hero
         title="Gutter Cleaning in Calabasas"
         subtitle="Professional gutter cleaning services for Calabasas properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

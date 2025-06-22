@@ -37,7 +37,7 @@ export default function GutterCleaningTempleCity() {
       <Hero
         title="Gutter Cleaning in Temple City"
         subtitle="Professional gutter cleaning services for Temple City properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

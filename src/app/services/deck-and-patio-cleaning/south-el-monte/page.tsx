@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSouthElMonte() {
       <Hero
         title="Deck and Patio Cleaning in South El Monte"
         subtitle="Professional deck and patio cleaning services for South El Monte properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

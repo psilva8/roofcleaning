@@ -38,7 +38,7 @@ export default function DeckAndPatioCleaning() {
       <Hero
         title="Deck & Patio Cleaning"
         subtitle="Restore your outdoor living spaces to their original beauty"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

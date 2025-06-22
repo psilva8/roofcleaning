@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningCarson() {
       <Hero
         title="Deck and Patio Cleaning in Carson"
         subtitle="Professional deck and patio cleaning services for Carson properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

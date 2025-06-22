@@ -37,7 +37,7 @@ export default function GutterCleaningWhittier() {
       <Hero
         title="Gutter Cleaning in Whittier"
         subtitle="Professional gutter cleaning services for Whittier properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

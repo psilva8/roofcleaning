@@ -37,7 +37,7 @@ export default function GutterCleaningAzusa() {
       <Hero
         title="Gutter Cleaning in Azusa"
         subtitle="Professional gutter cleaning services for Azusa properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

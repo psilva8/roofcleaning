@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningIndustry() {
       <Hero
         title="Deck and Patio Cleaning in Industry"
         subtitle="Professional deck and patio cleaning services for Industry properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

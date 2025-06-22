@@ -37,7 +37,7 @@ export default function GutterCleaningSouthGate() {
       <Hero
         title="Gutter Cleaning in South Gate"
         subtitle="Professional gutter cleaning services for South Gate properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

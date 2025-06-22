@@ -37,7 +37,7 @@ export default function GutterCleaningSignalHill() {
       <Hero
         title="Gutter Cleaning in Signal Hill"
         subtitle="Professional gutter cleaning services for Signal Hill properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

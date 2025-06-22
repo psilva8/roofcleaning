@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningSantaClarita() {
       <Hero
         title="Deck and Patio Cleaning in Santa Clarita"
         subtitle="Professional deck and patio cleaning services for Santa Clarita properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

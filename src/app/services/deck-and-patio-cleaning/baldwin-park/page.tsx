@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningBaldwinPark() {
       <Hero
         title="Deck and Patio Cleaning in Baldwin Park"
         subtitle="Professional deck and patio cleaning services for Baldwin Park properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

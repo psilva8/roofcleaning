@@ -37,7 +37,7 @@ export default function GutterCleaningPomona() {
       <Hero
         title="Gutter Cleaning in Pomona"
         subtitle="Professional gutter cleaning services for Pomona properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

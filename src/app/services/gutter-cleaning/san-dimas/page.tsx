@@ -37,7 +37,7 @@ export default function GutterCleaningSanDimas() {
       <Hero
         title="Gutter Cleaning in San Dimas"
         subtitle="Professional gutter cleaning services for San Dimas properties"
-        backgroundImage="/images/gutter-cleaning.jpg"
+        backgroundImage="/images/gutter cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">

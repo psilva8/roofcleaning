@@ -37,7 +37,7 @@ export default function DeckAndPatioCleaningRanchoPalosVerdes() {
       <Hero
         title="Deck and Patio Cleaning in Rancho Palos Verdes"
         subtitle="Professional deck and patio cleaning services for Rancho Palos Verdes properties"
-        backgroundImage="/images/deck-cleaning.jpg"
+        backgroundImage="/images/deck and pato cleaning.jpg"
       />
 
       <section className="py-16 md:py-24">
