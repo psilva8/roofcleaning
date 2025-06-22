@@ -188,15 +188,15 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/equipment.jpg" 
-                    alt="Deck & Fence Washing" 
+                    src="/images/deck and pato cleaning.jpg" 
+                    alt="Deck & Patio Cleaning" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Deck & Fence Washing</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Deck & Patio Cleaning</h4>
                   <p className="text-gray-600 mb-4">
-                    Restore wood, vinyl, and composite decks and fences to their original beauty with our specialized cleaning services.
+                    Restore wood, vinyl, and composite decks and patios to their original beauty with our specialized cleaning services.
                   </p>
                   <ul className="list-disc pl-5 text-gray-600 mb-4">
                     <li>Removes dirt, mold, and mildew</li>
@@ -204,6 +204,80 @@ export default function Services() {
                     <li>Prevents rotting and deterioration</li>
                     <li>Brings back natural color and appearance</li>
                   </ul>
+                  <Link 
+                    href="/services/deck-and-patio-cleaning" 
+                    className="inline-block bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm"
+                  >
+                    Learn More
+                  </Link>
+                </div>
+              </motion.div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <motion.div 
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div className="h-64 overflow-hidden">
+                  <img 
+                    src="/images/gutter cleaning.jpg" 
+                    alt="Gutter Cleaning" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Gutter Cleaning</h4>
+                  <p className="text-gray-600 mb-4">
+                    Professional gutter cleaning services to protect your home from water damage and maintain proper drainage.
+                  </p>
+                  <ul className="list-disc pl-5 text-gray-600 mb-4">
+                    <li>Complete debris removal</li>
+                    <li>Downspout cleaning and testing</li>
+                    <li>Minor repair services</li>
+                    <li>Prevents water damage</li>
+                  </ul>
+                  <Link 
+                    href="/services/gutter-cleaning" 
+                    className="inline-block bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm"
+                  >
+                    Learn More
+                  </Link>
+                </div>
+              </motion.div>
+
+              <motion.div 
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <div className="h-64 overflow-hidden">
+                  <img 
+                    src="/images/equipment.jpg" 
+                    alt="Window Cleaning" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Window Cleaning</h4>
+                  <p className="text-gray-600 mb-4">
+                    Professional window cleaning services for crystal clear views and enhanced curb appeal.
+                  </p>
+                  <ul className="list-disc pl-5 text-gray-600 mb-4">
+                    <li>Interior and exterior cleaning</li>
+                    <li>Screen cleaning and repair</li>
+                    <li>Streak-free finish</li>
+                    <li>Regular maintenance programs</li>
+                  </ul>
+                  <Link 
+                    href="/contact" 
+                    className="inline-block bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm"
+                  >
+                    Get Quote
+                  </Link>
                 </div>
               </motion.div>
             </div>

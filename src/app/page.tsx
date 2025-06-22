@@ -156,12 +156,12 @@ export default function Home() {
               },
               {
                 title: 'Gutter Cleaning',
-                image: '/images/gutter-cleaning.jpg',
+                image: '/images/gutter cleaning.jpg',
                 link: 'https://www.prontocleanz.com/services/gutter-cleaning/'
               },
               {
                 title: 'Deck & Patio Cleaning',
-                image: '/images/deck-patio.jpg',
+                image: '/images/deck and pato cleaning.jpg',
                 link: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/'
               }
             ].map((service, index) => (

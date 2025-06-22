@@ -99,7 +99,7 @@ const services = [
     path: 'deck-and-patio-cleaning',
     title: 'Deck and Patio Cleaning',
     description: 'Expert deck and patio cleaning services',
-    image: '/images/deck-cleaning.jpg',
+    image: '/images/deck and pato cleaning.jpg',
     features: [
       'Wood deck cleaning',
       'Composite deck restoration',
@@ -121,7 +121,7 @@ const services = [
     path: 'gutter-cleaning',
     title: 'Gutter Cleaning',
     description: 'Professional gutter cleaning and maintenance services',
-    image: '/images/gutter-cleaning.jpg',
+    image: '/images/gutter cleaning.jpg',
     features: [
       'Debris removal',
       'Downspout cleaning',

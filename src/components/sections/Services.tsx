@@ -23,6 +23,16 @@ const services = [
     title: 'Commercial Cleaning',
     description: 'Keep your business looking pristine',
     image: '/images/commercial-cleaning.jpg'
+  },
+  {
+    title: 'Gutter Cleaning',
+    description: 'Professional gutter maintenance and debris removal',
+    image: '/images/gutter cleaning.jpg'
+  },
+  {
+    title: 'Deck & Patio Cleaning',
+    description: 'Restore outdoor living spaces to their original beauty',
+    image: '/images/deck and pato cleaning.jpg'
   }
 ]
 
@@ -35,7 +45,7 @@ export default function Services() {
           <p className="text-lg text-gray-600">Comprehensive pressure washing solutions for every need</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
