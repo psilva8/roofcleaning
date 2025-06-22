@@ -10,7 +10,8 @@
     "lint": "next lint",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-schemas": "node scripts/generate-city-schemas.js",
-    "deploy": "npx wrangler pages deploy out --project-name=pronto-clean"
+    "deploy": "./deploy.sh",
+    "pages:deploy": "npx wrangler pages deploy out --project-name=pronto-clean"
   },
   "keywords": [],
   "author": "",

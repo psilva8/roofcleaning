@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# Handle trailing slashes
+/*/ /:splat 301 
