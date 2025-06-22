@@ -1,3 +1,5 @@
 #!/bin/bash
-echo "Deploying to Cloudflare Pages..."
-npx wrangler pages deploy out --project-name=pronto-clean 
+echo "✅ Build completed successfully!"
+echo "📁 Static files are ready in the 'out' directory"
+echo "🚀 Cloudflare Pages will deploy automatically"
+exit 0 

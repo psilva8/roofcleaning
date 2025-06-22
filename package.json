@@ -11,7 +11,8 @@
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-schemas": "node scripts/generate-city-schemas.js",
     "deploy": "./deploy.sh",
-    "pages:deploy": "npx wrangler pages deploy out --project-name=pronto-clean"
+    "pages:deploy": "npx wrangler pages deploy out --project-name=pronto-clean",
+    "build:deploy": "npm run build && echo 'Build completed for deployment'"
   },
   "keywords": [],
   "author": "",
