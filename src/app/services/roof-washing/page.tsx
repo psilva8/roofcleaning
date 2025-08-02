@@ -27,12 +27,49 @@ export default function RoofWashing() {
     "serviceType": "Roof Washing"
   }
 
+  // FAQ schema for roof washing pricing
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to clean a roof in Los Angeles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Roof washing costs in Los Angeles typically range from $300 to $800 for most residential homes, depending on the size, pitch, and condition of your roof. Factors affecting price include roof square footage, accessibility, degree of contamination, and roof material type. We provide free, detailed estimates for all roof washing projects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the average price for a roof wash?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The average price for professional roof washing in Los Angeles is $0.35 to $0.70 per square foot. A typical 2,000 square foot home roof costs between $400-$600 to wash professionally. This includes our soft washing process, eco-friendly solutions, and complete algae, moss, and stain removal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does it cost to have my roof cleaned?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cost to have your roof professionally cleaned depends on several factors: roof size (typically $300-$800 for residential), roof material and condition, accessibility and safety requirements, and extent of algae or moss growth. We offer competitive pricing with no hidden fees and include a satisfaction guarantee with every roof washing service."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       <Script
         id="service-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       
       <Hero
@@ -152,6 +189,66 @@ export default function RoofWashing() {
               className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
             >
               Schedule a Free Inspection
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-lg text-gray-600">
+              Get answers to common questions about roof washing costs and services in Los Angeles
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                How much does it cost to clean a roof in Los Angeles?
+              </h3>
+              <p className="text-gray-600">
+                Roof washing costs in Los Angeles typically range from $300 to $800 for most residential homes, 
+                depending on the size, pitch, and condition of your roof. Factors affecting price include roof 
+                square footage, accessibility, degree of contamination, and roof material type. We provide free, 
+                detailed estimates for all roof washing projects.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                What is the average price for a roof wash?
+              </h3>
+              <p className="text-gray-600">
+                The average price for professional roof washing in Los Angeles is $0.35 to $0.70 per square foot. 
+                A typical 2,000 square foot home roof costs between $400-$600 to wash professionally. This includes 
+                our soft washing process, eco-friendly solutions, and complete algae, moss, and stain removal.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                What does it cost to have my roof cleaned?
+              </h3>
+              <p className="text-gray-600">
+                The cost to have your roof professionally cleaned depends on several factors: roof size 
+                (typically $300-$800 for residential), roof material and condition, accessibility and safety 
+                requirements, and extent of algae or moss growth. We offer competitive pricing with no hidden 
+                fees and include a satisfaction guarantee with every roof washing service.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-10">
+            <Link 
+              href="/contact" 
+              className="inline-block bg-primary text-white font-semibold px-8 py-3 rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Get Your Free Estimate
             </Link>
           </div>
         </div>
