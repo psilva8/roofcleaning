@@ -1,9 +1,33 @@
+'use client'
+
+import { useState } from 'react'
 import Hero from '@/components/Hero'
 import Script from 'next/script'
 import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
 export default function RoofWashing() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
+
+  const faqData = [
+    {
+      question: "How much does it cost to clean a roof in Los Angeles?",
+      answer: "Roof washing costs in Los Angeles typically range from $300 to $800 for most residential homes, depending on the size, pitch, and condition of your roof. Factors affecting price include roof square footage, accessibility, degree of contamination, and roof material type. We provide free, detailed estimates for all roof washing projects."
+    },
+    {
+      question: "What is the average price for a roof wash?",
+      answer: "The average price for professional roof washing in Los Angeles is $0.35 to $0.70 per square foot. A typical 2,000 square foot home roof costs between $400-$600 to wash professionally. This includes our soft washing process, eco-friendly solutions, and complete algae, moss, and stain removal."
+    },
+    {
+      question: "What does it cost to have my roof cleaned?",
+      answer: "The cost to have your roof professionally cleaned depends on several factors: roof size (typically $300-$800 for residential), roof material and condition, accessibility and safety requirements, and extent of algae or moss growth. We offer competitive pricing with no hidden fees and include a satisfaction guarantee with every roof washing service."
+    }
+  ]
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index)
+  }
+
   // Service schema for roof washing
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -206,41 +230,43 @@ export default function RoofWashing() {
             </p>
           </div>
 
-          <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                How much does it cost to clean a roof in Los Angeles?
-              </h3>
-              <p className="text-gray-600">
-                Roof washing costs in Los Angeles typically range from $300 to $800 for most residential homes, 
-                depending on the size, pitch, and condition of your roof. Factors affecting price include roof 
-                square footage, accessibility, degree of contamination, and roof material type. We provide free, 
-                detailed estimates for all roof washing projects.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                What is the average price for a roof wash?
-              </h3>
-              <p className="text-gray-600">
-                The average price for professional roof washing in Los Angeles is $0.35 to $0.70 per square foot. 
-                A typical 2,000 square foot home roof costs between $400-$600 to wash professionally. This includes 
-                our soft washing process, eco-friendly solutions, and complete algae, moss, and stain removal.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                What does it cost to have my roof cleaned?
-              </h3>
-              <p className="text-gray-600">
-                The cost to have your roof professionally cleaned depends on several factors: roof size 
-                (typically $300-$800 for residential), roof material and condition, accessibility and safety 
-                requirements, and extent of algae or moss growth. We offer competitive pricing with no hidden 
-                fees and include a satisfaction guarantee with every roof washing service.
-              </p>
-            </div>
+          <div className="space-y-4">
+            {faqData.map((faq, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                >
+                  <h3 className="text-lg font-semibold text-gray-900 pr-4">
+                    {faq.question}
+                  </h3>
+                  <svg
+                    className={`w-5 h-5 text-gray-500 transition-transform duration-200 ${
+                      openFaq === index ? 'transform rotate-180' : ''
+                    }`}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                {openFaq === index && (
+                  <div className="px-6 pb-4">
+                    <div className="border-t border-gray-200 pt-4">
+                      <p className="text-gray-600 leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
 
           <div className="text-center mt-10">
