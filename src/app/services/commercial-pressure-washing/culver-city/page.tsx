@@ -37,7 +37,7 @@ export default function CommercialPressureWashingCulverCity() {
       <Hero
         title="Commercial Pressure Washing in Culver City"
         subtitle="Professional commercial pressure washing services for Culver City properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

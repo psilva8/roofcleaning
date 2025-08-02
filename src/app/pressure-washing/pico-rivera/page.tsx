@@ -121,8 +121,8 @@ export default function PressureWashingCityPage() {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Driveway Cleaning in Pico Rivera",
-          "description": "Professional driveway and concrete cleaning in Pico Rivera"
+          "name": "Driveway Washing in Pico Rivera",
+          "description": "Professional driveway and concrete washing in Pico Rivera"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -152,7 +152,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={`Our Pressure Washing Services in Pico Rivera`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"

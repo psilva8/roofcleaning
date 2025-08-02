@@ -48,7 +48,7 @@ export default function ResidentialHouseWashing() {
               Expert House Washing Services
             </h2>
             <p className="text-lg text-gray-600">
-              Our professional house washing service removes dirt, mold, mildew, and algae from your home's exterior, restoring its beauty and protecting your investment. We use safe, effective cleaning methods suitable for all types of exterior surfaces.
+              Our professional house washing service removes dirt, mold, mildew, and algae from your home's exterior, restoring its beauty and protecting your investment. We use safe, effective washing methods suitable for all types of exterior surfaces.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export default function ResidentialHouseWashing() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">1. Inspection</h4>
-                <p className="text-gray-600">Thorough assessment of your home's exterior surfaces and cleaning needs.</p>
+                <p className="text-gray-600">Thorough assessment of your home's exterior surfaces and washing needs.</p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">2. Preparation</h4>
@@ -87,7 +87,7 @@ export default function ResidentialHouseWashing() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">3. Cleaning</h4>
-                <p className="text-gray-600">Application of appropriate cleaning solutions and gentle pressure washing.</p>
+                <p className="text-gray-600">Application of appropriate washing solutions and gentle pressure washing.</p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">4. Final Inspection</h4>

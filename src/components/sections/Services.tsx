@@ -10,29 +10,29 @@ const services = [
     image: '/images/house-washing.jpg'
   },
   {
-    title: 'Driveway Cleaning',
+    title: 'Driveway Washing',
     description: 'Remove tough stains and buildup from concrete surfaces',
-    image: '/images/driveway-cleaning.jpg'
+    image: '/images/driveway-washing.jpg'
   },
   {
-    title: 'Roof Cleaning',
+    title: 'Roof Washing',
     description: 'Gentle soft wash techniques for your roof',
-    image: '/images/roof-cleaning.jpg'
+    image: '/images/roof-washing.jpg'
   },
   {
-    title: 'Commercial Cleaning',
+    title: 'Commercial Washing',
     description: 'Keep your business looking pristine',
-    image: '/images/commercial-cleaning.jpg'
+    image: '/images/commercial-washing.jpg'
   },
   {
-    title: 'Gutter Cleaning',
+    title: 'Gutter Washing',
     description: 'Professional gutter maintenance and debris removal',
-    image: '/images/gutter-cleaning.jpg'
+    image: '/images/gutter-washing.jpg'
   },
   {
-    title: 'Deck & Patio Cleaning',
+    title: 'Deck & Patio Washing',
     description: 'Restore outdoor living spaces to their original beauty',
-    image: '/images/deck-and-patio-cleaning.jpg'
+    image: '/images/deck-and-patio-washing.jpg'
   }
 ]
 

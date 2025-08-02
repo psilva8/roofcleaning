@@ -37,7 +37,7 @@ export default function CommercialPressureWashingArcadia() {
       <Hero
         title="Commercial Pressure Washing in Arcadia"
         subtitle="Professional commercial pressure washing services for Arcadia properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -108,8 +108,8 @@ async function updatePressureWashingSchemas() {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": `Driveway Cleaning in ${formattedCityName}`,
-                "description": `Professional driveway and concrete cleaning in ${formattedCityName}`
+                "name": `Driveway Washing in ${formattedCityName}`,
+                "description": `Professional driveway and concrete washing in ${formattedCityName}`
               },
               "price": "150.00",
               "priceCurrency": "USD"
@@ -220,7 +220,7 @@ async function updatePowerWashingSchemas() {
           }
         ],
         "priceRange": "$$",
-        "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
+        "image": "https://www.prontocleanz.com/images/commercial-washing.jpg",
         "sameAs": [
           "https://www.facebook.com/prontocleanz",
           "https://www.instagram.com/prontocleanz"
@@ -282,9 +282,9 @@ async function updatePowerWashingSchemas() {
       }
       
       // Ensure hero image is set to hero-bg.jpg
-      if (content.includes('backgroundImage="/images/commercial-cleaning.jpg"')) {
+      if (content.includes('backgroundImage="/images/commercial-washing.jpg"')) {
         content = content.replace(
-          'backgroundImage="/images/commercial-cleaning.jpg"', 
+          'backgroundImage="/images/commercial-washing.jpg"', 
           'backgroundImage="/images/hero-bg.jpg"'
         );
       }

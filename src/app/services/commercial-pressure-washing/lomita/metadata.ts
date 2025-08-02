@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata = {
   title: 'Commercial Pressure Washing in Lomita | Professional Services',
   description: 'Looking for professional commercial pressure washing services in Lomita? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'commercial pressure washing, lomita commercial pressure washing, parking lot and garage cleaning, oil and grease removal, building exterior cleaning, graffiti removal, lomita property maintenance',
+  keywords: 'commercial pressure washing, lomita commercial pressure washing, parking lot and garage cleaning, oil and grease removal, building exterior washing, graffiti removal, lomita property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/commercial-pressure-washing/lomita',
   },

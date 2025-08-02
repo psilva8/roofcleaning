@@ -104,8 +104,8 @@ function generatePressureWashingTemplate(city, formattedCityName) {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": `Driveway Cleaning in ${formattedCityName}`,
-            "description": `Professional driveway and concrete cleaning in ${formattedCityName}`
+            "name": `Driveway Washing in ${formattedCityName}`,
+            "description": `Professional driveway and concrete washing in ${formattedCityName}`
           },
           "price": "150.00",
           "priceCurrency": "USD"
@@ -193,7 +193,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={\`Our Pressure Washing Services in ${formattedCityName}\`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"
@@ -263,7 +263,7 @@ function generatePowerWashingTemplate(city, formattedCityName) {
       }
     ],
     "priceRange": "$$",
-    "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
+    "image": "https://www.prontocleanz.com/images/commercial-washing.jpg",
     "sameAs": [
       "https://www.facebook.com/prontocleanz",
       "https://www.instagram.com/prontocleanz"
@@ -473,7 +473,7 @@ export default function PressureWashingPage() {
       />
       <ServicesSection 
         title="Our Pressure Washing Services"
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"
@@ -544,7 +544,7 @@ import FAQSection from "@/components/FAQSection";
 
 export const metadata = {
   title: "Professional Power Washing Services | Pronto Cleanz",
-  description: "Expert power washing services for commercial and industrial properties. Heavy-duty cleaning solutions for your business needs.",
+  description: "Expert power washing services for commercial and industrial properties. Heavy-duty washing solutions for your business needs.",
   canonical: "https://www.prontocleanz.com/power-washing",
 };
 

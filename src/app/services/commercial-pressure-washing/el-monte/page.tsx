@@ -37,7 +37,7 @@ export default function CommercialPressureWashingElMonte() {
       <Hero
         title="Commercial Pressure Washing in El Monte"
         subtitle="Professional commercial pressure washing services for El Monte properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

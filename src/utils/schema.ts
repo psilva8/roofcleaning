@@ -15,7 +15,7 @@ export function generateLocalBusinessSchema({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": `Pronto Cleanz - Professional Pressure Washing Services in ${city}, ${state}`,
-    "description": `Professional pressure washing and exterior cleaning services in ${city}, California. Residential and commercial cleaning solutions.`,
+    "description": `Professional pressure washing and exterior washing services in ${city}, California. Residential and commercial washing solutions.`,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city,

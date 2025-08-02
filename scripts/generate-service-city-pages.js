@@ -11,9 +11,9 @@ const services = [
     path: 'commercial-pressure-washing',
     title: 'Commercial Pressure Washing',
     description: 'Professional commercial pressure washing services for businesses',
-    image: '/images/commercial-cleaning.jpg',
+    image: '/images/commercial-washing.jpg',
     features: [
-      'Building exterior cleaning',
+      'Building exterior washing',
       'Parking lot and garage cleaning',
       'Sidewalk and walkway cleaning',
       'Dumpster pad cleaning',
@@ -52,10 +52,10 @@ const services = [
     ]
   },
   {
-    path: 'concrete-cleaning',
-    title: 'Concrete Cleaning',
-    description: 'Professional concrete cleaning and restoration services',
-    image: '/images/driveway-cleaning.jpg',
+    path: 'concrete-washing',
+    title: 'Concrete Washing',
+    description: 'Professional concrete washing and restoration services',
+    image: '/images/driveway-washing.jpg',
     features: [
       'Driveway cleaning',
       'Patio restoration',
@@ -74,15 +74,15 @@ const services = [
     ]
   },
   {
-    path: 'roof-cleaning',
-    title: 'Roof Cleaning',
-    description: 'Safe and effective roof cleaning services',
-    image: '/images/roof-cleaning.jpg',
+    path: 'roof-washing',
+    title: 'Roof Washing',
+    description: 'Safe and effective roof washing services',
+    image: '/images/roof-washing.jpg',
     features: [
       'Algae removal',
       'Moss treatment',
       'Shingle cleaning',
-      'Tile roof cleaning',
+      'Tile roof washing',
       'Gutter system cleaning',
       'Preventive treatments'
     ],
@@ -96,10 +96,10 @@ const services = [
     ]
   },
   {
-    path: 'deck-and-patio-cleaning',
-    title: 'Deck and Patio Cleaning',
-    description: 'Expert deck and patio cleaning services',
-    image: '/images/deck-and-patio-cleaning.jpg',
+    path: 'deck-and-patio-washing',
+    title: 'Deck and Patio Washing',
+    description: 'Expert deck and patio washing services',
+    image: '/images/deck-and-patio-washing.jpg',
     features: [
       'Wood deck cleaning',
       'Composite deck restoration',
@@ -118,10 +118,10 @@ const services = [
     ]
   },
   {
-    path: 'gutter-cleaning',
-    title: 'Gutter Cleaning',
-    description: 'Professional gutter cleaning and maintenance services',
-    image: '/images/gutter-cleaning.jpg',
+    path: 'gutter-washing',
+    title: 'Gutter Washing',
+    description: 'Professional gutter washing and maintenance services',
+    image: '/images/gutter-washing.jpg',
     features: [
       'Debris removal',
       'Downspout cleaning',

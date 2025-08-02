@@ -121,8 +121,8 @@ export default function PressureWashingCityPage() {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Driveway Cleaning in Monterey Park",
-          "description": "Professional driveway and concrete cleaning in Monterey Park"
+          "name": "Driveway Washing in Monterey Park",
+          "description": "Professional driveway and concrete washing in Monterey Park"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -152,7 +152,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={`Our Pressure Washing Services in Monterey Park`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"

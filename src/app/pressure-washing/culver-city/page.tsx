@@ -121,8 +121,8 @@ export default function PressureWashingCityPage() {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Driveway Cleaning in Culver City",
-          "description": "Professional driveway and concrete cleaning in Culver City"
+          "name": "Driveway Washing in Culver City",
+          "description": "Professional driveway and concrete washing in Culver City"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -152,7 +152,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={`Our Pressure Washing Services in Culver City`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"

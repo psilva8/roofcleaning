@@ -121,8 +121,8 @@ export default function PressureWashingCityPage() {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Driveway Cleaning in San Marino",
-          "description": "Professional driveway and concrete cleaning in San Marino"
+          "name": "Driveway Washing in San Marino",
+          "description": "Professional driveway and concrete washing in San Marino"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -152,7 +152,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={`Our Pressure Washing Services in San Marino`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"

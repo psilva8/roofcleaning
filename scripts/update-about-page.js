@@ -24,7 +24,7 @@ import { FaCheckCircle, FaUsers, FaAward, FaRecycle } from "react-icons/fa";
 
 export const metadata = {
   title: "About Pronto Cleanz | Our Story & Mission",
-  description: "Learn about Pronto Cleanz's journey, our dedicated team, eco-friendly approach, and commitment to exceptional cleaning services in Los Angeles County.",
+  description: "Learn about Pronto Cleanz's journey, our dedicated team, eco-friendly approach, and commitment to exceptional washing services in Los Angeles County.",
   canonical: "https://www.prontocleanz.com/about",
 };
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
         "name": "Michael Rodriguez"
       }
     ],
-    "description": "Pronto Cleanz is a professional cleaning service company specializing in pressure washing and power washing services throughout Los Angeles County.",
+    "description": "Pronto Cleanz is a professional washing service company specializing in pressure washing and power washing services throughout Los Angeles County.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "360 E 2nd St Ste 800",
@@ -81,10 +81,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Cleaning Journey</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Washing Journey</h1>
               <p className="text-xl mb-8">
                 Founded in 2015 by Michael Rodriguez, Pronto Cleanz began with a single pressure washer 
-                and a vision to transform the exterior cleaning industry in Los Angeles.
+                and a vision to transform the exterior washing industry in Los Angeles.
               </p>
               <p className="text-lg mb-8">
                 What started as a small residential service has grown into a comprehensive cleaning 
@@ -93,7 +93,7 @@ export default function AboutPage() {
               </p>
               <div className="flex items-center">
                 <FaAward className="text-yellow-400 text-4xl mr-4" />
-                <p className="text-lg">Celebrating 8+ years of cleaning excellence</p>
+                <p className="text-lg">Celebrating 8+ years of washing excellence</p>
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-12">
@@ -118,7 +118,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Our Mission</h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mt-4 mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              To deliver exceptional cleaning results that not only meet but exceed our clients' expectations
+              To deliver exceptional washing results that not only meet but exceed our clients' expectations
               while maintaining the highest standards of environmental responsibility and customer service.
             </p>
           </div>
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold text-gray-800">Michael Rodriguez</h3>
                 <p className="text-blue-600 mb-4">Founder & CEO</p>
                 <p className="text-gray-600">
-                  With over 15 years in the cleaning industry, Michael's expertise and vision drive our company's growth and quality standards.
+                  With over 15 years in the washing industry, Michael's expertise and vision drive our company's growth and quality standards.
                 </p>
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold text-gray-800">Sarah Chen</h3>
                 <p className="text-blue-600 mb-4">Operations Manager</p>
                 <p className="text-gray-600">
-                  Sarah ensures all projects run smoothly, coordinating our cleaning teams to provide the highest level of service efficiency.
+                  Sarah ensures all projects run smoothly, coordinating our washing teams to provide the highest level of service efficiency.
                 </p>
               </div>
             </div>
@@ -282,7 +282,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Experience the Pronto Cleanz Difference?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Contact our team today to discuss your cleaning needs and get a customized quote.
+            Contact our team today to discuss your washing needs and get a customized quote.
           </p>
           <Link 
             href="/contact" 

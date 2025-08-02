@@ -15,7 +15,7 @@ import { FaHome, FaDryer, FaBuilding, FaRoad, FaLeaf, FaShieldAlt } from "react-
 
 export const metadata = {
   title: "Residential Pressure Washing Services | Home Exterior Cleaning",
-  description: "Specialized pressure washing services for homes, driveways, decks, fences, and more. Restore your property's appearance with our gentle yet effective cleaning.",
+  description: "Specialized pressure washing services for homes, driveways, decks, fences, and more. Restore your property's appearance with our gentle yet effective washing.",
   canonical: "https://www.prontocleanz.com/pressure-washing",
 };
 
@@ -70,7 +70,7 @@ export default function PressureWashingPage() {
                 Residential Pressure Washing Specialists
               </h1>
               <p className="text-xl text-gray-700 mb-8">
-                Gentle yet powerful cleaning solutions specifically designed for homes and residential properties.
+                Gentle yet powerful washing solutions specifically designed for homes and residential properties.
                 Our specialized equipment and techniques preserve your surfaces while removing years of built-up dirt.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -132,7 +132,7 @@ export default function PressureWashingPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Eco-Friendly Solutions</h3>
               <p className="text-gray-600">
-                We use biodegradable cleaning solutions that effectively remove dirt, algae, 
+                We use biodegradable washing solutions that effectively remove dirt, algae, 
                 and mildew while being safe for your plants, pets, and the environment.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function PressureWashingPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Residential Pressure Washing Services</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer comprehensive cleaning solutions for all exterior surfaces of your home.
+              We offer comprehensive washing solutions for all exterior surfaces of your home.
             </p>
           </div>
           
@@ -178,7 +178,7 @@ export default function PressureWashingPage() {
                   <h3 className="text-xl font-bold text-gray-800">House Washing</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Safe and effective cleaning for all home exterior surfaces, including vinyl, 
+                  Safe and effective washing for all home exterior surfaces, including vinyl, 
                   aluminum, stucco, brick, and painted wood siding.
                 </p>
                 <p className="font-semibold text-gray-800">Starting at $250</p>
@@ -188,7 +188,7 @@ export default function PressureWashingPage() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
                 <Image 
-                  src="/images/driveway-cleaning.jpg" 
+                  src="/images/driveway-washing.jpg" 
                   alt="Driveway & Sidewalk Cleaning" 
                   width={500} 
                   height={300}
@@ -234,8 +234,8 @@ export default function PressureWashingPage() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
                 <Image 
-                  src="/images/roof-cleaning.jpg" 
-                  alt="Roof Cleaning" 
+                  src="/images/roof-washing.jpg" 
+                  alt="Roof Washing" 
                   width={500} 
                   height={300}
                   className="w-full h-full object-cover"
@@ -244,7 +244,7 @@ export default function PressureWashingPage() {
               <div className="p-6">
                 <div className="flex items-center mb-4">
                   <FaHome className="text-blue-500 text-xl mr-3" />
-                  <h3 className="text-xl font-bold text-gray-800">Roof Cleaning</h3>
+                  <h3 className="text-xl font-bold text-gray-800">Roof Washing</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
                   Low-pressure soft wash techniques that safely remove black streaks, moss, 
@@ -280,7 +280,7 @@ export default function PressureWashingPage() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
                 <Image 
-                  src="/images/gutter-cleaning.jpg" 
+                  src="/images/gutter-washing.jpg" 
                   alt="Gutter Whitening" 
                   width={500} 
                   height={300}
@@ -394,7 +394,7 @@ export default function PressureWashingPage() {
               <p className="text-gray-600">
                 For most homes in the Los Angeles area, we recommend pressure washing your exterior 
                 surfaces once a year to prevent buildup of dirt, mold, and mildew. Homes in areas with 
-                more trees or moisture may require more frequent cleaning, typically every 6-9 months.
+                more trees or moisture may require more frequent washing, typically every 6-9 months.
               </p>
             </div>
             
@@ -404,15 +404,15 @@ export default function PressureWashingPage() {
                 Not all surfaces can withstand the same pressure. Our technicians are trained to 
                 adjust the pressure and techniques based on your specific surfaces. For delicate 
                 materials like stucco, wood, and older masonry, we use soft washing methods with 
-                lower pressure and specialized cleaning solutions.
+                lower pressure and specialized washing solutions.
               </p>
             </div>
             
             <div className="mb-6 bg-gray-50 rounded-lg p-6 shadow-sm">
               <h3 className="text-xl font-bold text-gray-800 mb-2">Will pressure washing damage my plants and landscaping?</h3>
               <p className="text-gray-600">
-                We take great care to protect your landscaping during the cleaning process. Our team 
-                will cover sensitive plants, use eco-friendly cleaning solutions, and rinse thoroughly 
+                We take great care to protect your landscaping during the washing process. Our team 
+                will cover sensitive plants, use eco-friendly washing solutions, and rinse thoroughly 
                 to ensure no residue remains that could harm your vegetation.
               </p>
             </div>
@@ -421,7 +421,7 @@ export default function PressureWashingPage() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">How long does residential pressure washing take?</h3>
               <p className="text-gray-600">
                 The time required depends on the size of your home and the services needed. A typical 
-                single-family home exterior cleaning takes 2-4 hours, while a complete package including 
+                single-family home exterior washing takes 2-4 hours, while a complete package including 
                 driveway, deck, and other surfaces may take 4-6 hours to complete thoroughly.
               </p>
             </div>

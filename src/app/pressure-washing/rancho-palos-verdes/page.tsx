@@ -121,8 +121,8 @@ export default function PressureWashingCityPage() {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Driveway Cleaning in Rancho Palos Verdes",
-          "description": "Professional driveway and concrete cleaning in Rancho Palos Verdes"
+          "name": "Driveway Washing in Rancho Palos Verdes",
+          "description": "Professional driveway and concrete washing in Rancho Palos Verdes"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -152,7 +152,7 @@ export default function PressureWashingCityPage() {
       />
       <ServicesSection 
         title={`Our Pressure Washing Services in Rancho Palos Verdes`}
-        subtitle="Specialized solutions for all your exterior cleaning needs"
+        subtitle="Specialized solutions for all your exterior washing needs"
       />
       <TestimonialsSection 
         title="What Our Clients Say"

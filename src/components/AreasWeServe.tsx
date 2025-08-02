@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
 interface AreasWeServeProps {
-  servicePath: string // e.g., 'roof-cleaning' or 'concrete-cleaning'
-  serviceTitle: string // e.g., 'Roof Cleaning' or 'Concrete Cleaning'
+  servicePath: string // e.g., 'roof-washing' or 'concrete-washing'
+  serviceTitle: string // e.g., 'Roof Washing' or 'Concrete Washing'
 }
 
 // List of LA County cities

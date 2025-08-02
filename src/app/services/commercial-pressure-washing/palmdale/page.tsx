@@ -37,7 +37,7 @@ export default function CommercialPressureWashingPalmdale() {
       <Hero
         title="Commercial Pressure Washing in Palmdale"
         subtitle="Professional commercial pressure washing services for Palmdale properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -57,7 +57,7 @@ export default function CommercialPressureWashingPalmdale() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Dumpster pad cleaning</li>
                 <li>Oil and grease removal</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Graffiti removal</li>
               </ul>
             </div>

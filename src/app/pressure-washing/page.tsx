@@ -106,7 +106,7 @@ export default function PressureWashing() {
               Top-Rated Pressure Washing Services in Los Angeles
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our pressure washing service uses state-of-the-art equipment to deliver exceptional cleaning results for residential and commercial properties.
+              Our pressure washing service uses state-of-the-art equipment to deliver exceptional washing results for residential and commercial properties.
             </p>
           </motion.div>
 
@@ -139,7 +139,7 @@ export default function PressureWashing() {
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
             >
-              <img src="/images/commercial-cleaning.jpg" alt="Commercial Pressure Washing" width="800" height="600" 
+              <img src="/images/commercial-washing.jpg" alt="Commercial Pressure Washing" width="800" height="600" 
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial Pressure Washing</h3>
@@ -178,11 +178,11 @@ export default function PressureWashing() {
             {[
               {
                 title: "Assessment", 
-                description: "We evaluate the surfaces to determine the appropriate cleaning techniques, pressure levels, and cleaning solutions."
+                description: "We evaluate the surfaces to determine the appropriate washing techniques, pressure levels, and washing solutions."
               },
               {
                 title: "Pre-Treatment", 
-                description: "We apply specialized cleaning solutions to break down stubborn dirt, grime, mold, and other contaminants."
+                description: "We apply specialized washing solutions to break down stubborn dirt, grime, mold, and other contaminants."
               },
               {
                 title: "Pressure Washing", 

@@ -78,7 +78,7 @@ export default function PowerWashingPage() {
               Industrial-Grade Power Washing for Commercial Properties
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Heavy-duty cleaning solutions for warehouses, factories, retail centers, and industrial facilities. 
+              Heavy-duty washing solutions for warehouses, factories, retail centers, and industrial facilities. 
               Our commercial power washing equipment handles the toughest grime, oil, and industrial residue.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -117,7 +117,7 @@ export default function PowerWashingPage() {
               <h3 className="text-xl font-bold text-gray-800 mb-3">Industrial-Grade Equipment</h3>
               <p className="text-gray-600">
                 We utilize commercial-grade power washing systems with up to 4000 PSI and hot water capabilities 
-                to tackle the toughest commercial cleaning challenges.
+                to tackle the toughest commercial washing challenges.
               </p>
             </div>
             
@@ -138,7 +138,7 @@ export default function PowerWashingPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">Minimal Downtime</h3>
               <p className="text-gray-600">
-                Our efficient cleaning processes and flexible scheduling options minimize business interruption, 
+                Our efficient washing processes and flexible scheduling options minimize business interruption, 
                 with after-hours and weekend service availability.
               </p>
             </div>
@@ -174,7 +174,7 @@ export default function PowerWashingPage() {
                 </div>
                 <p className="text-gray-600 mb-4">
                   Keep loading docks, warehouse floors, and distribution centers clean and safe with 
-                  our industrial cleaning solutions that remove oil, debris, and stains.
+                  our industrial washing solutions that remove oil, debris, and stains.
                 </p>
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function PowerWashingPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Commercial Power Washing Services</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Heavy-duty cleaning solutions designed for commercial and industrial properties.
+              Heavy-duty washing solutions designed for commercial and industrial properties.
             </p>
           </div>
           
@@ -475,7 +475,7 @@ export default function PowerWashingPage() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">How does commercial power washing differ from residential pressure washing?</h3>
               <p className="text-gray-600">
                 Commercial power washing uses higher pressure levels (up to 4000 PSI), hot water capabilities, 
-                and industrial-grade cleaning solutions to tackle tough industrial grime, oil, grease, and 
+                and industrial-grade washing solutions to tackle tough industrial grime, oil, grease, and 
                 chemical residues that are common in commercial settings. Our equipment is specifically designed 
                 for larger areas and more challenging cleaning tasks.
               </p>

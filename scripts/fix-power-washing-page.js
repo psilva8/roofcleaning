@@ -56,7 +56,7 @@ export default function PowerWashingPage() {
               Industrial-Grade Power Washing for Commercial Properties
             </h1>
             <p className="text-xl text-gray-200 mb-8">
-              Heavy-duty cleaning solutions for warehouses, factories, retail centers, and industrial facilities. 
+              Heavy-duty washing solutions for warehouses, factories, retail centers, and industrial facilities. 
               Our commercial power washing equipment handles the toughest grime, oil, and industrial residue.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -105,7 +105,7 @@ export default function PowerWashingPage() {
                 </div>
                 <p className="text-gray-600 mb-4">
                   Keep loading docks, warehouse floors, and distribution centers clean and safe with 
-                  our industrial cleaning solutions that remove oil, debris, and stains.
+                  our industrial washing solutions that remove oil, debris, and stains.
                 </p>
               </div>
             </div>

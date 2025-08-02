@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: { city: string } })
   
   return {
     title: `Power Washing in ${formattedCityName} - Professional Cleaning Services`,
-    description: `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective cleaning of all surfaces.`,
+    description: `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective washing of all surfaces.`,
     alternates: {
       canonical: `https://www.prontocleanz.com/power-washing/${params.city}`,
     }
@@ -61,7 +61,7 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
       "@type": "City",
       "name": formattedCityName
     },
-    "description": `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective cleaning of all surfaces.`,
+    "description": `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective washing of all surfaces.`,
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
@@ -111,7 +111,7 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
       }
     ],
     "priceRange": "$$",
-    "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
+    "image": "https://www.prontocleanz.com/images/commercial-washing.jpg",
     "sameAs": [
       "https://www.facebook.com/prontocleanz",
       "https://www.instagram.com/prontocleanz"
@@ -194,13 +194,13 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
             
             <div className="animate-fadeIn">
               <img
-                src="/images/driveway-cleaning.jpg"
+                src="/images/driveway-washing.jpg"
                 alt={`Power Washing in ${formattedCityName}`}
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our {formattedCityName} Power Washing Equipment</h3>
               <p className="text-gray-600">
-                We bring the best power washing equipment to {formattedCityName} with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal cleaning results without causing damage to your property.
+                We bring the best power washing equipment to {formattedCityName} with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal washing results without causing damage to your property.
               </p>
             </div>
           </div>
@@ -223,12 +223,12 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
               {
                 title: "Concrete Surfaces", 
                 description: `Driveways, sidewalks, parking lots, and garage floors throughout ${formattedCityName}.`,
-                image: "/images/driveway-cleaning.jpg"
+                image: "/images/driveway-washing.jpg"
               },
               {
                 title: "Commercial Properties", 
                 description: `${formattedCityName} storefronts, building exteriors, loading docks, and dumpster areas.`,
-                image: "/images/commercial-cleaning.jpg"
+                image: "/images/commercial-washing.jpg"
               },
               {
                 title: "Industrial Cleaning", 
@@ -248,7 +248,7 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
               {
                 title: "Pre-painting Preparation", 
                 description: `Preparing ${formattedCityName} surfaces for painting, staining, or sealing.`,
-                image: "/images/roof-cleaning.jpg"
+                image: "/images/roof-washing.jpg"
               }
             ].map((application, index) => (
               <div 

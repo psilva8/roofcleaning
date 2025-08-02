@@ -37,7 +37,7 @@ export default function CommercialPressureWashingMalibu() {
       <Hero
         title="Commercial Pressure Washing in Malibu"
         subtitle="Professional commercial pressure washing services for Malibu properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -58,7 +58,7 @@ export default function CommercialPressureWashingMalibu() {
                 <li>Dumpster pad cleaning</li>
                 <li>Parking lot and garage cleaning</li>
                 <li>Graffiti removal</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
               </ul>
             </div>
 

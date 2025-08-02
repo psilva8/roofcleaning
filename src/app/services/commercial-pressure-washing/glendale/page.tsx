@@ -37,7 +37,7 @@ export default function CommercialPressureWashingGlendale() {
       <Hero
         title="Commercial Pressure Washing in Glendale"
         subtitle="Professional commercial pressure washing services for Glendale properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

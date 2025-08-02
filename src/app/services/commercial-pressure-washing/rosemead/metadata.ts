@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata = {
   title: 'Commercial Pressure Washing in Rosemead | Professional Services',
   description: 'Looking for professional commercial pressure washing services in Rosemead? We specialize in serving residential and commercial properties, addressing common challenges like maintaining property appearance and value. Our team focuses on quality service and customer satisfaction to deliver exceptional results.',
-  keywords: 'commercial pressure washing, rosemead commercial pressure washing, building exterior cleaning, oil and grease removal, parking lot and garage cleaning, graffiti removal, rosemead property maintenance',
+  keywords: 'commercial pressure washing, rosemead commercial pressure washing, building exterior washing, oil and grease removal, parking lot and garage cleaning, graffiti removal, rosemead property maintenance',
   alternates: {
     canonical: 'https://www.prontocleanz.com/services/commercial-pressure-washing/rosemead',
   },

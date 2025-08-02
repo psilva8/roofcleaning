@@ -37,7 +37,7 @@ export default function CommercialPressureWashingSantaClarita() {
       <Hero
         title="Commercial Pressure Washing in Santa Clarita"
         subtitle="Professional commercial pressure washing services for Santa Clarita properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

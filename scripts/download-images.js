@@ -12,15 +12,15 @@ const images = [
     url: 'https://images.unsplash.com/photo-1605117882932-f9e32b03fea9?w=800&q=80', // House exterior
   },
   {
-    name: 'driveway-cleaning.jpg',
+    name: 'driveway-washing.jpg',
     url: 'https://images.unsplash.com/photo-1578861256457-65f66c9a3015?w=800&q=80', // Clean driveway
   },
   {
-    name: 'roof-cleaning.jpg',
+    name: 'roof-washing.jpg',
     url: 'https://images.unsplash.com/photo-1632139238060-8a75b3e7716d?w=800&q=80', // Roof cleaning
   },
   {
-    name: 'commercial-cleaning.jpg',
+    name: 'commercial-washing.jpg',
     url: 'https://images.unsplash.com/photo-1621195834629-c21c7be47b47?w=800&q=80', // Commercial building
   },
   {

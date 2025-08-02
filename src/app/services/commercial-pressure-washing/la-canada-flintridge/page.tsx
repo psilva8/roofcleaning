@@ -37,7 +37,7 @@ export default function CommercialPressureWashingLaCanadaFlintridge() {
       <Hero
         title="Commercial Pressure Washing in La Canada Flintridge"
         subtitle="Professional commercial pressure washing services for La Canada Flintridge properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -55,7 +55,7 @@ export default function CommercialPressureWashingLaCanadaFlintridge() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in La Canada Flintridge</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Dumpster pad cleaning</li>
                 <li>Oil and grease removal</li>
                 <li>Parking lot and garage cleaning</li>

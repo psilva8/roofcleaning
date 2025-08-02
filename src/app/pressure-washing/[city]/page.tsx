@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: { city: string } })
   
   return {
     title: `Pressure Washing in ${formattedCityName} - Professional Cleaning Services`,
-    description: `Professional pressure washing services in ${formattedCityName}, Los Angeles County. Residential and commercial cleaning solutions for all surfaces.`,
+    description: `Professional pressure washing services in ${formattedCityName}, Los Angeles County. Residential and commercial washing solutions for all surfaces.`,
     alternates: {
       canonical: `https://www.prontocleanz.com/pressure-washing/${params.city}`,
     }
@@ -61,7 +61,7 @@ export default function CityPressureWashing({ params }: { params: { city: string
       "@type": "City",
       "name": formattedCityName
     },
-    "description": `Professional pressure washing services in ${formattedCityName}, Los Angeles County. Residential and commercial cleaning solutions for all surfaces.`,
+    "description": `Professional pressure washing services in ${formattedCityName}, Los Angeles County. Residential and commercial washing solutions for all surfaces.`,
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
@@ -134,8 +134,8 @@ export default function CityPressureWashing({ params }: { params: { city: string
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": `Driveway Cleaning in ${formattedCityName}`,
-            "description": `Professional driveway and concrete cleaning in ${formattedCityName}`
+            "name": `Driveway Washing in ${formattedCityName}`,
+            "description": `Professional driveway and concrete washing in ${formattedCityName}`
           },
           "price": "150.00",
           "priceCurrency": "USD"
@@ -172,7 +172,7 @@ export default function CityPressureWashing({ params }: { params: { city: string
               Top-Rated Pressure Washing Services in {formattedCityName}
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our pressure washing service in {formattedCityName} uses state-of-the-art equipment to deliver exceptional cleaning results for residential and commercial properties.
+              Our pressure washing service in {formattedCityName} uses state-of-the-art equipment to deliver exceptional washing results for residential and commercial properties.
             </p>
           </div>
 
@@ -198,7 +198,7 @@ export default function CityPressureWashing({ params }: { params: { city: string
             
             <div className="animate-fadeIn">
               <img
-                src="/images/commercial-cleaning.jpg"
+                src="/images/commercial-washing.jpg"
                 alt={`Commercial Pressure Washing in ${formattedCityName}`}
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
@@ -241,11 +241,11 @@ export default function CityPressureWashing({ params }: { params: { city: string
               },
               {
                 title: "Professional Equipment", 
-                description: "We use commercial-grade pressure washing equipment for superior cleaning results."
+                description: "We use commercial-grade pressure washing equipment for superior washing results."
               },
               {
                 title: "Environmentally Friendly", 
-                description: "Our cleaning solutions are effective yet environmentally responsible."
+                description: "Our washing solutions are effective yet environmentally responsible."
               },
               {
                 title: "Fully Insured", 

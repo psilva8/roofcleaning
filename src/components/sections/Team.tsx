@@ -16,7 +16,7 @@ const features = [
   },
   {
     title: 'Eco-Friendly Solutions',
-    description: 'Environmental-friendly cleaning solutions that are tough on dirt',
+    description: 'Environmental-friendly washing solutions that are tough on dirt',
     image: '/images/eco-friendly.jpg'
   }
 ]

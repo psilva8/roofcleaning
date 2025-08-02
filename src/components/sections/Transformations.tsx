@@ -9,18 +9,18 @@ const transformations = [
     afterAlt: 'Clean driveway after pressure washing'
   },
   {
-    title: 'House Exterior Cleaning',
+    title: 'House Exterior Washing',
     beforeImage: '/images/house-before.jpg',
     afterImage: '/images/house-after.jpg',
-    beforeAlt: 'House exterior before cleaning',
-    afterAlt: 'House exterior after cleaning'
+    beforeAlt: 'House exterior before washing',
+    afterAlt: 'House exterior after washing'
   },
   {
     title: 'Commercial Building Restoration',
     beforeImage: '/images/commercial-before.jpg',
     afterImage: '/images/commercial-after.jpg',
-    beforeAlt: 'Commercial building before cleaning',
-    afterAlt: 'Commercial building after cleaning'
+    beforeAlt: 'Commercial building before washing',
+    afterAlt: 'Commercial building after washing'
   }
 ];
 

@@ -37,7 +37,7 @@ export default function CommercialPressureWashingSanMarino() {
       <Hero
         title="Commercial Pressure Washing in San Marino"
         subtitle="Professional commercial pressure washing services for San Marino properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -55,7 +55,7 @@ export default function CommercialPressureWashingSanMarino() {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in San Marino</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Graffiti removal</li>
                 <li>Parking lot and garage cleaning</li>
                 <li>Oil and grease removal</li>

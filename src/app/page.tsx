@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     question: 'How often should I have my property pressure washed?',
-    answer: 'For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent cleaning depending on foot traffic and location.',
+    answer: 'For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent washing depending on foot traffic and location.',
   },
   {
     question: 'Is pressure washing safe for all surfaces?',
-    answer: 'While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective cleaning.',
+    answer: 'While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective washing.',
   },
   {
     question: 'What types of stains can pressure washing remove?',
@@ -36,7 +36,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pressure Washing Los Angeles",
-    "description": "Top pressure washing in Los Angeles offering professional residential and commercial cleaning services",
+    "description": "Top pressure washing in Los Angeles offering professional residential and commercial washing services",
     "url": "https://www.prontocleanz.com",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",
@@ -101,7 +101,7 @@ export default function Home() {
       "https://www.yelp.com/biz/pressure-washing-los-angeles"
     ],
     "slogan": "The trusted choice for pressure washing in Los Angeles",
-    "keywords": "pressure washing in Los Angeles, Los Angeles pressure washing, commercial pressure washing, residential pressure washing, driveway cleaning, house washing"
+    "keywords": "pressure washing in Los Angeles, Los Angeles pressure washing, commercial pressure washing, residential pressure washing, driveway washing, house washing"
   };
 
   return (
@@ -128,7 +128,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Pressure Washing Services in Los Angeles</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As the leading provider of pressure washing in Los Angeles, we offer comprehensive cleaning solutions for residential and commercial properties
+              As the leading provider of pressure washing in Los Angeles, we offer comprehensive washing solutions for residential and commercial properties
             </p>
           </div>
           
@@ -141,28 +141,28 @@ export default function Home() {
               },
               {
                 title: 'Commercial Pressure Washing',
-                image: '/images/commercial-cleaning.jpg',
+                image: '/images/commercial-washing.jpg',
                 link: 'https://www.prontocleanz.com/services/commercial-pressure-washing/'
               },
               {
                 title: 'Driveway & Sidewalk Cleaning',
-                image: '/images/driveway-cleaning.jpg',
-                link: 'https://www.prontocleanz.com/services/concrete-cleaning/'
+                image: '/images/driveway-washing.jpg',
+                link: 'https://www.prontocleanz.com/services/concrete-washing/'
               },
               {
-                title: 'Roof Cleaning',
-                image: '/images/roof-cleaning.jpg',
-                link: 'https://www.prontocleanz.com/services/roof-cleaning/'
+                title: 'Roof Washing',
+                image: '/images/roof-washing.jpg',
+                link: 'https://www.prontocleanz.com/services/roof-washing/'
               },
               {
-                title: 'Gutter Cleaning',
-                image: '/images/gutter-cleaning.jpg',
-                link: 'https://www.prontocleanz.com/services/gutter-cleaning/'
+                title: 'Gutter Washing',
+                image: '/images/gutter-washing.jpg',
+                link: 'https://www.prontocleanz.com/services/gutter-washing/'
               },
               {
-                title: 'Deck & Patio Cleaning',
-                image: '/images/deck-and-patio-cleaning.jpg',
-                link: 'https://www.prontocleanz.com/services/deck-and-patio-cleaning/'
+                title: 'Deck & Patio Washing',
+                image: '/images/deck-and-patio-washing.jpg',
+                link: 'https://www.prontocleanz.com/services/deck-and-patio-washing/'
               }
             ].map((service, index) => (
               <motion.div 
@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-gray-900">{service.title}</h3>
-                    <p className="text-gray-600">Professional cleaning services to restore your property's appearance.</p>
+                    <p className="text-gray-600">Professional washing services to restore your property's appearance.</p>
                   </div>
                 </a>
               </motion.div>
@@ -235,14 +235,14 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Pressure Washing</h3>
               <p className="text-gray-600 mb-4">
-                As a responsible pressure washing company in Los Angeles, we use environmentally friendly cleaning solutions and water-saving techniques to protect both your property and the environment.
+                As a responsible pressure washing company in Los Angeles, we use environmentally friendly washing solutions and water-saving techniques to protect both your property and the environment.
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Biodegradable cleaning solutions
+                  Biodegradable washing solutions
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

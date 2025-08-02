@@ -37,8 +37,8 @@ export default function CommercialPressureWashing() {
       
       <Hero
         title="Commercial Pressure Washing"
-        subtitle="Professional cleaning solutions for businesses throughout Los Angeles"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        subtitle="Professional washing solutions for businesses throughout Los Angeles"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -48,7 +48,7 @@ export default function CommercialPressureWashing() {
               Professional Commercial Pressure Washing Services
             </h2>
             <p className="text-lg text-gray-600">
-              We provide comprehensive commercial pressure washing services to keep your business looking its best. Our experienced team uses state-of-the-art equipment and eco-friendly cleaning solutions to deliver exceptional results.
+              We provide comprehensive commercial pressure washing services to keep your business looking its best. Our experienced team uses state-of-the-art equipment and eco-friendly washing solutions to deliver exceptional results.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export default function CommercialPressureWashing() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">Professional Equipment</h4>
-                <p className="text-gray-600">State-of-the-art pressure washing equipment and eco-friendly cleaning solutions.</p>
+                <p className="text-gray-600">State-of-the-art pressure washing equipment and eco-friendly washing solutions.</p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">Reliable Service</h4>

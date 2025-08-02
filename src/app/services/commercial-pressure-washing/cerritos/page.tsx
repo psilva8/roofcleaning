@@ -37,7 +37,7 @@ export default function CommercialPressureWashingCerritos() {
       <Hero
         title="Commercial Pressure Washing in Cerritos"
         subtitle="Professional commercial pressure washing services for Cerritos properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -57,7 +57,7 @@ export default function CommercialPressureWashingCerritos() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Parking lot and garage cleaning</li>
                 <li>Graffiti removal</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Dumpster pad cleaning</li>
               </ul>
             </div>

@@ -37,7 +37,7 @@ export default function CommercialPressureWashingSouthPasadena() {
       <Hero
         title="Commercial Pressure Washing in South Pasadena"
         subtitle="Professional commercial pressure washing services for South Pasadena properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

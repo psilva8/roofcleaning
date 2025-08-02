@@ -37,7 +37,7 @@ export default function CommercialPressureWashingLaHabraHeights() {
       <Hero
         title="Commercial Pressure Washing in La Habra Heights"
         subtitle="Professional commercial pressure washing services for La Habra Heights properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

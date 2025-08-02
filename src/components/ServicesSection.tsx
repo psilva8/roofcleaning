@@ -19,8 +19,8 @@ interface ServicesSectionProps {
 const defaultServices = [
   {
     title: "Commercial Power Washing",
-    description: "Professional cleaning services for storefronts, shopping centers, offices, and other commercial buildings.",
-    image: "/images/commercial-cleaning.jpg",
+    description: "Professional washing services for storefronts, shopping centers, offices, and other commercial buildings.",
+    image: "/images/commercial-washing.jpg",
     price: "$350"
   },
   {
@@ -30,9 +30,9 @@ const defaultServices = [
     price: "$450"
   },
   {
-    title: "Concrete & Surface Cleaning",
+    title: "Concrete & Surface Washing",
     description: "Deep cleaning for parking lots, loading docks, sidewalks, and other concrete surfaces.",
-    image: "/images/driveway-cleaning.jpg",
+    image: "/images/driveway-washing.jpg",
     price: "$250"
   }
 ];
@@ -40,7 +40,7 @@ const defaultServices = [
 const ServicesSection: React.FC<ServicesSectionProps> = ({ 
   services = defaultServices, 
   title = "Our Services", 
-  subtitle = "Professional cleaning services tailored to your needs",
+  subtitle = "Professional washing services tailored to your needs",
   cityName = ""
 }) => {
   return (

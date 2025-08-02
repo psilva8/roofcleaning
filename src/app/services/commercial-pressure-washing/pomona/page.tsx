@@ -37,7 +37,7 @@ export default function CommercialPressureWashingPomona() {
       <Hero
         title="Commercial Pressure Washing in Pomona"
         subtitle="Professional commercial pressure washing services for Pomona properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

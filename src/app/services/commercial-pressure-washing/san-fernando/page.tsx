@@ -37,7 +37,7 @@ export default function CommercialPressureWashingSanFernando() {
       <Hero
         title="Commercial Pressure Washing in San Fernando"
         subtitle="Professional commercial pressure washing services for San Fernando properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -37,7 +37,7 @@ export default function CommercialPressureWashingCommerce() {
       <Hero
         title="Commercial Pressure Washing in Commerce"
         subtitle="Professional commercial pressure washing services for Commerce properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -56,7 +56,7 @@ export default function CommercialPressureWashingCommerce() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Our Services in Commerce</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Dumpster pad cleaning</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Oil and grease removal</li>
                 <li>Parking lot and garage cleaning</li>
               </ul>

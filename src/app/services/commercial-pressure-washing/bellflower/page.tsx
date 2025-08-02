@@ -37,7 +37,7 @@ export default function CommercialPressureWashingBellflower() {
       <Hero
         title="Commercial Pressure Washing in Bellflower"
         subtitle="Professional commercial pressure washing services for Bellflower properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -58,7 +58,7 @@ export default function CommercialPressureWashingBellflower() {
                 <li>Parking lot and garage cleaning</li>
                 <li>Dumpster pad cleaning</li>
                 <li>Graffiti removal</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
               </ul>
             </div>
 

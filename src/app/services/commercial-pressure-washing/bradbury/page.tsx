@@ -37,7 +37,7 @@ export default function CommercialPressureWashingBradbury() {
       <Hero
         title="Commercial Pressure Washing in Bradbury"
         subtitle="Professional commercial pressure washing services for Bradbury properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

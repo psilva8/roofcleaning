@@ -21,7 +21,7 @@ import { FaHome, FaDryer, FaBuilding, FaRoad } from "react-icons/fa";
 
 export const metadata = {
   title: "Residential Pressure Washing Services | Home Exterior Cleaning",
-  description: "Specialized pressure washing services for homes, driveways, decks, fences, and more. Restore your property's appearance with our gentle yet effective cleaning.",
+  description: "Specialized pressure washing services for homes, driveways, decks, fences, and more. Restore your property's appearance with our gentle yet effective washing.",
   canonical: "https://www.prontocleanz.com/pressure-washing",
 };
 
@@ -57,7 +57,7 @@ export default function PressureWashingPage() {
                 Residential Pressure Washing Specialists
               </h1>
               <p className="text-xl text-gray-700 mb-8">
-                Gentle yet powerful cleaning solutions specifically designed for homes and residential properties.
+                Gentle yet powerful washing solutions specifically designed for homes and residential properties.
                 Our specialized equipment and techniques preserve your surfaces while removing years of built-up dirt.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -96,7 +96,7 @@ export default function PressureWashingPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Residential Pressure Washing Services</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer comprehensive cleaning solutions for all exterior surfaces of your home.
+              We offer comprehensive washing solutions for all exterior surfaces of your home.
             </p>
           </div>
           
@@ -117,7 +117,7 @@ export default function PressureWashingPage() {
                   <h3 className="text-xl font-bold text-gray-800">House Washing</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Safe and effective cleaning for all home exterior surfaces, including vinyl, 
+                  Safe and effective washing for all home exterior surfaces, including vinyl, 
                   aluminum, stucco, brick, and painted wood siding.
                 </p>
                 <p className="font-semibold text-gray-800">Starting at $250</p>
@@ -127,8 +127,8 @@ export default function PressureWashingPage() {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
                 <Image 
-                  src="/images/driveway-cleaning.jpg" 
-                  alt="Driveway Cleaning" 
+                  src="/images/driveway-washing.jpg" 
+                  alt="Driveway Washing" 
                   width={500} 
                   height={300}
                   className="w-full h-full object-cover"
@@ -137,7 +137,7 @@ export default function PressureWashingPage() {
               <div className="p-6">
                 <div className="flex items-center mb-4">
                   <FaRoad className="text-blue-500 text-xl mr-3" />
-                  <h3 className="text-xl font-bold text-gray-800">Driveway Cleaning</h3>
+                  <h3 className="text-xl font-bold text-gray-800">Driveway Washing</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
                   Remove oil stains, tire marks, dirt, and organic growth from concrete, 

@@ -37,7 +37,7 @@ export default function CommercialPressureWashingHiddenHills() {
       <Hero
         title="Commercial Pressure Washing in Hidden Hills"
         subtitle="Professional commercial pressure washing services for Hidden Hills properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

@@ -19,7 +19,7 @@ export default function Services() {
           "@type": "Service",
           "name": "Residential Pressure Washing",
           "url": "https://www.prontocleanz.com/services#residential",
-          "description": "Professional pressure washing for homes including house washing, driveway cleaning, deck washing, and more."
+          "description": "Professional pressure washing for homes including house washing, driveway washing, deck washing, and more."
         }
       },
       {
@@ -29,7 +29,7 @@ export default function Services() {
           "@type": "Service",
           "name": "Commercial Power Washing",
           "url": "https://www.prontocleanz.com/services#commercial",
-          "description": "High-powered cleaning solutions for commercial buildings, parking lots, and other business properties."
+          "description": "High-powered washing solutions for commercial buildings, parking lots, and other business properties."
         }
       },
       {
@@ -39,7 +39,7 @@ export default function Services() {
           "@type": "Service",
           "name": "Specialty Cleaning",
           "url": "https://www.prontocleanz.com/services#specialty",
-          "description": "Specialized cleaning services including graffiti removal, gum removal, and other difficult cleaning tasks."
+          "description": "Specialized washing services including graffiti removal, gum removal, and other difficult cleaning tasks."
         }
       }
     ]
@@ -76,7 +76,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer comprehensive cleaning solutions for both residential and commercial properties using state-of-the-art equipment and eco-friendly techniques.
+              We offer comprehensive washing solutions for both residential and commercial properties using state-of-the-art equipment and eco-friendly techniques.
             </p>
           </motion.div>
 
@@ -132,13 +132,13 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/driveway-cleaning.jpg" 
-                    alt="Driveway & Concrete Cleaning" 
+                    src="/images/driveway-washing.jpg" 
+                    alt="Driveway & Concrete Washing" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Driveway & Concrete Cleaning</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Driveway & Concrete Washing</h4>
                   <p className="text-gray-600 mb-4">
                     We restore concrete surfaces to like-new condition by removing oil stains, tire marks, dirt, and grime from driveways, walkways, and patios.
                   </p>
@@ -161,13 +161,13 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/roof-cleaning.jpg" 
-                    alt="Roof Cleaning" 
+                    src="/images/roof-washing.jpg" 
+                    alt="Roof Washing" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Roof Cleaning</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Roof Washing</h4>
                   <p className="text-gray-600 mb-4">
                     Our soft washing technique safely removes black streaks, moss, and algae from your roof without damaging shingles or roofing materials.
                   </p>
@@ -188,15 +188,15 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/deck-and-patio-cleaning.jpg" 
-                    alt="Deck & Patio Cleaning" 
+                    src="/images/deck-and-patio-washing.jpg" 
+                    alt="Deck & Patio Washing" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Deck & Patio Cleaning</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Deck & Patio Washing</h4>
                   <p className="text-gray-600 mb-4">
-                    Restore wood, vinyl, and composite decks and patios to their original beauty with our specialized cleaning services.
+                    Restore wood, vinyl, and composite decks and patios to their original beauty with our specialized washing services.
                   </p>
                   <ul className="list-disc pl-5 text-gray-600 mb-4">
                     <li>Removes dirt, mold, and mildew</li>
@@ -205,7 +205,7 @@ export default function Services() {
                     <li>Brings back natural color and appearance</li>
                   </ul>
                   <Link 
-                    href="/services/deck-and-patio-cleaning" 
+                    href="/services/deck-and-patio-washing" 
                     className="inline-block bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm"
                   >
                     Learn More
@@ -223,15 +223,15 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/gutter-cleaning.jpg" 
-                    alt="Gutter Cleaning" 
+                    src="/images/gutter-washing.jpg" 
+                    alt="Gutter Washing" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Gutter Cleaning</h4>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Gutter Washing</h4>
                   <p className="text-gray-600 mb-4">
-                    Professional gutter cleaning services to protect your home from water damage and maintain proper drainage.
+                    Professional gutter washing services to protect your home from water damage and maintain proper drainage.
                   </p>
                   <ul className="list-disc pl-5 text-gray-600 mb-4">
                     <li>Complete debris removal</li>
@@ -240,7 +240,7 @@ export default function Services() {
                     <li>Prevents water damage</li>
                   </ul>
                   <Link 
-                    href="/services/gutter-cleaning" 
+                    href="/services/gutter-washing" 
                     className="inline-block bg-primary text-white font-semibold px-4 py-2 rounded-md hover:bg-primary/90 transition-colors text-sm"
                   >
                     Learn More
@@ -264,10 +264,10 @@ export default function Services() {
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Window Cleaning</h4>
                   <p className="text-gray-600 mb-4">
-                    Professional window cleaning services for crystal clear views and enhanced curb appeal.
+                    Professional window washing services for crystal clear views and enhanced curb appeal.
                   </p>
                   <ul className="list-disc pl-5 text-gray-600 mb-4">
-                    <li>Interior and exterior cleaning</li>
+                    <li>Interior and exterior washing</li>
                     <li>Screen cleaning and repair</li>
                     <li>Streak-free finish</li>
                     <li>Regular maintenance programs</li>
@@ -317,7 +317,7 @@ export default function Services() {
               >
                 <div className="h-64 overflow-hidden">
                   <img 
-                    src="/images/commercial-cleaning.jpg" 
+                    src="/images/commercial-washing.jpg" 
                     alt="Building Exterior Cleaning" 
                     className="w-full h-full object-cover"
                   />
@@ -386,7 +386,7 @@ export default function Services() {
                 Specialty Cleaning Services
               </h3>
               <p className="text-lg text-gray-600 mb-8">
-                We offer specialized cleaning solutions for unique situations and challenging cleaning tasks that require extra attention and expertise.
+                We offer specialized washing solutions for unique situations and challenging cleaning tasks that require extra attention and expertise.
               </p>
             </motion.div>
 
@@ -446,7 +446,7 @@ export default function Services() {
               Ready to Transform Your Property?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              Contact us today for a free estimate on any of our professional cleaning services. We serve residential and commercial clients throughout Los Angeles County.
+              Contact us today for a free estimate on any of our professional washing services. We serve residential and commercial clients throughout Los Angeles County.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link 

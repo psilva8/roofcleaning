@@ -24,7 +24,7 @@ export default function PowerWashing() {
       "@type": "City",
       "name": "Los Angeles"
     },
-    "description": "Professional power washing services in Los Angeles with advanced equipment for effective cleaning of all surfaces.",
+    "description": "Professional power washing services in Los Angeles with advanced equipment for effective washing of all surfaces.",
     "offers": {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
@@ -89,7 +89,7 @@ export default function PowerWashing() {
       <Hero
         title="Expert Power Washing Services"
         subtitle="High-performance power washing for homes and businesses in Los Angeles"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -137,12 +137,12 @@ export default function PowerWashing() {
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
             >
-              <img src="/images/driveway-cleaning.jpg" alt="Power Washing in Los Angeles" width="800" height="600" 
+              <img src="/images/driveway-washing.jpg" alt="Power Washing in Los Angeles" width="800" height="600" 
                 className="w-full h-80 object-cover rounded-lg shadow-md mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Equipment</h3>
               <p className="text-gray-600">
-                We use commercial-grade power washing equipment with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal cleaning results without causing damage to your property.
+                We use commercial-grade power washing equipment with adjustable pressure and temperature controls. This allows us to customize our approach for each surface and type of contaminant, ensuring optimal washing results without causing damage to your property.
               </p>
             </motion.div>
           </div>
@@ -170,12 +170,12 @@ export default function PowerWashing() {
               {
                 title: "Concrete Surfaces", 
                 description: "Driveways, sidewalks, parking lots, and garage floors.",
-                image: "/images/driveway-cleaning.jpg"
+                image: "/images/driveway-washing.jpg"
               },
               {
                 title: "Commercial Properties", 
                 description: "Storefronts, building exteriors, loading docks, and dumpster areas.",
-                image: "/images/commercial-cleaning.jpg"
+                image: "/images/commercial-washing.jpg"
               },
               {
                 title: "Industrial Cleaning", 
@@ -195,7 +195,7 @@ export default function PowerWashing() {
               {
                 title: "Pre-painting Preparation", 
                 description: "Preparing surfaces for painting, staining, or sealing.",
-                image: "/images/roof-cleaning.jpg"
+                image: "/images/roof-washing.jpg"
               }
             ].map((application, index) => (
               <motion.div 

@@ -17,7 +17,7 @@ export default function Contact() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pressure Washing Los Angeles",
-    "description": "Top pressure washing in Los Angeles providing top-quality cleaning services for residential and commercial properties",
+    "description": "Top pressure washing in Los Angeles providing top-quality washing services for residential and commercial properties",
     "url": "https://www.prontocleanz.com/contact",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",

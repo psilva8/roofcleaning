@@ -27,10 +27,10 @@ export default function Navbar() {
   const serviceItems = [
     { label: 'Commercial Pressure Washing', href: '/services/commercial-pressure-washing' },
     { label: 'Residential House Washing', href: '/services/residential-house-washing' },
-    { label: 'Concrete Cleaning', href: '/services/concrete-cleaning' },
-    { label: 'Roof Cleaning', href: '/services/roof-cleaning' },
-    { label: 'Deck and Patio Cleaning', href: '/services/deck-and-patio-cleaning' },
-    { label: 'Gutter Cleaning', href: '/services/gutter-cleaning' },
+    { label: 'Concrete Washing', href: '/services/concrete-washing' },
+    { label: 'Roof Washing', href: '/services/roof-washing' },
+    { label: 'Deck and Patio Washing', href: '/services/deck-and-patio-washing' },
+    { label: 'Gutter Washing', href: '/services/gutter-washing' },
   ]
 
   const menuItems = [

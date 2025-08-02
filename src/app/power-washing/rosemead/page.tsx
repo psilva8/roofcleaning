@@ -98,7 +98,7 @@ export default function PowerWashingCityPage() {
     }
   ],
   "priceRange": "$",
-  "image": "https://www.prontocleanz.com/images/commercial-cleaning.jpg",
+  "image": "https://www.prontocleanz.com/images/commercial-washing.jpg",
   "sameAs": [
     "https://www.facebook.com/prontocleanz",
     "https://www.instagram.com/prontocleanz"

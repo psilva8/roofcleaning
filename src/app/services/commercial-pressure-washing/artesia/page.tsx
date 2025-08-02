@@ -37,7 +37,7 @@ export default function CommercialPressureWashingArtesia() {
       <Hero
         title="Commercial Pressure Washing in Artesia"
         subtitle="Professional commercial pressure washing services for Artesia properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -58,7 +58,7 @@ export default function CommercialPressureWashingArtesia() {
                 <li>Sidewalk and walkway cleaning</li>
                 <li>Oil and grease removal</li>
                 <li>Parking lot and garage cleaning</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
               </ul>
             </div>
 

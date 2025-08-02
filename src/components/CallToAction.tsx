@@ -16,7 +16,7 @@ interface CallToActionProps {
 
 const CallToAction: React.FC<CallToActionProps> = ({
   title = "Ready to Get Started?",
-  subtitle = "Contact us today for a free quote on our professional cleaning services.",
+  subtitle = "Contact us today for a free quote on our professional washing services.",
   buttonText,
   buttonUrl,
   ctaText,

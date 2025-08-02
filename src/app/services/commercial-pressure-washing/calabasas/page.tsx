@@ -37,7 +37,7 @@ export default function CommercialPressureWashingCalabasas() {
       <Hero
         title="Commercial Pressure Washing in Calabasas"
         subtitle="Professional commercial pressure washing services for Calabasas properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -57,7 +57,7 @@ export default function CommercialPressureWashingCalabasas() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Oil and grease removal</li>
                 <li>Parking lot and garage cleaning</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Dumpster pad cleaning</li>
               </ul>
             </div>

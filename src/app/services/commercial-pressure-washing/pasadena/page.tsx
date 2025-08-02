@@ -37,7 +37,7 @@ export default function CommercialPressureWashingPasadena() {
       <Hero
         title="Commercial Pressure Washing in Pasadena"
         subtitle="Professional commercial pressure washing services for Pasadena properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -57,7 +57,7 @@ export default function CommercialPressureWashingPasadena() {
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
                 <li>Oil and grease removal</li>
                 <li>Graffiti removal</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
                 <li>Parking lot and garage cleaning</li>
               </ul>
             </div>

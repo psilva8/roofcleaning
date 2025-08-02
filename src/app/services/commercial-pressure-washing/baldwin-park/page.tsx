@@ -37,7 +37,7 @@ export default function CommercialPressureWashingBaldwinPark() {
       <Hero
         title="Commercial Pressure Washing in Baldwin Park"
         subtitle="Professional commercial pressure washing services for Baldwin Park properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">

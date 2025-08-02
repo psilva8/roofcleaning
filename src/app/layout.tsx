@@ -17,8 +17,8 @@ const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.prontocleanz.com'),
   title: 'Top Pressure Washing in Los Angeles',
-  description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway cleaning, and more. Free estimates!',
-  keywords: 'pressure washing in Los Angeles, Los Angeles pressure washing, power washing Los Angeles, driveway cleaning Los Angeles, house washing Los Angeles, commercial pressure washing Los Angeles, residential pressure washing, building washing',
+  description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway washing, and more. Free estimates!',
+  keywords: 'pressure washing in Los Angeles, Los Angeles pressure washing, power washing Los Angeles, driveway washing Los Angeles, house washing Los Angeles, commercial pressure washing Los Angeles, residential pressure washing, building washing',
   robots: 'index, follow',
   authors: [{ name: 'Pressure Washing Los Angeles' }],
   icons: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Top Pressure Washing in Los Angeles',
-    description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway cleaning, and more. Free estimates!',
+    description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway washing, and more. Free estimates!',
     url: 'https://www.prontocleanz.com',
     siteName: 'Pressure Washing Los Angeles',
     locale: 'en_US',
@@ -65,7 +65,7 @@ export default function RootLayout({
         "name": "How often should I have my property pressure washed?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent cleaning depending on foot traffic and location."
+          "text": "For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent washing depending on foot traffic and location."
         }
       },
       {
@@ -73,7 +73,7 @@ export default function RootLayout({
         "name": "Is pressure washing safe for all surfaces?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective cleaning."
+          "text": "While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective washing."
         }
       }
     ]

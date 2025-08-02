@@ -37,7 +37,7 @@ export default function CommercialPressureWashingDuarte() {
       <Hero
         title="Commercial Pressure Washing in Duarte"
         subtitle="Professional commercial pressure washing services for Duarte properties"
-        backgroundImage="/images/commercial-cleaning.jpg"
+        backgroundImage="/images/commercial-washing.jpg"
       />
 
       <section className="py-16 md:py-24">
@@ -58,7 +58,7 @@ export default function CommercialPressureWashingDuarte() {
                 <li>Parking lot and garage cleaning</li>
                 <li>Dumpster pad cleaning</li>
                 <li>Sidewalk and walkway cleaning</li>
-                <li>Building exterior cleaning</li>
+                <li>Building exterior washing</li>
               </ul>
             </div>
 
