@@ -264,7 +264,7 @@ export default function PressureWashing() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.02 }}
                 >
-                  <Link href={`/pressure-washing/${city}`} className="block py-3 px-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors text-center">
+                  <Link href={`/pressure-washing/${city}/`} className="block py-3 px-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors text-center">
                     <span className="font-medium text-gray-800">{formattedCity}</span>
                   </Link>
                 </motion.div>

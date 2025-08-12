@@ -184,17 +184,17 @@ const losAngelesCities = [
 ]
 
 // Function to convert city name to URL-friendly slug
-const cityToSlug = (city) => city.toLowerCase().replace(/\s+/g, '-')
+const cityToSlug = (city: string) => city.toLowerCase().replace(/\s+/g, '-')
 
 // Function to get random items from an array
-const getRandomItems = (array, count) => {
+const getRandomItems = (array: any[], count: number) => {
   const shuffled = [...array].sort(() => 0.5 - Math.random())
   return shuffled.slice(0, count)
 }
 
 // Function to generate unique content for each city
-function generateCityContent(service, city) {
-  const cityChar = cityCharacteristics[city] || cityCharacteristics.default
+function generateCityContent(service: any, city: string) {
+  const cityChar = (cityCharacteristics as any)[city] || cityCharacteristics.default
   const selectedFeatures = getRandomItems(service.features, 4)
   const selectedBenefits = getRandomItems(service.benefits, 4)
 
@@ -206,7 +206,7 @@ function generateCityContent(service, city) {
 }
 
 // Function to generate page content
-function generatePageContent(service, city) {
+function generatePageContent(service: any, city: string) {
   const content = generateCityContent(service, city)
   const pageTitle = `${service.title} in ${city}`
   
@@ -215,7 +215,7 @@ import Script from 'next/script'
 import Link from 'next/link'
 import AreasWeServe from '@/components/AreasWeServe'
 
-export default function ${service.path.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('')}${city.replace(/[^a-zA-Z0-9]/g, '')}() {
+export default function ${service.path.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join('')}${city.replace(/[^a-zA-Z0-9]/g, '')}() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -297,7 +297,7 @@ export default function ${service.path.split('-').map(word => word.charAt(0).toU
 }
 
 // Function to generate metadata content
-function generateMetadataContent(service, city) {
+function generateMetadataContent(service: any, city: string) {
   const content = generateCityContent(service, city)
   const pageTitle = `${service.title} in ${city}`
   

@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: { params: { city: string } })
   
   return {
     title: `Pressure Washing in ${formattedCityName} - Professional Cleaning Services`,
-    description: `Professional pressure washing services in ${formattedCityName}, Los Angeles County. Residential and commercial washing solutions for all surfaces.`,
+    description: `Expert pressure washing in ${formattedCityName}! Trusted by locals since 2015. Residential & commercial pressure washing with eco-friendly methods. Same-day service available.`,
     alternates: {
-      canonical: `https://www.prontocleanz.com/pressure-washing/${params.city}`,
+      canonical: `https://www.prontocleanz.com/pressure-washing/${params.city}/`,
     }
   };
 }
@@ -274,8 +274,74 @@ export default function CityPressureWashing({ params }: { params: { city: string
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              Call Now
+              Call Now: (213) 664-9502
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Service Area Section */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+              Trusted Pressure Washing Service in {formattedCityName}
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Established {formattedCityName} Service</h3>
+                <p className="text-gray-600 mb-4">
+                  Since 2015, we've been the go-to pressure washing service for {formattedCityName} homeowners and businesses. 
+                  Our deep understanding of the local community, combined with years of experience in Los Angeles County, 
+                  allows us to provide specialized pressure washing solutions tailored to {formattedCityName}'s unique needs.
+                </p>
+                <div className="bg-blue-50 p-4 rounded-lg mb-4">
+                  <h4 className="font-semibold text-gray-900 mb-2">Quick Response in {formattedCityName}</h4>
+                  <p className="text-gray-600 text-sm">
+                    Same-day service available for urgent pressure washing needs. We understand that {formattedCityName} 
+                    property owners need reliable, fast service to maintain their homes and businesses.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Comprehensive {formattedCityName} Coverage</h3>
+                <p className="text-gray-600 mb-4">
+                  From residential neighborhoods to commercial districts, we serve all areas of {formattedCityName} with 
+                  professional pressure washing services. Our team is equipped to handle projects of any size, ensuring 
+                  every property receives the attention it deserves.
+                </p>
+                <ul className="list-disc pl-5 text-gray-600 mb-4">
+                  <li>Residential homes and condominiums throughout {formattedCityName}</li>
+                  <li>Commercial buildings and retail spaces</li>
+                  <li>Multi-family housing and apartment complexes</li>
+                  <li>Industrial facilities and warehouses</li>
+                  <li>HOA and property management communities</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-8 border-t pt-8">
+              <div className="text-center">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                  Ready to Schedule Your {formattedCityName} Pressure Washing?
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  Join hundreds of satisfied {formattedCityName} customers who trust us for their pressure washing needs. 
+                  Contact us today for a free estimate and discover why we're the preferred choice for pressure washing in {formattedCityName}.
+                </p>
+                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                  <a 
+                    href="tel:+12136649502" 
+                    className="inline-block bg-primary text-white font-semibold px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
+                  >
+                    Get Free {formattedCityName} Estimate
+                  </a>
+                  <div className="text-gray-600 py-3">
+                    Licensed • Insured • Local {formattedCityName} Service
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -28,6 +28,7 @@ const standardPages = [
   { url: '/', priority: '1.0', changefreq: 'weekly' },
   { url: '/about/', priority: '0.8', changefreq: 'monthly' },
   { url: '/contact/', priority: '0.8', changefreq: 'monthly' },
+  { url: '/locations/', priority: '0.9', changefreq: 'monthly' },
   { url: '/pressure-washing/', priority: '0.9', changefreq: 'weekly' },
   { url: '/power-washing/', priority: '0.9', changefreq: 'weekly' },
 ];

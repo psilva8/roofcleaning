@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: { params: { city: string } })
   
   return {
     title: `Power Washing in ${formattedCityName} - Professional Cleaning Services`,
-    description: `Professional power washing services in ${formattedCityName}, Los Angeles County. Advanced equipment for effective washing of all surfaces.`,
+    description: `Top-rated power washing in ${formattedCityName}! Local experts serving ${formattedCityName} since 2015. Commercial & residential power washing with eco-friendly solutions. Free estimates available.`,
     alternates: {
-      canonical: `https://www.prontocleanz.com/power-washing/${params.city}`,
+      canonical: `https://www.prontocleanz.com/power-washing/${params.city}/`,
     }
   };
 }
@@ -278,8 +278,72 @@ export default function CityPowerWashing({ params }: { params: { city: string } 
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              Call Now
+              Call Now: (213) 664-9502
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Local Area Information Section */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+              Why Choose Our Power Washing in {formattedCityName}?
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Local {formattedCityName} Experience</h3>
+                <p className="text-gray-600 mb-4">
+                  Serving {formattedCityName} residents and businesses since 2015, we understand the unique environmental 
+                  factors that affect properties in this Los Angeles County community. From seasonal dust and debris 
+                  to specific architectural styles common in {formattedCityName}, our team has the local expertise 
+                  to deliver superior power washing results.
+                </p>
+                <ul className="list-disc pl-5 text-gray-600">
+                  <li>Fast response times to {formattedCityName} locations</li>
+                  <li>Knowledge of local building materials and surfaces</li>
+                  <li>Understanding of {formattedCityName}'s climate and seasonal cleaning needs</li>
+                  <li>Established relationships with {formattedCityName} property managers and homeowners</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Professional Standards</h3>
+                <p className="text-gray-600 mb-4">
+                  Our {formattedCityName} power washing services exceed industry standards with professional-grade 
+                  equipment, eco-friendly solutions, and comprehensive insurance coverage. We're committed to 
+                  protecting your property while delivering exceptional cleaning results.
+                </p>
+                <ul className="list-disc pl-5 text-gray-600">
+                  <li>Licensed and insured power washing professionals</li>
+                  <li>State-of-the-art equipment with adjustable pressure settings</li>
+                  <li>Environmentally safe washing solutions</li>
+                  <li>100% satisfaction guarantee for all {formattedCityName} customers</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-8 bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Free Estimates for {formattedCityName} Properties
+              </h3>
+              <p className="text-gray-600 mb-4">
+                We provide detailed, no-obligation estimates for all power washing projects in {formattedCityName}. 
+                Our estimates include a thorough assessment of your property's specific needs and a customized 
+                cleaning plan designed to achieve optimal results.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a 
+                  href="tel:+12136649502" 
+                  className="inline-block bg-primary text-white font-semibold px-6 py-2 rounded-md hover:bg-primary/90 transition-colors text-center"
+                >
+                  Call for Free Estimate
+                </a>
+                <span className="text-gray-600 py-2">
+                  Serving {formattedCityName} and surrounding Los Angeles County areas
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
