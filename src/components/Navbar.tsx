@@ -38,6 +38,7 @@ export default function Navbar() {
     { label: 'Power Washing', href: '/power-washing' },
     { label: 'Locations', href: '/locations' },
     { label: 'About', href: '/about' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ]
 
