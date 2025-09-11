@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
-export function middleware(request: NextRequest) {
+// Temporarily disabled for static export compatibility
+export function middleware_disabled(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   // Skip redirects for:
