@@ -12,7 +12,7 @@ const inter = Inter({
 })
 
 // Google Search Console verification code
-const GOOGLE_VERIFICATION = 'SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc'
+const GOOGLE_VERIFICATION = 'Y_Vg6pl3APehkhKq1c-FWfo_Dh-Dpc3cw1bwwXblXCI'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.prontocleanz.com'),
@@ -117,7 +117,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="SkngvUfZruyOu-Et9A6xJi3Lv8v4yOo7jzWobPjKWDc" />
+        <meta name="google-site-verification" content="Y_Vg6pl3APehkhKq1c-FWfo_Dh-Dpc3cw1bwwXblXCI" />
         <meta name="msvalidate.01" content="3EC2BAE1C7DDC7EDD907451571391F94" />
         <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
