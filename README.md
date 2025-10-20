@@ -2,6 +2,8 @@
 
 A modern, responsive website for a Los Angeles-based roof cleaning company built with Next.js 14, TypeScript, and Tailwind CSS.
 
+🏠 **Services:** Professional residential & commercial roof cleaning in Los Angeles
+
 ## Features
 
 - Responsive design optimized for all devices
