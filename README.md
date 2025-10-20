@@ -1,6 +1,6 @@
-# Pressure Washing Los Angeles Website
+# Roof Cleaning Los Angeles Website
 
-A modern, responsive website for a Los Angeles-based pressure washing company built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, responsive website for a Los Angeles-based roof cleaning company built with Next.js 14, TypeScript, and Tailwind CSS.
 
 ## Features
 
