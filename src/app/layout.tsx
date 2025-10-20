@@ -16,21 +16,21 @@ const GOOGLE_VERIFICATION = 'Y_Vg6pl3APehkhKq1c-FWfo_Dh-Dpc3cw1bwwXblXCI'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.prontocleanz.com'),
-  title: 'Top Pressure Washing in Los Angeles',
-  description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway washing, and more. Free estimates!',
-  keywords: 'pressure washing in Los Angeles, Los Angeles pressure washing, power washing Los Angeles, driveway washing Los Angeles, house washing Los Angeles, commercial pressure washing Los Angeles, residential pressure washing, building washing',
+  title: 'Roof Cleaning Los Angeles | Professional Roof Washing Services',
+  description: 'Expert roof cleaning in Los Angeles. Professional roof washing services to remove moss, algae, and stains. Residential & commercial roof cleaning. Free estimates!',
+  keywords: 'roof cleaning Los Angeles, roof washing Los Angeles, Los Angeles roof cleaning, moss removal Los Angeles, algae removal roof, roof stain removal, professional roof cleaning, residential roof cleaning, commercial roof cleaning',
   robots: 'index, follow',
-  authors: [{ name: 'Pressure Washing Los Angeles' }],
+  authors: [{ name: 'Roof Cleaning Los Angeles' }],
   icons: {
     icon: '/favicon/favicon.ico',
     apple: '/favicon/apple-touch-icon.png',
     shortcut: '/favicon/favicon.ico',
   },
   openGraph: {
-    title: 'Top Pressure Washing in Los Angeles',
-    description: 'Top pressure washing in Los Angeles. Professional residential and commercial power washing services including house washing, driveway washing, and more. Free estimates!',
+    title: 'Roof Cleaning Los Angeles | Professional Roof Washing Services',
+    description: 'Expert roof cleaning in Los Angeles. Professional roof washing services to remove moss, algae, and stains. Residential & commercial roof cleaning. Free estimates!',
     url: 'https://www.prontocleanz.com',
-    siteName: 'Pressure Washing Los Angeles',
+    siteName: 'Roof Cleaning Los Angeles',
     locale: 'en_US',
     type: 'website',
   },

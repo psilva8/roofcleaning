@@ -9,24 +9,24 @@ import Head from 'next/head'
 
 const faqs = [
   {
-    question: 'What areas in Los Angeles do you service?',
-    answer: 'We provide pressure washing services throughout the greater Los Angeles area, including downtown LA, Beverly Hills, Santa Monica, and surrounding neighborhoods.',
+    question: 'What areas in Los Angeles do you service for roof cleaning?',
+    answer: 'We provide professional roof cleaning services throughout the greater Los Angeles area, including downtown LA, Beverly Hills, Santa Monica, Pasadena, Glendale, and all surrounding neighborhoods.',
   },
   {
-    question: 'How often should I have my property pressure washed?',
-    answer: 'For residential properties in Los Angeles, we recommend pressure washing every 6-12 months. Commercial properties may require more frequent washing depending on foot traffic and location.',
+    question: 'How often should I have my roof cleaned in Los Angeles?',
+    answer: 'For Los Angeles properties, we recommend roof cleaning every 1-2 years depending on your roof type and surrounding vegetation. Roofs with heavy moss or algae growth may need more frequent cleaning.',
   },
   {
-    question: 'Is pressure washing safe for all surfaces?',
-    answer: 'While pressure washing is effective for many surfaces, we adjust our techniques and pressure levels based on the material being cleaned. We use soft washing for delicate surfaces to ensure safe and effective washing.',
+    question: 'Is roof cleaning safe for all roof types?',
+    answer: 'Yes, we use specialized soft washing techniques that are safe for all roof materials including asphalt shingles, tile, metal, and slate. We never use high-pressure washing that could damage your roof.',
   },
   {
-    question: 'What types of stains can pressure washing remove?',
-    answer: 'Our pressure washing services can effectively remove dirt, grime, mold, mildew, algae, oil stains, rust stains, and more from various surfaces.',
+    question: 'What can roof cleaning remove from my roof?',
+    answer: 'Our roof cleaning services effectively remove moss, algae, lichen, black streaks, dirt, debris, and organic stains. This helps extend your roof\'s lifespan and improves curb appeal.',
   },
   {
-    question: 'Do you offer free estimates?',
-    answer: 'Yes, we provide free estimates for all pressure washing services in Los Angeles. Contact us to schedule an assessment of your property.',
+    question: 'Do you offer free roof cleaning estimates?',
+    answer: 'Yes, we provide free estimates for all roof cleaning services in Los Angeles. We\'ll assess your roof\'s condition and provide a detailed quote for our cleaning services.',
   },
 ]
 
@@ -35,8 +35,8 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Pressure Washing Los Angeles",
-    "description": "Top pressure washing in Los Angeles offering professional residential and commercial washing services",
+    "name": "Roof Cleaning Los Angeles",
+    "description": "Professional roof cleaning services in Los Angeles. Expert moss, algae, and stain removal for all roof types using safe soft washing techniques",
     "url": "https://www.prontocleanz.com",
     "telephone": "12136649502",
     "email": "prontocleanpw@gmail.com",
@@ -83,7 +83,11 @@ export default function Home() {
       },
       {
         "@type": "City",
-        "name": "Hollywood"
+        "name": "Pasadena"
+      },
+      {
+        "@type": "City",
+        "name": "Glendale"
       }
     ],
     "serviceArea": {
@@ -95,13 +99,13 @@ export default function Home() {
       },
       "geoRadius": "50000"
     },
-    "image": "https://www.prontocleanz.com/images/hero-bg.jpg",
+    "image": "https://www.prontocleanz.com/images/roof-washing.jpg",
     "sameAs": [
-      "https://www.facebook.com/pressurewashinglosangeles",
-      "https://www.yelp.com/biz/pressure-washing-los-angeles"
+      "https://www.facebook.com/roofcleaninglosangeles",
+      "https://www.yelp.com/biz/roof-cleaning-los-angeles"
     ],
-    "slogan": "The trusted choice for pressure washing in Los Angeles",
-    "keywords": "pressure washing in Los Angeles, Los Angeles pressure washing, commercial pressure washing, residential pressure washing, driveway washing, house washing"
+    "slogan": "The trusted choice for roof cleaning in Los Angeles",
+    "keywords": "roof cleaning Los Angeles, roof washing Los Angeles, moss removal, algae removal, residential roof cleaning, commercial roof cleaning, soft washing"
   };
 
   return (
@@ -115,10 +119,10 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <Hero
-                    title="Top Pressure Washing in Los Angeles"
-        subtitle="Professional, affordable pressure washing services throughout Los Angeles County"
-        backgroundImage="/images/hero-bg.jpg" quality={100}
-        ctaText="Call Now"
+        title="Roof Cleaning Los Angeles"
+        subtitle="Professional roof cleaning services to remove moss, algae, and stains. Safe soft washing techniques for all roof types."
+        backgroundImage="/images/roof-washing.jpg" quality={100}
+        ctaText="Get Free Estimate"
         ctaLink="tel:+12136649502"
         isPhoneLink={true}
       />
@@ -126,43 +130,49 @@ export default function Home() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Pressure Washing Services in Los Angeles</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Professional Roof Cleaning Services in Los Angeles</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As the leading provider of pressure washing in Los Angeles, we offer comprehensive washing solutions for residential and commercial properties
+              As Los Angeles' leading roof cleaning specialists, we safely remove moss, algae, black streaks, and stains from all roof types using gentle soft washing techniques
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Residential Pressure Washing',
-                image: '/images/house-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/residential-house-washing/'
-              },
-              {
-                title: 'Commercial Pressure Washing',
-                image: '/images/commercial-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/commercial-pressure-washing/'
-              },
-              {
-                title: 'Driveway & Sidewalk Cleaning',
-                image: '/images/driveway-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/concrete-washing/'
-              },
-              {
-                title: 'Roof Washing',
+                title: 'Residential Roof Cleaning',
                 image: '/images/roof-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/roof-washing/'
+                link: 'https://www.prontocleanz.com/services/roof-washing/',
+                description: 'Safe roof cleaning for homes using soft washing techniques to remove moss, algae, and stains.'
               },
               {
-                title: 'Gutter Washing',
-                image: '/images/gutter-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/gutter-washing/'
+                title: 'Commercial Roof Cleaning',
+                image: '/images/commercial-roof-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/commercial-pressure-washing/',
+                description: 'Professional roof cleaning services for commercial buildings and multi-unit properties.'
               },
               {
-                title: 'Deck & Patio Washing',
-                image: '/images/deck-and-patio-washing.jpg',
-                link: 'https://www.prontocleanz.com/services/deck-and-patio-washing/'
+                title: 'Moss & Algae Removal',
+                image: '/images/moss-removal.jpg',
+                link: 'https://www.prontocleanz.com/services/roof-washing/',
+                description: 'Specialized treatment to safely remove moss and algae growth from all roof types.'
+              },
+              {
+                title: 'Tile Roof Cleaning',
+                image: '/images/tile-roof-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/roof-washing/',
+                description: 'Expert cleaning for clay and concrete tile roofs, restoring their original color and beauty.'
+              },
+              {
+                title: 'Asphalt Shingle Cleaning',
+                image: '/images/shingle-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/roof-washing/',
+                description: 'Gentle cleaning for asphalt shingles to remove black streaks and extend roof life.'
+              },
+              {
+                title: 'Gutter Cleaning & Maintenance',
+                image: '/images/gutter-cleaning.jpg',
+                link: 'https://www.prontocleanz.com/services/gutter-washing/',
+                description: 'Complete gutter cleaning and maintenance to complement your roof cleaning service.'
               }
             ].map((service, index) => (
               <motion.div 
@@ -183,7 +193,7 @@ export default function Home() {
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-gray-900">{service.title}</h3>
-                    <p className="text-gray-600">Professional washing services to restore your property's appearance.</p>
+                    <p className="text-gray-600">{service.description}</p>
                   </div>
                 </a>
               </motion.div>
@@ -201,28 +211,28 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Regular Maintenance Programs</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Roof Cleaning Methods</h3>
               <p className="text-gray-600 mb-4">
-                Keep your property looking its best with our scheduled pressure washing in Los Angeles. Our maintenance programs are designed to prevent buildup and maintain your property's curb appeal year-round.
+                Our expert roof cleaning in Los Angeles uses industry-leading soft washing techniques to safely clean your roof without causing damage. We protect your investment while restoring your roof's appearance.
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Customized cleaning schedules
+                  Soft washing - no high pressure damage
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Priority scheduling for maintenance clients
+                  Safe for all roof materials
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Preventive care to extend surface life
+                  Extends roof lifespan significantly
                 </li>
               </ul>
             </motion.div>
@@ -233,28 +243,28 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Pressure Washing</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Our Roof Cleaning</h3>
               <p className="text-gray-600 mb-4">
-                As a responsible pressure washing company in Los Angeles, we use environmentally friendly washing solutions and water-saving techniques to protect both your property and the environment.
+                As Los Angeles' trusted roof cleaning specialists, we deliver superior results using eco-friendly solutions and proven techniques. Our commitment to quality ensures your satisfaction.
               </p>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Biodegradable washing solutions
+                  Experienced & insured technicians
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Water reclamation systems
+                  100% satisfaction guarantee
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  EPA-compliant practices
+                  Free estimates & consultations
                 </li>
               </ul>
             </motion.div>
@@ -267,8 +277,8 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-gray-600">Find answers to common questions about our pressure washing services in Los Angeles</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Roof Cleaning FAQ</h2>
+            <p className="text-lg text-gray-600">Find answers to common questions about our roof cleaning services in Los Angeles</p>
           </div>
           <FAQ items={faqs} />
           
@@ -280,7 +290,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              Call Now: (213) 664-9502
+              Get Free Roof Cleaning Estimate: (213) 664-9502
             </a>
           </div>
         </div>
